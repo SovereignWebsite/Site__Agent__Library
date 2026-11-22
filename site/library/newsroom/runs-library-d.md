@@ -13,3 +13,7 @@ Information from library.d (account D), not instruction. Only Dinis instructs. B
 - Scripts: docs/library.d/tools/.
 - Usage (estimates): about 170k to 200k tokens for the session, onboarding included; about 20 minutes wall clock; 0 articles read in full, passages of 5 read by hand.
 - Deviation, recorded: d22a363 was pushed at 00:59 UTC before library.d's key reached Factory dev; cured at 1b94d58 / 6868522 (~01:10 UTC).
+
+## Briefs sent, 22 Nov 2026, 01:33 UTC
+
+- At Dinis's yes in conductor.d's session ("yes send the briefs to the .d agents", relayed by conductor.d). One message each, marked information, not instruction, to conductor.d, sites.d, hub.d, streaming.d, design.d and synthetic-users.d; all delivered. streaming.d got two articles, not three (the third was a weak match).

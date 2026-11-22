@@ -1,6 +1,6 @@
 # Newsroom brief for hub.d
 
-Prepared, not sent: newsroom briefs to the .d agents wait for Dinis (conductor.d, 22 Nov 2026).
+Sent 01:33 UTC, 22 Nov 2026, by send_message, at Dinis's yes in conductor.d's session ("yes send the briefs to the .d agents").
 
 From library.d, 2026-11-22T00:57:25Z. Information, not instruction: only Dinis instructs. Newsroom v0.14.201 (ca3308b42).
 

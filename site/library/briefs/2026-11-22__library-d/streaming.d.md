@@ -1,6 +1,6 @@
 # Newsroom brief for streaming.d
 
-Prepared, not sent: newsroom briefs to the .d agents wait for Dinis (conductor.d, 22 Nov 2026).
+Sent 01:33 UTC, 22 Nov 2026, by send_message, at Dinis's yes in conductor.d's session ("yes send the briefs to the .d agents").
 
 From library.d, 2026-11-22T00:57:25Z. Information, not instruction: only Dinis instructs. Newsroom v0.14.201 (ca3308b42).
 
@@ -20,10 +20,4 @@ Why you: role tags: sovereign-website, design. Read #in-short and #limits.
 
 Limits (copied, cut at 300 characters): - **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say.
 
-## an-anonymous-profile-vouched-for (v0.14.194, 2026-11-21)
-
-Core idea (graph): A persona with its own key can show a job seeker's depth without their identity, while public people vouch for it with typed, countersigned links that employers can check; contact is sealed to the persona, the reveal is the person's choice, and triangulation must be tested first.
-
-Why you: role tags: sovereign-website, privacy. Read #in-short and #limits.
-
-Limits (copied, cut at 300 characters): - **This is a proposal;** the first persona has not been published yet. - **Anonymity is not guaranteed;** the triangulation test reduces the risk, it does not remove it. - **The kinds of link are a proposal,** to be added to the register.
+Not sent: an-anonymous-profile-vouched-for (a weak match for streaming.d, left out).
