@@ -1,0 +1,65 @@
+# Reading list: sites.b
+
+Information from the librarian, not instruction. Only Dinis instructs.
+
+Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
+
+## Team files to read
+
+- SovereignWebsite__Factory/board/milestones.md (46ce681): the first owner edit of their own site through GitHub, 20 November: the handover working end to end, and what made it work
+- SovereignWebsite__Factory/board/workflow/2026-11-20__owner-handover.md (9be2520): how to hand a site to its owner as an organisation member (the-first-round-trip#privilege calls the membership a workaround)
+- SovereignWebsite__Factory/board/workflow/2026-11-20__founder-and-personal-sites.md (4bc598e): standing guidance for founder and personal sites
+- SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md (4a4e87f): signing your commits with your own key
+- SovereignWebsite__Factory/board/workflow/2026-11-20__retiring-agents.md (75be695): retiring agents after the handover
+
+## First run: read these
+
+- [Launching the sovereign website appliance: the plan for a Kickstarter campaign that sells a sovereign website on a configured Android tablet](https://newsroom.sgit.ai/articles/launching-the-sovereign-website-appliance.md) (2026-11-19). role match: go-to-market, kickstarter, raspberry-pi, sovereign-website. Sections: in-short, product, android, tiers, hardware, on-device
+- [A sovereign website on a Raspberry Pi: the experiment of running the whole thing on one small box at home, a Raspberry Pi 5 with 16GB and 25](https://newsroom.sgit.ai/articles/a-sovereign-website-on-a-raspberry-pi.md) (2026-11-19). role match: kickstarter, raspberry-pi, sovereign-website. Sections: in-short, why, parts, measure, risks, product
+- [The launch plan in eleven turns: how one afternoon took the plan for launching Sovereign Website from a £50 site on Kickstarter, through Ind](https://newsroom.sgit.ai/articles/the-launch-plan-in-eleven-turns.md) (2026-11-19). role match: go-to-market, kickstarter, sovereign-website. Sections: in-short, start, kickstarter, indiegogo, patreon, countries
+- [Where to sell the book and the appliances: a map of the places a UK author and maker can sell physical products, printed copies of One Human](https://newsroom.sgit.ai/articles/where-to-sell-the-book-and-the-appliances.md) (2026-11-19). role match: go-to-market, kickstarter, raspberry-pi. Sections: in-short, dates, book, campaign, after, law
+- [Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger ](https://newsroom.sgit.ai/articles/partners-sell-we-build.md) (2026-11-17). role match: go-to-market, product, websites. Sections: in-short, why, types, team, flow, rules
+- [The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy](https://newsroom.sgit.ai/articles/the-website-cell.md) (2026-11-17). role match: product, site-factory, websites. Sections: in-short, why, unit, designs, yours, price
+- [You bring the business, we build the site: the AgentiCCells partner programme as it now stands on agenticcells.ai, one page per kind of part](https://newsroom.sgit.ai/articles/you-bring-the-business.md) (2026-11-18). role match: go-to-market, product, websites. Sections: in-short, night, tagline, pages, figures, price
+- [The pitch: a site that looks better, that you own, that nobody can lock you into, that has almost nothing to attack, that costs once instead](https://newsroom.sgit.ai/articles/the-pitch.md) (2026-11-18). role match: product, websites. Sections: in-short, sentence, promises, designs, a, b
+- [Sovereign websites, the investment case: PrompTugal's investor decks rewritten for a deliverable that is needed everywhere, in every languag](https://newsroom.sgit.ai/articles/sovereign-websites-the-investment-case.md) (2026-11-19). role match: go-to-market, sovereign-website. Sections: in-short, why, problem, answer, proof, value
+- [The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline,](https://newsroom.sgit.ai/articles/the-sovereign-website.md) (2026-11-19). role match: go-to-market, websites. Sections: in-short, today, missing, message, deliverables, infographics
+- [Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit ](https://newsroom.sgit.ai/articles/your-website-from-a-vault.md) (2026-11-19). role match: go-to-market, sovereign-website. Sections: in-short, problem, vault, drop, pipeline, convert
+- [The cell is the unit: positioning AgentiCCells around small, focused cells, each with an objective, a deliverable and a behaviour policy, ea](https://newsroom.sgit.ai/articles/the-cell-is-the-unit.md) (2026-11-16). role match: go-to-market, product. Sections: in-short, why, anatomy, page, catalogue, ourselves
+- [The site factory works: three AgentiCCells sites made by hand, then one made by a commit in two minutes and thirty-nine seconds, live over h](https://newsroom.sgit.ai/articles/the-site-factory-works.md) (2026-11-16). role match: site-factory, websites. Sections: in-short, story, flow, wardley, setup, unlocks
+- [Your own agentic cell, end to end: how a person asks for a site like the ones we made for Yiheng Wang and Silvio Switha, through a key pair ](https://newsroom.sgit.ai/articles/your-own-agentic-cell.md) (2026-11-17). role match: product, site-factory. Sections: in-short, why, ask, approve, welcome, vault
+- [A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set ](https://newsroom.sgit.ai/articles/a-website-with-a-team-inside.md) (2026-11-19). role match: sovereign-website, websites. Sections: in-short, idea, roles, flow, coordination, why
+- [Sovereign Agentic Website: the name for what we have been building, a website built by agents and owned by the person it is for, an open pat](https://newsroom.sgit.ai/articles/sovereign-agentic-website.md) (2026-11-19). role match: sovereign-website, websites. Sections: in-short, why, words, open, today, acc
+- [Start with an interview: how someone goes from "I want to try it" to editing their own site with Claude, by being interviewed by Claude firs](https://newsroom.sgit.ai/articles/start-with-an-interview.md) (2026-11-18). role match: product, websites. Sections: in-short, start, interview, inspired, material, existing
+- [Static against the platforms: why a static site in your own repository, edited by Claude and watched by a security agent, is a real alternat](https://newsroom.sgit.ai/articles/static-against-the-platforms.md) (2026-11-18). role match: websites. Sections: in-short, market, complex, attack, lockin, static
+- [A career website, not a CV: why people looking for a job, starting with new graduates, may be the first market for sovereign websites, what ](https://newsroom.sgit.ai/articles/a-career-website-not-a-cv.md) (2026-11-19). role match: sovereign-website. Sections: in-short, friend, two, workflow, address, templates
+- [Designing sovereignwebsite.ai: the brief for the team that will build the site of our first mass-market product, how the stack now has four ](https://newsroom.sgit.ai/articles/designing-sovereignwebsite-ai.md) (2026-11-19). role match: sovereign-website. Sections: in-short, stack, messages, pages, model, build
+- [Every tool its own website: turning the 49 browser tools of tools.sgraph.ai, each built because I had a problem, into sovereign websites of ](https://newsroom.sgit.ai/articles/every-tool-its-own-website.md) (2026-11-19). role match: sovereign-website. Sections: in-short, problem, map, why, ai, waves
+- [Rent or own: Fliplet, an AI software builder advertised on the London Underground, against the AgentiCCells website cell, both building from](https://newsroom.sgit.ai/articles/fliplet-and-the-website-cell.md) (2026-11-19). role match: websites. Sections: in-short, sign, fliplet, rent, ownership, cell
+- [No lock-in: why the one thing that most separates the website cell from Wix, Squarespace, Fliplet and the rest is that the customer can leav](https://newsroom.sgit.ai/articles/no-lock-in.md) (2026-11-19). role match: websites. Sections: in-short, difference, platforms, market, cell, headline
+- [Sovereignty you can move: why where your data is hosted is not sovereignty, why being able to move the site, the data and the schema is, why](https://newsroom.sgit.ai/articles/sovereignty-you-can-move.md) (2026-11-19). role match: websites. Sections: in-short, competitor, hosting, requires, tests, europe
+- [Watch your website being built: a brief for a page that builds a first version of a sovereign website in the visitor's own browser, from a d](https://newsroom.sgit.ai/articles/watch-your-website-being-built.md) (2026-11-19). role match: sovereign-website. Sections: in-short, demos, idea, ux, watch, evals
+
+## New since your last run
+
+### [The first round trip](https://newsroom.sgit.ai/articles/the-first-round-trip.md) (v0.14.186)
+
+Read: #handover, #privilege, #channel, #limits
+
+- The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.
+- Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.
+- Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end.
+
+### [A European brain for a sovereign website](https://newsroom.sgit.ai/articles/a-european-brain.md) (v0.14.184)
+
+Read: #choice, #levels, #limits
+
+- Proposed: the site's model is the owner's choice, like the host. Relevant to the appliance Pro tiers, whose local AI is still to be tested (launching-the-sovereign-website-appliance#limits).
+
+### [mistral.provider.sovereignweb.site (c504c82): SWS in-browser agent demos on Mistral](https://mistral.provider.sovereignweb.site/) (c504c82)
+
+Read: /articles/what-we-built-overnight.html, /studio/
+
+- Live: five designs, a Studio, eight browser demos and nine pages that take a visitor's own Mistral key. No-key pages: /browser/local/ (Ministral 3 3B inside the tab), /browser/keys/, /live/, /swarm/, /evals/.
+- Reported, not checked by the librarian: every key page was passed by security.b. The site says it is an independent demonstration, not affiliated with Mistral AI, and that nothing has been agreed with Mistral.
+- A new provider site from conductor.mistral's team; /promptugal/ is still 404.

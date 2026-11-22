@@ -1,0 +1,425 @@
+{
+ "agent": "factory.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [],
+ "first_run": [
+  {
+   "slug": "sgit-in-a-ci-pipeline",
+   "title": "sgit in a CI pipeline: encrypted, versioned data in and out of GitHub Actions, between its jobs, through write-only lanes, and a key for every job",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-in-a-ci-pipeline.md",
+   "score": 14.3,
+   "why": "role match: ci, github-actions, pki, sgit, supply-chain",
+   "sections": [
+    "in-short",
+    "why",
+    "tested",
+    "in-out",
+    "between",
+    "keys"
+   ]
+  },
+  {
+   "slug": "from-a-commit-to-a-live-website",
+   "title": "From a commit to a live website: a site factory where a request file in a commit makes a CI pipeline create the GitHub repository, the DNS record and the sgit vault, seed a page, check HTTPS, run a first pass with Claude Code, and record it all, so an agent can create sites by committing",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/from-a-commit-to-a-live-website.md",
+   "score": 14.3,
+   "why": "role match: ci, dns, github-actions, sgit",
+   "sections": [
+    "in-short",
+    "question",
+    "options",
+    "request",
+    "pipeline",
+    "credentials"
+   ]
+  },
+  {
+   "slug": "ci-behaviour-policies",
+   "title": "CI behaviour policies: to create one repository and one DNS record per request, our site factory's pipeline holds the power to create, change or delete every repository in the organisation and to point any subdomain anywhere, and why pipelines now need the same behaviour policies as agents",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/ci-behaviour-policies.md",
+   "score": 12.3,
+   "why": "role match: abp, ci, github-actions",
+   "sections": [
+    "in-short",
+    "grant",
+    "scale",
+    "excuse",
+    "policy",
+    "update"
+   ]
+  },
+  {
+   "slug": "a-key-for-every-person",
+   "title": "A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message turns the public web into a channel the agents can trust",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/a-key-for-every-person.md",
+   "score": 11.3,
+   "why": "role match: keys, pki, sgit, signatures",
+   "sections": [
+    "in-short",
+    "problem",
+    "key",
+    "browser",
+    "sealed",
+    "lane"
+   ]
+  },
+  {
+   "slug": "deploy-sgit-from-ci",
+   "title": "Deploy sgit in your own environment, from a CI pipeline: one Docker image, ciphertext in your own S3 bucket in the region you choose, an access token only you hold, and the pipeline pattern we learned building the AgentiCCells site factory, a protected environment, AWS through OpenID Connect with no keys, a role that trusts one repository and one environment, check workflows before anything real, and a full cycle that deploys, tests and tears down",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/deploy-sgit-from-ci.md",
+   "score": 11.3,
+   "why": "role match: ci, github-actions, sgit",
+   "sections": [
+    "in-short",
+    "why",
+    "what",
+    "pipeline",
+    "steps",
+    "package"
+   ]
+  },
+  {
+   "slug": "policies-in-practice",
+   "title": "Policies in practice: four places a behaviour policy earns its keep, measured on a real Google key whose reach is five APIs while the feature uses one, a signed policy for the factory's CI changes, requests that carry the policies they act under, and release notes that say what each fix closes and what it must not open",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/policies-in-practice.md",
+   "score": 10.3,
+   "why": "role match: abp, ci, keys",
+   "sections": [
+    "in-short",
+    "key",
+    "factory",
+    "requests",
+    "fixes",
+    "limits"
+   ]
+  },
+  {
+   "slug": "a-policy-for-every-skill",
+   "title": "A policy for every skill: Sean Turner's natural-language control for agent skills, the behaviour policy behind it, and using models to need them less",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/a-policy-for-every-skill.md",
+   "score": 9.7,
+   "why": "role match: agent-behaviour-policy, ci, policy-as-code, supply-chain",
+   "sections": [
+    "in-short",
+    "built",
+    "dependency",
+    "abp",
+    "hope",
+    "codify"
+   ]
+  },
+  {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everything needed to talk privately is public and only the right agent can use it",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md",
+   "score": 9.3,
+   "why": "role match: keys, pki, sgit",
+   "sections": [
+    "in-short",
+    "problem",
+    "pattern",
+    "use",
+    "vault-keys",
+    "why"
+   ]
+  },
+  {
+   "slug": "sgit-actions-side-by-side",
+   "title": "sgit in GitHub Actions, side by side: a showcase repository and site that runs four ways of moving a vault between jobs on every run, measured, with a budget for its LLM steps",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-actions-side-by-side.md",
+   "score": 9.0,
+   "why": "role match: ci, github-actions, sgit",
+   "sections": [
+    "in-short",
+    "why",
+    "lanes",
+    "report",
+    "measured",
+    "budget"
+   ]
+  },
+  {
+   "slug": "attacks-rewritten-as-mandates",
+   "title": "Attacks rewritten as mandates: 28 supply-chain incidents, the column each one was missing, and why the next maintainer is an agent",
+   "date": "2026-10-13",
+   "url": "https://newsroom.sgit.ai/articles/attacks-rewritten-as-mandates.md",
+   "score": 8.7,
+   "why": "role match: agent-behaviour-policy, sgit, supply-chain",
+   "sections": [
+    "in-short",
+    "ledger",
+    "reach",
+    "barriers",
+    "agents",
+    "records"
+   ]
+  },
+  {
+   "slug": "cedar-and-the-policy-vault",
+   "title": "Cedar and the policy vault: a debrief on the policy language agents are adopting, where our behaviour policies and sgit vaults meet it, and a brief for the MVP",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/cedar-and-the-policy-vault.md",
+   "score": 8.7,
+   "why": "role match: agent-behaviour-policy, policy-as-code, sgit",
+   "sections": [
+    "in-short",
+    "why",
+    "language",
+    "crosswalk",
+    "today",
+    "demo"
+   ]
+  },
+  {
+   "slug": "where-a-check-runs",
+   "title": "Where a check runs is part of the policy: tests as enforcers of Agent Behaviour Policies, and what moving them out of the agent's environment would gain, measured on this newsroom",
+   "date": "2026-10-22",
+   "url": "https://newsroom.sgit.ai/articles/where-a-check-runs.md",
+   "score": 8.7,
+   "why": "role match: abp, ci, testing",
+   "sections": [
+    "in-short",
+    "idea",
+    "today",
+    "where",
+    "rule",
+    "ready"
+   ]
+  },
+  {
+   "slug": "the-sidecar-repository",
+   "title": "The sidecar repository: a second repository the agent cannot write to, which checks every release against the policy, trusts signed checks instead of re-running them, and is the only thing that deploys, designed for an agent that is fully compromised",
+   "date": "2026-10-22",
+   "url": "https://newsroom.sgit.ai/articles/the-sidecar-repository.md",
+   "score": 8.3,
+   "why": "role match: abp, ci, pki",
+   "sections": [
+    "in-short",
+    "why",
+    "holds",
+    "does",
+    "trust",
+    "compromise"
+   ]
+  },
+  {
+   "slug": "the-site-factory-works",
+   "title": "The site factory works: three AgentiCCells sites made by hand, then one made by a commit in two minutes and thirty-nine seconds, live over https with a first version written by Claude Code, and the long list of what it took to make something that hard look easy",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-site-factory-works.md",
+   "score": 8.3,
+   "why": "role match: ci, site-factory",
+   "sections": [
+    "in-short",
+    "story",
+    "flow",
+    "wardley",
+    "setup",
+    "unlocks"
+   ]
+  },
+  {
+   "slug": "our-companies-and-uth",
+   "title": "Our companies and UTH: each company, technology and website we have built, mapped to what UAlgTec Heritage needs to build a European HeritageTech sector, from SGit's vaults and pki.sgit.ai's keys to SHarness, Agent Behaviour Policies, RiskMandate, AgentiCCells and its site factory, GAMMA-Ray, VoiceDebrief and PrompTugal.news, with what each could do for a heritage team, and why a sector needs companies like these",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/our-companies-and-uth.md",
+   "score": 8.3,
+   "why": "role match: abp, sgit",
+   "sections": [
+    "in-short",
+    "why",
+    "foundations",
+    "abp",
+    "teams",
+    "checking"
+   ]
+  },
+  {
+   "slug": "your-own-agentic-cell",
+   "title": "Your own agentic cell, end to end: how a person asks for a site like the ones we made for Yiheng Wang and Silvio Switha, through a key pair in the browser, a vault they fill themselves and the site factory, with only three human gates, and then continues in their own Claude on their own repository",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/your-own-agentic-cell.md",
+   "score": 8.3,
+   "why": "role match: pki, site-factory",
+   "sections": [
+    "in-short",
+    "why",
+    "ask",
+    "approve",
+    "welcome",
+    "vault"
+   ]
+  },
+  {
+   "slug": "pki-everywhere",
+   "title": "PKI everywhere: from now on every message, secret and handover starts with a signature, and how an agent gets its first key",
+   "date": "2026-10-20",
+   "url": "https://newsroom.sgit.ai/articles/pki-everywhere.md",
+   "score": 8.0,
+   "why": "role match: keys, pki, sgit",
+   "sections": [
+    "in-short",
+    "decision",
+    "pki",
+    "first",
+    "own",
+    "issued"
+   ]
+  },
+  {
+   "slug": "a-pen-and-a-key",
+   "title": "A pen and a key: a place on every page to mark it, comment on it and tell the newsroom, and a browser key that pki.sgit.ai vouches for, so a note can be checked as mine",
+   "date": "2026-10-24",
+   "url": "https://newsroom.sgit.ai/articles/a-pen-and-a-key.md",
+   "score": 8.0,
+   "why": "role match: keys, pki, signatures",
+   "sections": [
+    "in-short",
+    "chat",
+    "ipad",
+    "pen",
+    "key",
+    "login"
+   ]
+  },
+  {
+   "slug": "chainguard-mapped",
+   "title": "Chainguard, mapped: what it builds, what it publishes, how far up the stack its context goes, and where an open behaviour policy and an encrypted vault could plug in",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/chainguard-mapped.md",
+   "score": 7.7,
+   "why": "role match: agent-behaviour-policy, sgit, supply-chain",
+   "sections": [
+    "in-short",
+    "why",
+    "company",
+    "builds",
+    "publishes",
+    "depth"
+   ]
+  },
+  {
+   "slug": "behaviour-policies-from-the-checks",
+   "title": "Behaviour policies from the checks: 57 checks taken apart into the 8 behaviours they protect, and where each one is actually kept",
+   "date": "2026-10-21",
+   "url": "https://newsroom.sgit.ai/articles/behaviour-policies-from-the-checks.md",
+   "score": 7.7,
+   "why": "role match: abp, ci, testing",
+   "sections": [
+    "in-short",
+    "why",
+    "method",
+    "behaviours",
+    "where",
+    "boundary"
+   ]
+  },
+  {
+   "slug": "agentics-ready-to-sell",
+   "title": "Agentics, ready to sell: what we showed at Agentic Engineering Live, who else is selling agentic services and at what price, the engagement path, and a marketplace for the consultants who deliver it",
+   "date": "2026-10-16",
+   "url": "https://newsroom.sgit.ai/articles/agentics-ready-to-sell.md",
+   "score": 7.3,
+   "why": "role match: agent-behaviour-policy, sgit",
+   "sections": [
+    "in-short",
+    "showed",
+    "market",
+    "gap",
+    "path",
+    "marketplace"
+   ]
+  },
+  {
+   "slug": "the-email-agentic-cell",
+   "title": "The email agentic cell: why connecting Gmail to agents the usual way is a security mess, and the architecture we will build instead, with one gateway agent that alone touches Gmail, a digital twin of the mailbox in a vault that people and agents work on together, signed proposals, approvals and even reads on append lanes, and behaviour policies at five altitudes",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-email-agentic-cell.md",
+   "score": 7.3,
+   "why": "role match: abp, pki",
+   "sections": [
+    "in-short",
+    "why",
+    "architecture",
+    "flows",
+    "signed",
+    "altitudes"
+   ]
+  },
+  {
+   "slug": "the-intersection",
+   "title": "The intersection: SGit, SHarness, Agent Behaviour Policies, RiskMandate and AgentiCCells as one stack of separate companies, now with real customers, real usage and real examples, one ladder of offers on every site, and a plan to align them all",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-intersection.md",
+   "score": 7.3,
+   "why": "role match: abp, sgit",
+   "sections": [
+    "in-short",
+    "why",
+    "foundations",
+    "abp",
+    "riskmandate",
+    "agenticcells"
+   ]
+  },
+  {
+   "slug": "one-commit-one-site-one-owner",
+   "title": "One commit, one site, one owner: the small change to the AgentiCCells site factory that unblocked the most, giving a GitHub account access to the repository it creates, so that one commit with a site's details and its owner's account makes the repository, the DNS record in AWS, the address, HTTPS and the owner's access in under a minute, and all that is left is to point Claude at it",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/one-commit-one-site-one-owner.md",
+   "score": 7.3,
+   "why": "role match: site-factory",
+   "sections": [
+    "in-short",
+    "before",
+    "change",
+    "events",
+    "handover",
+    "small"
+   ]
+  },
+  {
+   "slug": "are-hooks-the-sweet-spot",
+   "title": "Are hooks the sweet spot? Moving an agent's rules from hope into hooks, rule by rule, until enforcement moves off the machine",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/are-hooks-the-sweet-spot.md",
+   "score": 7.0,
+   "why": "role match: agent-behaviour-policy, hooks, policy-as-code",
+   "sections": [
+    "in-short",
+    "question",
+    "own",
+    "sandbox",
+    "layers",
+    "chained"
+   ]
+  }
+ ],
+ "since_last_run": [
+  {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip",
+   "url": "https://newsroom.sgit.ai/articles/the-first-round-trip.md",
+   "version": "v0.14.186",
+   "sections": [
+    "privilege",
+    "limits"
+   ],
+   "points": [
+    "#privilege calls organisation membership with base permission none a workaround. Check that org as code matches the handover as written."
+   ]
+  }
+ ]
+}

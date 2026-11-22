@@ -1,0 +1,459 @@
+{
+ "agent": "conductor.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [],
+ "first_run": [
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coordinated in its repository, a conductor, a designer, a writer, a developer, a reviewer, a translator and a keeper, each with a role and a behaviour policy, and what that means for the person who owns it",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/a-website-with-a-team-inside.md",
+   "score": 11.3,
+   "why": "role match: agent-teams, behaviour-policies, sovereign-website",
+   "sections": [
+    "in-short",
+    "idea",
+    "roles",
+    "flow",
+    "coordination",
+    "why"
+   ]
+  },
+  {
+   "slug": "web-summit-part-four",
+   "title": "The Web Summit team, part four: the day the agents ran on their own, 75 releases, four people connected, a procurement agent writing to printers, and the behaviour policies catching our own agents out",
+   "date": "2026-11-02",
+   "url": "https://newsroom.sgit.ai/articles/web-summit-part-four.md",
+   "score": 9.7,
+   "why": "role match: behaviour-policies, conductor, teams",
+   "sections": [
+    "in-short",
+    "where",
+    "day",
+    "schedules",
+    "procurement",
+    "caught"
+   ]
+  },
+  {
+   "slug": "web-summit-part-five",
+   "title": "The Web Summit team, part five: the last day of setup, 180 releases, every person getting a key, an accountant counting the team's tokens, synthetic users testing the merch, and an inbox only the agents can write to",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/web-summit-part-five.md",
+   "score": 9.3,
+   "why": "role match: behaviour-policies, conductor, tokens",
+   "sections": [
+    "in-short",
+    "where",
+    "numbers",
+    "keys",
+    "agents",
+    "telemetry"
+   ]
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what each one sells, the agent team behind even the smallest website cell, the rules of engagement, who owns what, who invoices, who gets paid and when, what stays with the partner, and why a partner who takes the open code and does it alone is still a win",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/partners-sell-we-build.md",
+   "score": 9.3,
+   "why": "role match: agent-teams, behaviour-policies, go-to-market",
+   "sections": [
+    "in-short",
+    "why",
+    "types",
+    "team",
+    "flow",
+    "rules"
+   ]
+  },
+  {
+   "slug": "a-team-like-this",
+   "title": "A team like this, for sale: what we sell is not the platform, it is the agentic team that built it, its roles, its behaviour policies, its security passes and its speed, with the code open and the data public, and who I want to talk to now that PrompTugal.news is a working data platform and not an experiment",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/a-team-like-this.md",
+   "score": 9.3,
+   "why": "role match: agent-teams, behaviour-policies, go-to-market",
+   "sections": [
+    "in-short",
+    "built",
+    "sell",
+    "who",
+    "limits",
+    "sources"
+   ]
+  },
+  {
+   "slug": "watch-your-website-being-built",
+   "title": "Watch your website being built: a brief for a page that builds a first version of a sovereign website in the visitor's own browser, from a description or a voice note, with their own model key, showing every agent at work, every behaviour policy being applied and every penny it costs, then hands back a zip, the same brief run on several models side by side as evals, and the Web Summit demos it grows from",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/watch-your-website-being-built.md",
+   "score": 9.3,
+   "why": "role match: behaviour-policies, sovereign-website",
+   "sections": [
+    "in-short",
+    "demos",
+    "idea",
+    "ux",
+    "watch",
+    "evals"
+   ]
+  },
+  {
+   "slug": "transcription-for-a-sector",
+   "title": "Transcription for a sector, sold as a team: extending VoiceDebrief with what we have learnt from sovereign websites, a bundle for one industry, a repository the customer's own AI runs, with the whole pipeline from dropping a recording to a reviewed document and a team of agents certified by people from that sector, sold by small AI companies who know the industry, open source underneath, from £50 to £5,000",
+   "date": "2026-11-20",
+   "url": "https://newsroom.sgit.ai/articles/transcription-for-a-sector.md",
+   "score": 9.3,
+   "why": "role match: agent-teams, sovereign-website",
+   "sections": [
+    "in-short",
+    "origin",
+    "company",
+    "bundle",
+    "team",
+    "governance"
+   ]
+  },
+  {
+   "slug": "a-career-website-not-a-cv",
+   "title": "A career website, not a CV: why people looking for a job, starting with new graduates, may be the first market for sovereign websites, what they get beyond a better chance, their first experience of an agentic workflow, and the workflow to build one with them, from what they give us and a cheap first pass to an interview, five designs, an expert's review and a site of their own",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/a-career-website-not-a-cv.md",
+   "score": 8.3,
+   "why": "role match: sovereign-website, workflow",
+   "sections": [
+    "in-short",
+    "friend",
+    "two",
+    "workflow",
+    "address",
+    "templates"
+   ]
+  },
+  {
+   "slug": "a-sovereign-website-on-a-raspberry-pi",
+   "title": "A sovereign website on a Raspberry Pi: the experiment of running the whole thing on one small box at home, a Raspberry Pi 5 with 16GB and 256GB, serving the site, checking the signature of every update, running a local model, building a website on the device itself under behaviour policies, and backing it up to a vault, step by step, what we will measure, and why this becomes a product when the Kickstarter finishes",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/a-sovereign-website-on-a-raspberry-pi.md",
+   "score": 8.3,
+   "why": "role match: behaviour-policies, sovereign-website",
+   "sections": [
+    "in-short",
+    "why",
+    "parts",
+    "measure",
+    "risks",
+    "product"
+   ]
+  },
+  {
+   "slug": "every-tool-its-own-website",
+   "title": "Every tool its own website: turning the 49 browser tools of tools.sgraph.ai, each built because I had a problem, into sovereign websites of their own, with a theme, documentation and a small agent team each, released in waves from the simplest, with shared components pulled out, pinned versions and signed hashes kept apart, and a team of teams to keep them all moving",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/every-tool-its-own-website.md",
+   "score": 8.3,
+   "why": "role match: agent-teams, sovereign-website",
+   "sections": [
+    "in-short",
+    "problem",
+    "map",
+    "why",
+    "ai",
+    "waves"
+   ]
+  },
+  {
+   "slug": "launching-the-sovereign-website-appliance",
+   "title": "Launching the sovereign website appliance: the plan for a Kickstarter campaign that sells a sovereign website on a configured Android tablet or a Raspberry Pi, five tiers from a £50 supporter to £1,000, the two Pro tiers running local AI models that can build a website on the device itself, the hardware we would buy in the UK today, a European tablet, the UK as the base goal with countries and iOS as stretch goals, and why we launch alone",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/launching-the-sovereign-website-appliance.md",
+   "score": 8.3,
+   "why": "role match: go-to-market, sovereign-website",
+   "sections": [
+    "in-short",
+    "product",
+    "android",
+    "tiers",
+    "hardware",
+    "on-device"
+   ]
+  },
+  {
+   "slug": "sovereign-websites-the-investment-case",
+   "title": "Sovereign websites, the investment case: PrompTugal's investor decks rewritten for a deliverable that is needed everywhere, in every language, in a market built on rent and lock-in, a one-off delivery that is already fully agentic, value given before payment through a demo in a vault, a long list of upsells, and why this is now a proper, scalable, investable architecture",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/sovereign-websites-the-investment-case.md",
+   "score": 8.3,
+   "why": "role match: go-to-market, sovereign-website",
+   "sections": [
+    "in-short",
+    "why",
+    "problem",
+    "answer",
+    "proof",
+    "value"
+   ]
+  },
+  {
+   "slug": "the-launch-plan-in-eleven-turns",
+   "title": "The launch plan in eleven turns: how one afternoon took the plan for launching Sovereign Website from a £50 site on Kickstarter, through Indiegogo, PPL, Patreon, countries as stretch goals and the UK as home ground, to a configured Android tablet, a supporter tier and a Raspberry Pi, with every variation we tried and why each was kept or set aside",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/the-launch-plan-in-eleven-turns.md",
+   "score": 8.3,
+   "why": "role match: go-to-market, sovereign-website",
+   "sections": [
+    "in-short",
+    "start",
+    "kickstarter",
+    "indiegogo",
+    "patreon",
+    "countries"
+   ]
+  },
+  {
+   "slug": "your-website-from-a-vault",
+   "title": "Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit vault and opened with a QR code, a link or a zip on one drop page, the demo pipeline from a name to an email, and how a demo becomes their sovereign website without starting again",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/your-website-from-a-vault.md",
+   "score": 8.3,
+   "why": "role match: go-to-market, sovereign-website",
+   "sections": [
+    "in-short",
+    "problem",
+    "vault",
+    "drop",
+    "pipeline",
+    "convert"
+   ]
+  },
+  {
+   "slug": "agentics-ready-to-sell",
+   "title": "Agentics, ready to sell: what we showed at Agentic Engineering Live, who else is selling agentic services and at what price, the engagement path, and a marketplace for the consultants who deliver it",
+   "date": "2026-10-16",
+   "url": "https://newsroom.sgit.ai/articles/agentics-ready-to-sell.md",
+   "score": 7.3,
+   "why": "role match: agent-behaviour-policy, go-to-market",
+   "sections": [
+    "in-short",
+    "showed",
+    "market",
+    "gap",
+    "path",
+    "marketplace"
+   ]
+  },
+  {
+   "slug": "the-cell-is-the-unit",
+   "title": "The cell is the unit: positioning AgentiCCells around small, focused cells, each with an objective, a deliverable and a behaviour policy, each with a page that sells it, a free recipe and three ways to get help, a catalogue that grows one need at a time, in each industry's own words, and why we should run our own work in cells first",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-cell-is-the-unit.md",
+   "score": 7.3,
+   "why": "role match: abp, go-to-market",
+   "sections": [
+    "in-short",
+    "why",
+    "anatomy",
+    "page",
+    "catalogue",
+    "ourselves"
+   ]
+  },
+  {
+   "slug": "who-hands-out-the-work",
+   "title": "Who hands out the work? A reply to Markus Franz on Ippen's editorial team of agents, with our answer from six people and around 250 agents at Web Summit and from this newsroom, a person sets the work, one conductor agent hands it out, specialists and a reviewer do it, and a person decides what goes out, plus one thing we would add to one front door, a way to close it",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/who-hands-out-the-work.md",
+   "score": 7.3,
+   "why": "role match: conductor, governance",
+   "sections": [
+    "in-short",
+    "post",
+    "both",
+    "door",
+    "close",
+    "limits"
+   ]
+  },
+  {
+   "slug": "policies-in-practice",
+   "title": "Policies in practice: four places a behaviour policy earns its keep, measured on a real Google key whose reach is five APIs while the feature uses one, a signed policy for the factory's CI changes, requests that carry the policies they act under, and release notes that say what each fix closes and what it must not open",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/policies-in-practice.md",
+   "score": 7.3,
+   "why": "role match: abp, behaviour-policies",
+   "sections": [
+    "in-short",
+    "key",
+    "factory",
+    "requests",
+    "fixes",
+    "limits"
+   ]
+  },
+  {
+   "slug": "how-an-agent-team-briefs-its-people",
+   "title": "How an agent team briefs its people: one JSON file, one PDF, four questions in a fixed order, copied from the book team to the Web Summit team in one night, the mistakes the method caught, and why this newsroom still briefs me in a chat",
+   "date": "2026-11-02",
+   "url": "https://newsroom.sgit.ai/articles/how-an-agent-team-briefs-its-people.md",
+   "score": 7.0,
+   "why": "role match: conductor, teams",
+   "sections": [
+    "in-short",
+    "why",
+    "questions",
+    "rules",
+    "shape",
+    "run"
+   ]
+  },
+  {
+   "slug": "web-summit-how-we-work",
+   "title": "The Web Summit team, part three: how we work with agents, an agent is a Claude session, everyone starts with a conductor, every agent has one narrow role, a key and a folder, and the coordination is the work",
+   "date": "2026-11-02",
+   "url": "https://newsroom.sgit.ai/articles/web-summit-how-we-work.md",
+   "score": 7.0,
+   "why": "role match: conductor, teams",
+   "sections": [
+    "in-short",
+    "primitives",
+    "conductor",
+    "roles",
+    "folders",
+    "keys"
+   ]
+  },
+  {
+   "slug": "introducing-sharness",
+   "title": "SHarness: the secure harness we could not find, so we built it, a behaviour policy the Linux kernel enforces for every process an agent starts, and we would like your feedback",
+   "date": "2026-10-29",
+   "url": "https://newsroom.sgit.ai/articles/introducing-sharness.md",
+   "score": 6.3,
+   "why": "role match: agent-behaviour-policy, behaviour-policies",
+   "sections": [
+    "in-short",
+    "why",
+    "what",
+    "policy",
+    "business",
+    "ways"
+   ]
+  },
+  {
+   "slug": "the-ultimate-insider-case-study",
+   "title": "A talk built in a day: the ultimate insider, from an empty repository at 00:16 to the stage at hack::soho at 19:00, by nine agents and one editor, every number from their records",
+   "date": "2026-10-29",
+   "url": "https://newsroom.sgit.ai/articles/the-ultimate-insider-case-study.md",
+   "score": 6.3,
+   "why": "role match: agent-teams, behaviour-policies",
+   "sections": [
+    "in-short",
+    "talk",
+    "numbers",
+    "team",
+    "workflow",
+    "records"
+   ]
+  },
+  {
+   "slug": "a-key-for-every-person",
+   "title": "A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message turns the public web into a channel the agents can trust",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/a-key-for-every-person.md",
+   "score": 6.3,
+   "why": "role match: conductor",
+   "sections": [
+    "in-short",
+    "problem",
+    "key",
+    "browser",
+    "sealed",
+    "lane"
+   ]
+  },
+  {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everything needed to talk privately is public and only the right agent can use it",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md",
+   "score": 6.3,
+   "why": "role match: conductor",
+   "sections": [
+    "in-short",
+    "problem",
+    "pattern",
+    "use",
+    "vault-keys",
+    "why"
+   ]
+  },
+  {
+   "slug": "where-assist-becomes-execute",
+   "title": "Where assist becomes execute: tiering AI agents by what they can reach and whether it can be undone, how Agent Behaviour Policies drew that line for more than a hundred agents at Web Summit, and the rule that failed because it was only a rule",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/where-assist-becomes-execute.md",
+   "score": 6.3,
+   "why": "role match: abp, governance",
+   "sections": [
+    "in-short",
+    "question",
+    "capability",
+    "barriers",
+    "patterns",
+    "altitude"
+   ]
+  }
+ ],
+ "since_last_run": [
+  {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip",
+   "url": "https://newsroom.sgit.ai/articles/the-first-round-trip.md",
+   "version": "v0.14.186",
+   "sections": [
+    "handover",
+    "privilege",
+    "channel",
+    "limits"
+   ],
+   "points": [
+    "The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.",
+    "Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.",
+    "Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end."
+   ]
+  },
+  {
+   "slug": "a-european-brain",
+   "title": "A European brain for a sovereign website",
+   "url": "https://newsroom.sgit.ai/articles/a-european-brain.md",
+   "version": "v0.14.184",
+   "sections": [
+    "choice",
+    "levels",
+    "limits"
+   ],
+   "points": [
+    "Proposed: the model is the owner's choice behind one OpenAI-style interface, with Mistral as the European option at every level, never the only door.",
+    "#levels: Ministral 3 on a Pi Pro is an estimate, still to test."
+   ]
+  },
+  {
+   "slug": "transcription-for-a-sector",
+   "title": "Transcription for a sector, sold as a team",
+   "url": "https://newsroom.sgit.ai/articles/transcription-for-a-sector.md",
+   "version": "v0.14.185",
+   "sections": [
+    "bundle",
+    "team",
+    "price",
+    "limits"
+   ],
+   "points": [
+    "Proposed: sector transcription sold as a one-off bundle, a repository the customer's own AI runs, extending VoiceDebrief with what sovereign websites taught."
+   ]
+  }
+ ]
+}

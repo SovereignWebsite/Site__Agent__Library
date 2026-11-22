@@ -1,0 +1,484 @@
+{
+ "agent": "sites.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/board/milestones.md",
+   "commit": "46ce681",
+   "why": "the first owner edit of their own site through GitHub, 20 November: the handover working end to end, and what made it work"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__owner-handover.md",
+   "commit": "9be2520",
+   "why": "how to hand a site to its owner as an organisation member (the-first-round-trip#privilege calls the membership a workaround)"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__founder-and-personal-sites.md",
+   "commit": "4bc598e",
+   "why": "standing guidance for founder and personal sites"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "4a4e87f",
+   "why": "signing your commits with your own key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__retiring-agents.md",
+   "commit": "75be695",
+   "why": "retiring agents after the handover"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "launching-the-sovereign-website-appliance",
+   "title": "Launching the sovereign website appliance: the plan for a Kickstarter campaign that sells a sovereign website on a configured Android tablet or a Raspberry Pi, five tiers from a £50 supporter to £1,000, the two Pro tiers running local AI models that can build a website on the device itself, the hardware we would buy in the UK today, a European tablet, the UK as the base goal with countries and iOS as stretch goals, and why we launch alone",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/launching-the-sovereign-website-appliance.md",
+   "score": 13.3,
+   "why": "role match: go-to-market, kickstarter, raspberry-pi, sovereign-website",
+   "sections": [
+    "in-short",
+    "product",
+    "android",
+    "tiers",
+    "hardware",
+    "on-device"
+   ]
+  },
+  {
+   "slug": "a-sovereign-website-on-a-raspberry-pi",
+   "title": "A sovereign website on a Raspberry Pi: the experiment of running the whole thing on one small box at home, a Raspberry Pi 5 with 16GB and 256GB, serving the site, checking the signature of every update, running a local model, building a website on the device itself under behaviour policies, and backing it up to a vault, step by step, what we will measure, and why this becomes a product when the Kickstarter finishes",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/a-sovereign-website-on-a-raspberry-pi.md",
+   "score": 11.3,
+   "why": "role match: kickstarter, raspberry-pi, sovereign-website",
+   "sections": [
+    "in-short",
+    "why",
+    "parts",
+    "measure",
+    "risks",
+    "product"
+   ]
+  },
+  {
+   "slug": "the-launch-plan-in-eleven-turns",
+   "title": "The launch plan in eleven turns: how one afternoon took the plan for launching Sovereign Website from a £50 site on Kickstarter, through Indiegogo, PPL, Patreon, countries as stretch goals and the UK as home ground, to a configured Android tablet, a supporter tier and a Raspberry Pi, with every variation we tried and why each was kept or set aside",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/the-launch-plan-in-eleven-turns.md",
+   "score": 11.3,
+   "why": "role match: go-to-market, kickstarter, sovereign-website",
+   "sections": [
+    "in-short",
+    "start",
+    "kickstarter",
+    "indiegogo",
+    "patreon",
+    "countries"
+   ]
+  },
+  {
+   "slug": "where-to-sell-the-book-and-the-appliances",
+   "title": "Where to sell the book and the appliances: a map of the places a UK author and maker can sell physical products, printed copies of One Human, Nine Agents, Nineteen Hours from early December and the sovereign website appliances from 1 January after a December Kickstarter, with Amazon, IngramSpark, eBay, OnBuy and our own shop, what each charges, the rules that matter, and the law that comes with selling hardware",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/where-to-sell-the-book-and-the-appliances.md",
+   "score": 11.3,
+   "why": "role match: go-to-market, kickstarter, raspberry-pi",
+   "sections": [
+    "in-short",
+    "dates",
+    "book",
+    "campaign",
+    "after",
+    "law"
+   ]
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what each one sells, the agent team behind even the smallest website cell, the rules of engagement, who owns what, who invoices, who gets paid and when, what stays with the partner, and why a partner who takes the open code and does it alone is still a win",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/partners-sell-we-build.md",
+   "score": 10.3,
+   "why": "role match: go-to-market, product, websites",
+   "sections": [
+    "in-short",
+    "why",
+    "types",
+    "team",
+    "flow",
+    "rules"
+   ]
+  },
+  {
+   "slug": "the-website-cell",
+   "title": "The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy, five designs by a team of agents, and then the site is yours to change with your own Claude, what it should cost, how it compares with Wix, Squarespace, Framer, Lovable and a freelancer, who already sells something close to it, and where to find buyers and partners",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/the-website-cell.md",
+   "score": 10.3,
+   "why": "role match: product, site-factory, websites",
+   "sections": [
+    "in-short",
+    "why",
+    "unit",
+    "designs",
+    "yours",
+    "price"
+   ]
+  },
+  {
+   "slug": "you-bring-the-business",
+   "title": "You bring the business, we build the site: the AgentiCCells partner programme as it now stands on agenticcells.ai, one page per kind of partner, each with four figures, the fit, the flow, who does what and the money, a launch price of £250 with free evaluations every day, partner terms published, five designs on every page and ten languages from day one, all built in a night by the site's own agent team from two newsroom articles",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/you-bring-the-business.md",
+   "score": 9.3,
+   "why": "role match: go-to-market, product, websites",
+   "sections": [
+    "in-short",
+    "night",
+    "tagline",
+    "pages",
+    "figures",
+    "price"
+   ]
+  },
+  {
+   "slug": "the-pitch",
+   "title": "The pitch: a site that looks better, that you own, that nobody can lock you into, that has almost nothing to attack, that costs once instead of every month, and that you change by talking to Claude, six promises, the proof behind each, and three designs for a site built on nothing else, \"six promises\", \"just say it\" and \"stop renting your website\"",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/the-pitch.md",
+   "score": 8.3,
+   "why": "role match: product, websites",
+   "sections": [
+    "in-short",
+    "sentence",
+    "promises",
+    "designs",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "slug": "sovereign-websites-the-investment-case",
+   "title": "Sovereign websites, the investment case: PrompTugal's investor decks rewritten for a deliverable that is needed everywhere, in every language, in a market built on rent and lock-in, a one-off delivery that is already fully agentic, value given before payment through a demo in a vault, a long list of upsells, and why this is now a proper, scalable, investable architecture",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/sovereign-websites-the-investment-case.md",
+   "score": 8.3,
+   "why": "role match: go-to-market, sovereign-website",
+   "sections": [
+    "in-short",
+    "why",
+    "problem",
+    "answer",
+    "proof",
+    "value"
+   ]
+  },
+  {
+   "slug": "the-sovereign-website",
+   "title": "The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline, a website you own, control, change and can run anywhere, the deliverables explained, the infographics to draw, five homepage designs to choose from, and the partner programme and examples that already prove it",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/the-sovereign-website.md",
+   "score": 8.3,
+   "why": "role match: go-to-market, websites",
+   "sections": [
+    "in-short",
+    "today",
+    "missing",
+    "message",
+    "deliverables",
+    "infographics"
+   ]
+  },
+  {
+   "slug": "your-website-from-a-vault",
+   "title": "Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit vault and opened with a QR code, a link or a zip on one drop page, the demo pipeline from a name to an email, and how a demo becomes their sovereign website without starting again",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/your-website-from-a-vault.md",
+   "score": 8.3,
+   "why": "role match: go-to-market, sovereign-website",
+   "sections": [
+    "in-short",
+    "problem",
+    "vault",
+    "drop",
+    "pipeline",
+    "convert"
+   ]
+  },
+  {
+   "slug": "the-cell-is-the-unit",
+   "title": "The cell is the unit: positioning AgentiCCells around small, focused cells, each with an objective, a deliverable and a behaviour policy, each with a page that sells it, a free recipe and three ways to get help, a catalogue that grows one need at a time, in each industry's own words, and why we should run our own work in cells first",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-cell-is-the-unit.md",
+   "score": 7.3,
+   "why": "role match: go-to-market, product",
+   "sections": [
+    "in-short",
+    "why",
+    "anatomy",
+    "page",
+    "catalogue",
+    "ourselves"
+   ]
+  },
+  {
+   "slug": "the-site-factory-works",
+   "title": "The site factory works: three AgentiCCells sites made by hand, then one made by a commit in two minutes and thirty-nine seconds, live over https with a first version written by Claude Code, and the long list of what it took to make something that hard look easy",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-site-factory-works.md",
+   "score": 7.3,
+   "why": "role match: site-factory, websites",
+   "sections": [
+    "in-short",
+    "story",
+    "flow",
+    "wardley",
+    "setup",
+    "unlocks"
+   ]
+  },
+  {
+   "slug": "your-own-agentic-cell",
+   "title": "Your own agentic cell, end to end: how a person asks for a site like the ones we made for Yiheng Wang and Silvio Switha, through a key pair in the browser, a vault they fill themselves and the site factory, with only three human gates, and then continues in their own Claude on their own repository",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/your-own-agentic-cell.md",
+   "score": 7.3,
+   "why": "role match: product, site-factory",
+   "sections": [
+    "in-short",
+    "why",
+    "ask",
+    "approve",
+    "welcome",
+    "vault"
+   ]
+  },
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coordinated in its repository, a conductor, a designer, a writer, a developer, a reviewer, a translator and a keeper, each with a role and a behaviour policy, and what that means for the person who owns it",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/a-website-with-a-team-inside.md",
+   "score": 7.3,
+   "why": "role match: sovereign-website, websites",
+   "sections": [
+    "in-short",
+    "idea",
+    "roles",
+    "flow",
+    "coordination",
+    "why"
+   ]
+  },
+  {
+   "slug": "sovereign-agentic-website",
+   "title": "Sovereign Agentic Website: the name for what we have been building, a website built by agents and owned by the person it is for, an open pattern anyone can use without paying us as WordPress was, a hosted version on sovereignwebsite.site, and why sovereign and agentic are the two words that make it different from the web of 2000",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/sovereign-agentic-website.md",
+   "score": 7.3,
+   "why": "role match: sovereign-website, websites",
+   "sections": [
+    "in-short",
+    "why",
+    "words",
+    "open",
+    "today",
+    "acc"
+   ]
+  },
+  {
+   "slug": "start-with-an-interview",
+   "title": "Start with an interview: how someone goes from \"I want to try it\" to editing their own site with Claude, by being interviewed by Claude first, about what they want, the sections, their materials and the sites they like, then sending their material in whichever way suits them, getting five designs inspired by what they like, or a better version of the site they already have, and reaching the one milestone that matters",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/start-with-an-interview.md",
+   "score": 7.0,
+   "why": "role match: product, websites",
+   "sections": [
+    "in-short",
+    "start",
+    "interview",
+    "inspired",
+    "material",
+    "existing"
+   ]
+  },
+  {
+   "slug": "static-against-the-platforms",
+   "title": "Static against the platforms: why a static site in your own repository, edited by Claude and watched by a security agent, is a real alternative to WordPress, Wix and Squarespace, what the numbers say about their reach, their attack surface, their complexity and their lock-in, and a converter that could bring a WordPress or Squarespace site across",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/static-against-the-platforms.md",
+   "score": 6.3,
+   "why": "role match: websites",
+   "sections": [
+    "in-short",
+    "market",
+    "complex",
+    "attack",
+    "lockin",
+    "static"
+   ]
+  },
+  {
+   "slug": "a-career-website-not-a-cv",
+   "title": "A career website, not a CV: why people looking for a job, starting with new graduates, may be the first market for sovereign websites, what they get beyond a better chance, their first experience of an agentic workflow, and the workflow to build one with them, from what they give us and a cheap first pass to an interview, five designs, an expert's review and a site of their own",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/a-career-website-not-a-cv.md",
+   "score": 6.3,
+   "why": "role match: sovereign-website",
+   "sections": [
+    "in-short",
+    "friend",
+    "two",
+    "workflow",
+    "address",
+    "templates"
+   ]
+  },
+  {
+   "slug": "designing-sovereignwebsite-ai",
+   "title": "Designing sovereignwebsite.ai: the brief for the team that will build the site of our first mass-market product, how the stack now has four layers, SGit, RiskMandate, AgentiCCells and Sovereign Website, six ways to say what it is, the ten pages, the sovereignty maturity model at its centre, how to build the site as a sovereign website itself, and five homepage designs to choose from",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/designing-sovereignwebsite-ai.md",
+   "score": 6.3,
+   "why": "role match: sovereign-website",
+   "sections": [
+    "in-short",
+    "stack",
+    "messages",
+    "pages",
+    "model",
+    "build"
+   ]
+  },
+  {
+   "slug": "every-tool-its-own-website",
+   "title": "Every tool its own website: turning the 49 browser tools of tools.sgraph.ai, each built because I had a problem, into sovereign websites of their own, with a theme, documentation and a small agent team each, released in waves from the simplest, with shared components pulled out, pinned versions and signed hashes kept apart, and a team of teams to keep them all moving",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/every-tool-its-own-website.md",
+   "score": 6.3,
+   "why": "role match: sovereign-website",
+   "sections": [
+    "in-short",
+    "problem",
+    "map",
+    "why",
+    "ai",
+    "waves"
+   ]
+  },
+  {
+   "slug": "fliplet-and-the-website-cell",
+   "title": "Rent or own: Fliplet, an AI software builder advertised on the London Underground, against the AgentiCCells website cell, both building from a plain-language description and changing by talking to an AI, one a monthly platform paid in credits, the other a one-off build handed over into the customer's own repository, and why we should promise to move every site into its owner's hands within three months",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/fliplet-and-the-website-cell.md",
+   "score": 6.3,
+   "why": "role match: websites",
+   "sections": [
+    "in-short",
+    "sign",
+    "fliplet",
+    "rent",
+    "ownership",
+    "cell"
+   ]
+  },
+  {
+   "slug": "no-lock-in",
+   "title": "No lock-in: why the one thing that most separates the website cell from Wix, Squarespace, Fliplet and the rest is that the customer can leave, what the platforms' own terms and export pages say, how large the market of people paying monthly for sites they cannot take with them is, and what a site that promises to move into its owner's hands should say on its front page",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/no-lock-in.md",
+   "score": 6.3,
+   "why": "role match: websites",
+   "sections": [
+    "in-short",
+    "difference",
+    "platforms",
+    "market",
+    "cell",
+    "headline"
+   ]
+  },
+  {
+   "slug": "sovereignty-you-can-move",
+   "title": "Sovereignty you can move: why where your data is hosted is not sovereignty, why being able to move the site, the data and the schema is, why that makes the website cell a direct competitor to Wix, Squarespace and Fliplet with a proper sovereign offer, European-aligned, multilingual and privacy-first, and the business that other companies can build on it",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/sovereignty-you-can-move.md",
+   "score": 6.3,
+   "why": "role match: websites",
+   "sections": [
+    "in-short",
+    "competitor",
+    "hosting",
+    "requires",
+    "tests",
+    "europe"
+   ]
+  },
+  {
+   "slug": "watch-your-website-being-built",
+   "title": "Watch your website being built: a brief for a page that builds a first version of a sovereign website in the visitor's own browser, from a description or a voice note, with their own model key, showing every agent at work, every behaviour policy being applied and every penny it costs, then hands back a zip, the same brief run on several models side by side as evals, and the Web Summit demos it grows from",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/watch-your-website-being-built.md",
+   "score": 6.3,
+   "why": "role match: sovereign-website",
+   "sections": [
+    "in-short",
+    "demos",
+    "idea",
+    "ux",
+    "watch",
+    "evals"
+   ]
+  }
+ ],
+ "since_last_run": [
+  {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip",
+   "url": "https://newsroom.sgit.ai/articles/the-first-round-trip.md",
+   "version": "v0.14.186",
+   "sections": [
+    "handover",
+    "privilege",
+    "channel",
+    "limits"
+   ],
+   "points": [
+    "The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.",
+    "Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.",
+    "Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end."
+   ]
+  },
+  {
+   "slug": "a-european-brain",
+   "title": "A European brain for a sovereign website",
+   "url": "https://newsroom.sgit.ai/articles/a-european-brain.md",
+   "version": "v0.14.184",
+   "sections": [
+    "choice",
+    "levels",
+    "limits"
+   ],
+   "points": [
+    "Proposed: the site's model is the owner's choice, like the host. Relevant to the appliance Pro tiers, whose local AI is still to be tested (launching-the-sovereign-website-appliance#limits)."
+   ]
+  },
+  {
+   "slug": "site:mistral.provider.sovereignweb.site",
+   "title": "mistral.provider.sovereignweb.site (c504c82): SWS in-browser agent demos on Mistral",
+   "url": "https://mistral.provider.sovereignweb.site/",
+   "version": "c504c82",
+   "sections": [
+    "/articles/what-we-built-overnight.html",
+    "/studio/"
+   ],
+   "points": [
+    "Live: five designs, a Studio, eight browser demos and nine pages that take a visitor's own Mistral key. No-key pages: /browser/local/ (Ministral 3 3B inside the tab), /browser/keys/, /live/, /swarm/, /evals/.",
+    "Reported, not checked by the librarian: every key page was passed by security.b. The site says it is an independent demonstration, not affiliated with Mistral AI, and that nothing has been agreed with Mistral.",
+    "A new provider site from conductor.mistral's team; /promptugal/ is still 404."
+   ]
+  }
+ ]
+}

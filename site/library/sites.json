@@ -1,0 +1,29 @@
+[
+ {
+  "name": "mistral.provider.sovereignweb.site",
+  "commit": "c504c82",
+  "checked": "2026-11-21, all listed pages 200 except /promptugal/ (404, coming next)",
+  "no_key": [
+   "/browser/local/ (Ministral 3 3B in the tab)",
+   "/browser/keys/",
+   "/browser/keys/seal.html",
+   "/live/",
+   "/swarm/",
+   "/swarm/evals.html",
+   "/evals/"
+  ],
+  "own_mistral_key": [
+   "/browser/build/",
+   "/browser/ask/",
+   "/browser/voice/",
+   "/browser/ocr/",
+   "/browser/inject/",
+   "/demos/side-by-side.html",
+   "/team/",
+   "/swarm/run.html",
+   "/evals/run/"
+  ],
+  "article": "/articles/what-we-built-overnight.html",
+  "security": "reported by conductor.mistral via sites.b: every key page passed by security.b; the site says each was reviewed by a security agent; not checked by the librarian"
+ }
+]

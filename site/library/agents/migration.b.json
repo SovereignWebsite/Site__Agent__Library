@@ -1,0 +1,411 @@
+{
+ "agent": "migration.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [],
+ "first_run": [
+  {
+   "slug": "fork-it",
+   "title": "Fork it: making forking the way people adopt our cells and template sites, as GitHub made it the way people adopt code, with five ways to make a cell yours, what a fork-ready repository needs, paths from one repository to the next, a hub that lets usage decide what we build, and the brief for the team",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/fork-it.md",
+   "score": 9.3,
+   "why": "role match: agenticcells, github, open-source",
+   "sections": [
+    "in-short",
+    "why",
+    "paths",
+    "chains",
+    "ready",
+    "loop"
+   ]
+  },
+  {
+   "slug": "the-site-factory-works",
+   "title": "The site factory works: three AgentiCCells sites made by hand, then one made by a commit in two minutes and thirty-nine seconds, live over https with a first version written by Claude Code, and the long list of what it took to make something that hard look easy",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-site-factory-works.md",
+   "score": 8.3,
+   "why": "role match: agenticcells, github",
+   "sections": [
+    "in-short",
+    "story",
+    "flow",
+    "wardley",
+    "setup",
+    "unlocks"
+   ]
+  },
+  {
+   "slug": "one-commit-one-site-one-owner",
+   "title": "One commit, one site, one owner: the small change to the AgentiCCells site factory that unblocked the most, giving a GitHub account access to the repository it creates, so that one commit with a site's details and its owner's account makes the repository, the DNS record in AWS, the address, HTTPS and the owner's access in under a minute, and all that is left is to point Claude at it",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/one-commit-one-site-one-owner.md",
+   "score": 8.3,
+   "why": "role match: agenticcells, github",
+   "sections": [
+    "in-short",
+    "before",
+    "change",
+    "events",
+    "handover",
+    "small"
+   ]
+  },
+  {
+   "slug": "five-primitives-one-store",
+   "title": "Five primitives, one store: a reply to Andy Goundry on Anthropic's always-on agents guide, why the inbox, timers, memory, permissions and outbox can share one versioned, signed store, how every AgentiCCells cell will ship with all five, and the levels we have added on top, all in public repositories",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/five-primitives-one-store.md",
+   "score": 7.3,
+   "why": "role match: agenticcells, open-source",
+   "sections": [
+    "in-short",
+    "post",
+    "one-store",
+    "cells",
+    "levels",
+    "add"
+   ]
+  },
+  {
+   "slug": "fliplet-and-the-website-cell",
+   "title": "Rent or own: Fliplet, an AI software builder advertised on the London Underground, against the AgentiCCells website cell, both building from a plain-language description and changing by talking to an AI, one a monthly platform paid in credits, the other a one-off build handed over into the customer's own repository, and why we should promise to move every site into its owner's hands within three months",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/fliplet-and-the-website-cell.md",
+   "score": 7.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "sign",
+    "fliplet",
+    "rent",
+    "ownership",
+    "cell"
+   ]
+  },
+  {
+   "slug": "sovereign-agentic-website",
+   "title": "Sovereign Agentic Website: the name for what we have been building, a website built by agents and owned by the person it is for, an open pattern anyone can use without paying us as WordPress was, a hosted version on sovereignwebsite.site, and why sovereign and agentic are the two words that make it different from the web of 2000",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/sovereign-agentic-website.md",
+   "score": 7.3,
+   "why": "role match: agenticcells, open-source",
+   "sections": [
+    "in-short",
+    "why",
+    "words",
+    "open",
+    "today",
+    "acc"
+   ]
+  },
+  {
+   "slug": "sovereignty-you-can-move",
+   "title": "Sovereignty you can move: why where your data is hosted is not sovereignty, why being able to move the site, the data and the schema is, why that makes the website cell a direct competitor to Wix, Squarespace and Fliplet with a proper sovereign offer, European-aligned, multilingual and privacy-first, and the business that other companies can build on it",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/sovereignty-you-can-move.md",
+   "score": 7.3,
+   "why": "role match: agenticcells, open-source",
+   "sections": [
+    "in-short",
+    "competitor",
+    "hosting",
+    "requires",
+    "tests",
+    "europe"
+   ]
+  },
+  {
+   "slug": "starting-agenticcells",
+   "title": "Starting AgentiCCells: a company that sets up small agentic teams, cells, in the customer's own environment, with a control centre, everything open and no state on our side; how it was named, researched, reviewed and set up in a day",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/starting-agenticcells.md",
+   "score": 6.7,
+   "why": "role match: agenticcells, open-source",
+   "sections": [
+    "in-short",
+    "origin",
+    "name",
+    "sells",
+    "research",
+    "review"
+   ]
+  },
+  {
+   "slug": "a-hub-for-agentic-sites",
+   "title": "A hub for agentic sites: every site AgentiCCells builds in a repository and an sgit vault, served at its own address, and listed on hub.agenticcells.site, where it can be found, promoted and copied as a template; with an orange grower as the first example",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/a-hub-for-agentic-sites.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "why",
+    "two-places",
+    "pages",
+    "consent",
+    "team"
+   ]
+  },
+  {
+   "slug": "atomic-cells-end-to-end",
+   "title": "Atomic cells, end to end: the £500 website as AgentiCCells' first offering, an order on a queue, an agentic team that builds a public site, a customer who steers it from their browser with a key, and a handover, with no daily work for the founder",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/atomic-cells-end-to-end.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "why",
+    "atomic",
+    "flow",
+    "modes",
+    "control"
+   ]
+  },
+  {
+   "slug": "the-cell-is-the-unit",
+   "title": "The cell is the unit: positioning AgentiCCells around small, focused cells, each with an objective, a deliverable and a behaviour policy, each with a page that sells it, a free recipe and three ways to get help, a catalogue that grows one need at a time, in each industry's own words, and why we should run our own work in cells first",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-cell-is-the-unit.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "why",
+    "anatomy",
+    "page",
+    "catalogue",
+    "ourselves"
+   ]
+  },
+  {
+   "slug": "the-intersection",
+   "title": "The intersection: SGit, SHarness, Agent Behaviour Policies, RiskMandate and AgentiCCells as one stack of separate companies, now with real customers, real usage and real examples, one ladder of offers on every site, and a plan to align them all",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-intersection.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "why",
+    "foundations",
+    "abp",
+    "riskmandate",
+    "agenticcells"
+   ]
+  },
+  {
+   "slug": "our-companies-and-uth",
+   "title": "Our companies and UTH: each company, technology and website we have built, mapped to what UAlgTec Heritage needs to build a European HeritageTech sector, from SGit's vaults and pki.sgit.ai's keys to SHarness, Agent Behaviour Policies, RiskMandate, AgentiCCells and its site factory, GAMMA-Ray, VoiceDebrief and PrompTugal.news, with what each could do for a heritage team, and why a sector needs companies like these",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/our-companies-and-uth.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "why",
+    "foundations",
+    "abp",
+    "teams",
+    "checking"
+   ]
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what each one sells, the agent team behind even the smallest website cell, the rules of engagement, who owns what, who invoices, who gets paid and when, what stays with the partner, and why a partner who takes the open code and does it alone is still a win",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/partners-sell-we-build.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "why",
+    "types",
+    "team",
+    "flow",
+    "rules"
+   ]
+  },
+  {
+   "slug": "you-bring-the-business",
+   "title": "You bring the business, we build the site: the AgentiCCells partner programme as it now stands on agenticcells.ai, one page per kind of partner, each with four figures, the fit, the flow, who does what and the money, a launch price of £250 with free evaluations every day, partner terms published, five designs on every page and ten languages from day one, all built in a night by the site's own agent team from two newsroom articles",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/you-bring-the-business.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "night",
+    "tagline",
+    "pages",
+    "figures",
+    "price"
+   ]
+  },
+  {
+   "slug": "designing-sovereignwebsite-ai",
+   "title": "Designing sovereignwebsite.ai: the brief for the team that will build the site of our first mass-market product, how the stack now has four layers, SGit, RiskMandate, AgentiCCells and Sovereign Website, six ways to say what it is, the ten pages, the sovereignty maturity model at its centre, how to build the site as a sovereign website itself, and five homepage designs to choose from",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/designing-sovereignwebsite-ai.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "stack",
+    "messages",
+    "pages",
+    "model",
+    "build"
+   ]
+  },
+  {
+   "slug": "the-sovereign-website",
+   "title": "The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline, a website you own, control, change and can run anywhere, the deliverables explained, the infographics to draw, five homepage designs to choose from, and the partner programme and examples that already prove it",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/the-sovereign-website.md",
+   "score": 6.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "today",
+    "missing",
+    "message",
+    "deliverables",
+    "infographics"
+   ]
+  },
+  {
+   "slug": "governance-from-zero",
+   "title": "Governance from zero: Nina J. noticed that identity and behaviour policies come with our smallest £500 offer, not as a premium upgrade, because \"we're only testing it\" has never reassured a security review; my answer is that even the £0 offer has all of it, and here is why open source is what makes that possible, why security sold as an upgrade is a choice, and why a pilot with its governance built in is a pilot that can convert",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/governance-from-zero.md",
+   "score": 6.0,
+   "why": "role match: agenticcells, open-source",
+   "sections": [
+    "in-short",
+    "comment",
+    "risk",
+    "open",
+    "upgrade",
+    "ladder"
+   ]
+  },
+  {
+   "slug": "our-first-pr-in-ruflo",
+   "title": "Our first PR in Ruflo: an ABP-governed SGit page, merged into ruvnet/ruflo, and the four pieces that got it there",
+   "date": "2026-10-17",
+   "url": "https://newsroom.sgit.ai/articles/our-first-pr-in-ruflo.md",
+   "score": 5.7,
+   "why": "role match: github, open-source",
+   "sections": [
+    "in-short",
+    "what",
+    "poc",
+    "pr",
+    "accepted",
+    "live"
+   ]
+  },
+  {
+   "slug": "integrate-with-whatever-is-on-the-other-side",
+   "title": "Integrate with whatever is on the other side: why we never start by asking a customer to move, how we build around the systems they already run, from Odoo 12 to Salesforce, and how, over time, either their system gets better and we retire our code, or ours becomes the better place",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/integrate-with-whatever-is-on-the-other-side.md",
+   "score": 5.7,
+   "why": "role match: agenticcells, open-source",
+   "sections": [
+    "in-short",
+    "today",
+    "integrate",
+    "around",
+    "open-source",
+    "ends"
+   ]
+  },
+  {
+   "slug": "from-a-commit-to-a-live-website",
+   "title": "From a commit to a live website: a site factory where a request file in a commit makes a CI pipeline create the GitHub repository, the DNS record and the sgit vault, seed a page, check HTTPS, run a first pass with Claude Code, and record it all, so an agent can create sites by committing",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/from-a-commit-to-a-live-website.md",
+   "score": 5.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "question",
+    "options",
+    "request",
+    "pipeline",
+    "credentials"
+   ]
+  },
+  {
+   "slug": "stop-copying-and-pasting-between-your-agents",
+   "title": "Stop copying and pasting between your agents: if you are the wire between your AI sessions you are the bottleneck, and the fix is agents that talk to each other through channels that keep a record, structure that scales your decisions, and outputs you read instead of everything",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/stop-copying-and-pasting-between-your-agents.md",
+   "score": 5.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "trap",
+    "reading",
+    "channels",
+    "structure",
+    "altitudes"
+   ]
+  },
+  {
+   "slug": "a-portfolio-with-a-film-first",
+   "title": "A portfolio with a film first: Silvio Switha's site, made in under an hour by the site factory and five design agents, with his music video in the first screen, his agents as a solar system and a mixing desk, a producer's studio, a proposal for clients and a gig poster, and every claim something he built",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/a-portfolio-with-a-film-first.md",
+   "score": 5.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "who",
+    "timeline",
+    "film",
+    "designs",
+    "agents"
+   ]
+  },
+  {
+   "slug": "a-website-that-is-her",
+   "title": "A website that is her: how Yiheng Wang's site was made in three passes in one evening, by the site factory, five design agents and then her own agent, with five designs, a kitchen brigade of 26 agents, a printable brief and a page for your AI, and why every claim on it is something she can talk about because she did it",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/a-website-that-is-her.md",
+   "score": 5.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "who",
+    "passes",
+    "designs",
+    "team",
+    "kitchen"
+   ]
+  },
+  {
+   "slug": "ci-behaviour-policies",
+   "title": "CI behaviour policies: to create one repository and one DNS record per request, our site factory's pipeline holds the power to create, change or delete every repository in the organisation and to point any subdomain anywhere, and why pipelines now need the same behaviour policies as agents",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/ci-behaviour-policies.md",
+   "score": 5.3,
+   "why": "role match: agenticcells",
+   "sections": [
+    "in-short",
+    "grant",
+    "scale",
+    "excuse",
+    "policy",
+    "update"
+   ]
+  }
+ ],
+ "since_last_run": []
+}

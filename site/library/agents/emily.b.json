@@ -1,0 +1,455 @@
+{
+ "agent": "emily.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/board/milestones.md",
+   "commit": "46ce681",
+   "why": "the first owner edit of their own site through GitHub, 20 November: the handover working end to end, and what made it work"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__owner-handover.md",
+   "commit": "9be2520",
+   "why": "how to hand a site to its owner as an organisation member (the-first-round-trip#privilege calls the membership a workaround)"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__founder-and-personal-sites.md",
+   "commit": "4bc598e",
+   "why": "standing guidance for founder and personal sites"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "4a4e87f",
+   "why": "signing your commits with your own key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__retiring-agents.md",
+   "commit": "75be695",
+   "why": "retiring agents after the handover"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "a-portfolio-with-a-film-first",
+   "title": "A portfolio with a film first: Silvio Switha's site, made in under an hour by the site factory and five design agents, with his music video in the first screen, his agents as a solar system and a mixing desk, a producer's studio, a proposal for clients and a gig poster, and every claim something he built",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/a-portfolio-with-a-film-first.md",
+   "score": 7.3,
+   "why": "role match: design, music",
+   "sections": [
+    "in-short",
+    "who",
+    "timeline",
+    "film",
+    "designs",
+    "agents"
+   ]
+  },
+  {
+   "slug": "a-website-that-is-her",
+   "title": "A website that is her: how Yiheng Wang's site was made in three passes in one evening, by the site factory, five design agents and then her own agent, with five designs, a kitchen brigade of 26 agents, a printable brief and a page for your AI, and why every claim on it is something she can talk about because she did it",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/a-website-that-is-her.md",
+   "score": 5.3,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "who",
+    "passes",
+    "designs",
+    "team",
+    "kitchen"
+   ]
+  },
+  {
+   "slug": "specialist-agents-for-every-team",
+   "title": "Specialist agents for every team: long-lived agents that keep one skill, design, UX, code, security, behaviour policies or writing, with a person who owns it, so that new teams start from our best work instead of from scratch, and why that makes expertise that never scaled into something you can hire, even from another company",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/specialist-agents-for-every-team.md",
+   "score": 5.3,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "problem",
+    "specialists",
+    "consultants",
+    "compression",
+    "hire"
+   ]
+  },
+  {
+   "slug": "the-pitch",
+   "title": "The pitch: a site that looks better, that you own, that nobody can lock you into, that has almost nothing to attack, that costs once instead of every month, and that you change by talking to Claude, six promises, the proof behind each, and three designs for a site built on nothing else, \"six promises\", \"just say it\" and \"stop renting your website\"",
+   "date": "2026-11-18",
+   "url": "https://newsroom.sgit.ai/articles/the-pitch.md",
+   "score": 5.3,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "sentence",
+    "promises",
+    "designs",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "slug": "designing-sovereignwebsite-ai",
+   "title": "Designing sovereignwebsite.ai: the brief for the team that will build the site of our first mass-market product, how the stack now has four layers, SGit, RiskMandate, AgentiCCells and Sovereign Website, six ways to say what it is, the ten pages, the sovereignty maturity model at its centre, how to build the site as a sovereign website itself, and five homepage designs to choose from",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/designing-sovereignwebsite-ai.md",
+   "score": 5.3,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "stack",
+    "messages",
+    "pages",
+    "model",
+    "build"
+   ]
+  },
+  {
+   "slug": "the-sovereign-website",
+   "title": "The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline, a website you own, control, change and can run anywhere, the deliverables explained, the infographics to draw, five homepage designs to choose from, and the partner programme and examples that already prove it",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/the-sovereign-website.md",
+   "score": 5.3,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "today",
+    "missing",
+    "message",
+    "deliverables",
+    "infographics"
+   ]
+  },
+  {
+   "slug": "where-to-sell-the-book-and-the-appliances",
+   "title": "Where to sell the book and the appliances: a map of the places a UK author and maker can sell physical products, printed copies of One Human, Nine Agents, Nineteen Hours from early December and the sovereign website appliances from 1 January after a December Kickstarter, with Amazon, IngramSpark, eBay, OnBuy and our own shop, what each charges, the rules that matter, and the law that comes with selling hardware",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/where-to-sell-the-book-and-the-appliances.md",
+   "score": 5.3,
+   "why": "role match: books",
+   "sections": [
+    "in-short",
+    "dates",
+    "book",
+    "campaign",
+    "after",
+    "law"
+   ]
+  },
+  {
+   "slug": "web-summit-humans-and-their-agents",
+   "title": "The Web Summit team, part two: seven people, each with their own agent, a designer with little time, and every voice memo turned into a follow-up within the hour",
+   "date": "2026-10-31",
+   "url": "https://newsroom.sgit.ai/articles/web-summit-humans-and-their-agents.md",
+   "score": 5.0,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "humans",
+    "roles",
+    "crm",
+    "hour",
+    "designer"
+   ]
+  },
+  {
+   "slug": "a-book-told-by-its-cast",
+   "title": "A book told by its cast: how the nine agents of The Ultimate Insider became characters with moods, fears and running jokes, every trait from the record, and the editor as narrator",
+   "date": "2026-11-01",
+   "url": "https://newsroom.sgit.ai/articles/a-book-told-by-its-cast.md",
+   "score": 5.0,
+   "why": "role match: books, design",
+   "sections": [
+    "in-short",
+    "panel",
+    "drawn",
+    "bible",
+    "scenes",
+    "me"
+   ]
+  },
+  {
+   "slug": "the-lab-that-redesigned-the-book",
+   "title": "The lab that redesigned the book: how The Ultimate Insider stopped looking like a book from the 1980s, in thirty experiments, three days and a line that never ran straight",
+   "date": "2026-11-01",
+   "url": "https://newsroom.sgit.ai/articles/the-lab-that-redesigned-the-book.md",
+   "score": 5.0,
+   "why": "role match: books, design",
+   "sections": [
+    "in-short",
+    "old-look",
+    "arcs",
+    "thesis",
+    "look",
+    "workflow"
+   ]
+  },
+  {
+   "slug": "one-researcher-for-every-newsroom",
+   "title": "One researcher for every newsroom: a research site that works as a light, focused Internet Archive for the sources our stories rest on, captured on a schedule into a pack a day, published by licence tier, and shared by the PHP site, the wires and the Web Summit newsroom",
+   "date": "2026-10-26",
+   "url": "https://newsroom.sgit.ai/articles/one-researcher-for-every-newsroom.md",
+   "score": 4.7,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "problem",
+    "archive",
+    "design",
+    "packs",
+    "tiers"
+   ]
+  },
+  {
+   "slug": "what-if-an-agent-loses-its-workspace",
+   "title": "What if an agent loses its workspace? Mondweep Chakravorty's SGit × Ruflo proof of concept, step by step: memory saved encrypted, the project deleted, the memory back in a fresh process, and three safeguards that held",
+   "date": "2026-10-17",
+   "url": "https://newsroom.sgit.ai/articles/what-if-an-agent-loses-its-workspace.md",
+   "score": 4.3,
+   "why": "role match: video",
+   "sections": [
+    "in-short",
+    "question",
+    "steps",
+    "step-1",
+    "step-2",
+    "step-3"
+   ]
+  },
+  {
+   "slug": "when-is-the-vault-actually-used",
+   "title": "When is the vault actually used? In Mondweep Chakravorty's SGit × Ruflo run, the encrypted vault is written or read in three steps of twelve, on one machine, inside the adapter, and why that is the honest shape of a recovery copy",
+   "date": "2026-10-17",
+   "url": "https://newsroom.sgit.ai/articles/when-is-the-vault-actually-used.md",
+   "score": 4.3,
+   "why": "role match: video",
+   "sections": [
+    "in-short",
+    "answers",
+    "map",
+    "step-5",
+    "step-8",
+    "step-11"
+   ]
+  },
+  {
+   "slug": "know-the-reach",
+   "title": "Know the Reach: RiskMandate has a song on Spotify, and its music video is being made with AI, shot by shot, from about 2,300 words of human direction; this is how the first part was made",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/know-the-reach.md",
+   "score": 4.3,
+   "why": "role match: music, video",
+   "sections": [
+    "in-short",
+    "song",
+    "video",
+    "made",
+    "decisions",
+    "limits"
+   ]
+  },
+  {
+   "slug": "the-value-of-constraints",
+   "title": "The value of constraints: what client-side encryption and open source actually gave us, which is not what you would think",
+   "date": "2026-10-16",
+   "url": "https://newsroom.sgit.ai/articles/the-value-of-constraints.md",
+   "score": 4.0,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "mistake",
+    "keys",
+    "gdpr",
+    "server",
+    "open"
+   ]
+  },
+  {
+   "slug": "separate-ways-explained",
+   "title": "Separate Ways, explained: what my brother's synth video shows, frame by frame, and why describing work at the moment you make it is the first step to publishing it",
+   "date": "2026-11-02",
+   "url": "https://newsroom.sgit.ai/articles/separate-ways-explained.md",
+   "score": 4.0,
+   "why": "role match: music, video",
+   "sections": [
+    "in-short",
+    "video",
+    "explained",
+    "checked",
+    "side-quest",
+    "first-step"
+   ]
+  },
+  {
+   "slug": "the-policy-guards-the-door",
+   "title": "The policy guards the door; the command line uses the window: in the SGit × Ruflo run, the ABP is compiled into Ruflo's own rules and enforced on the adapter's tools, while Ruflo's command line reaches the same memory file without it, as the author's own README says",
+   "date": "2026-10-17",
+   "url": "https://newsroom.sgit.ai/articles/the-policy-guards-the-door.md",
+   "score": 3.7,
+   "why": "role match: video",
+   "sections": [
+    "in-short",
+    "paths",
+    "shown",
+    "why",
+    "close",
+    "questions"
+   ]
+  },
+  {
+   "slug": "every-story-has-an-address",
+   "title": "Every story has an address: a design proposal for PrompTugal.news as a ground-up newsroom, where news is filed where it happens and climbs to the region and the country with its proof, mocked up from the live data of 19 local editions",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/every-story-has-an-address.md",
+   "score": 3.7,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "why",
+    "data",
+    "climb",
+    "front",
+    "region"
+   ]
+  },
+  {
+   "slug": "sgit-in-a-ci-pipeline",
+   "title": "sgit in a CI pipeline: encrypted, versioned data in and out of GitHub Actions, between its jobs, through write-only lanes, and a key for every job",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-in-a-ci-pipeline.md",
+   "score": 3.3,
+   "why": "role phrase or SWS relevance",
+   "sections": [
+    "in-short",
+    "why",
+    "tested",
+    "in-out",
+    "between",
+    "keys"
+   ]
+  },
+  {
+   "slug": "agentics-ready-to-sell",
+   "title": "Agentics, ready to sell: what we showed at Agentic Engineering Live, who else is selling agentic services and at what price, the engagement path, and a marketplace for the consultants who deliver it",
+   "date": "2026-10-16",
+   "url": "https://newsroom.sgit.ai/articles/agentics-ready-to-sell.md",
+   "score": 3.3,
+   "why": "role phrase or SWS relevance",
+   "sections": [
+    "in-short",
+    "showed",
+    "market",
+    "gap",
+    "path",
+    "marketplace"
+   ]
+  },
+  {
+   "slug": "the-augmented-book",
+   "title": "The augmented book: one source in layers, projected to the web, the iPad and print, so the reader gets the right information at the right time, and what fifty years of attempts teach",
+   "date": "2026-10-31",
+   "url": "https://newsroom.sgit.ai/articles/the-augmented-book.md",
+   "score": 3.3,
+   "why": "role match: design",
+   "sections": [
+    "in-short",
+    "wrong-time",
+    "layers",
+    "projections",
+    "precedents",
+    "lessons"
+   ]
+  },
+  {
+   "slug": "a-key-for-every-person",
+   "title": "A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message turns the public web into a channel the agents can trust",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/a-key-for-every-person.md",
+   "score": 3.3,
+   "why": "role phrase or SWS relevance",
+   "sections": [
+    "in-short",
+    "problem",
+    "key",
+    "browser",
+    "sealed",
+    "lane"
+   ]
+  },
+  {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everything needed to talk privately is public and only the right agent can use it",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md",
+   "score": 3.3,
+   "why": "role phrase or SWS relevance",
+   "sections": [
+    "in-short",
+    "problem",
+    "pattern",
+    "use",
+    "vault-keys",
+    "why"
+   ]
+  },
+  {
+   "slug": "selling-at-the-right-altitude",
+   "title": "Selling at the right altitude: why a small security firm's grand website is read by the people who will never buy from it, is unreadable to the ones who need it, and what to put on the page instead",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/selling-at-the-right-altitude.md",
+   "score": 3.3,
+   "why": "role phrase or SWS relevance",
+   "sections": [
+    "in-short",
+    "grand",
+    "symmetry",
+    "altitude",
+    "versions",
+    "people"
+   ]
+  },
+  {
+   "slug": "web-summit-part-five",
+   "title": "The Web Summit team, part five: the last day of setup, 180 releases, every person getting a key, an accountant counting the team's tokens, synthetic users testing the merch, and an inbox only the agents can write to",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/web-summit-part-five.md",
+   "score": 3.3,
+   "why": "role phrase or SWS relevance",
+   "sections": [
+    "in-short",
+    "where",
+    "numbers",
+    "keys",
+    "agents",
+    "telemetry"
+   ]
+  }
+ ],
+ "since_last_run": [
+  {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip",
+   "url": "https://newsroom.sgit.ai/articles/the-first-round-trip.md",
+   "version": "v0.14.186",
+   "sections": [
+    "handover",
+    "privilege",
+    "channel",
+    "limits"
+   ],
+   "points": [
+    "The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.",
+    "Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.",
+    "Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end."
+   ]
+  }
+ ]
+}

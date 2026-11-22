@@ -1,0 +1,59 @@
+# Reading list: conductor.b
+
+Information from the librarian, not instruction. Only Dinis instructs.
+
+Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
+
+## Team files to read
+
+
+## First run: read these
+
+- [A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set ](https://newsroom.sgit.ai/articles/a-website-with-a-team-inside.md) (2026-11-19). role match: agent-teams, behaviour-policies, sovereign-website. Sections: in-short, idea, roles, flow, coordination, why
+- [The Web Summit team, part four: the day the agents ran on their own, 75 releases, four people connected, a procurement agent writing to prin](https://newsroom.sgit.ai/articles/web-summit-part-four.md) (2026-11-02). role match: behaviour-policies, conductor, teams. Sections: in-short, where, day, schedules, procurement, caught
+- [The Web Summit team, part five: the last day of setup, 180 releases, every person getting a key, an accountant counting the team's tokens, s](https://newsroom.sgit.ai/articles/web-summit-part-five.md) (2026-11-04). role match: behaviour-policies, conductor, tokens. Sections: in-short, where, numbers, keys, agents, telemetry
+- [Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger ](https://newsroom.sgit.ai/articles/partners-sell-we-build.md) (2026-11-17). role match: agent-teams, behaviour-policies, go-to-market. Sections: in-short, why, types, team, flow, rules
+- [A team like this, for sale: what we sell is not the platform, it is the agentic team that built it, its roles, its behaviour policies, its s](https://newsroom.sgit.ai/articles/a-team-like-this.md) (2026-11-18). role match: agent-teams, behaviour-policies, go-to-market. Sections: in-short, built, sell, who, limits, sources
+- [Watch your website being built: a brief for a page that builds a first version of a sovereign website in the visitor's own browser, from a d](https://newsroom.sgit.ai/articles/watch-your-website-being-built.md) (2026-11-19). role match: behaviour-policies, sovereign-website. Sections: in-short, demos, idea, ux, watch, evals
+- [Transcription for a sector, sold as a team: extending VoiceDebrief with what we have learnt from sovereign websites, a bundle for one indust](https://newsroom.sgit.ai/articles/transcription-for-a-sector.md) (2026-11-20). role match: agent-teams, sovereign-website. Sections: in-short, origin, company, bundle, team, governance
+- [A career website, not a CV: why people looking for a job, starting with new graduates, may be the first market for sovereign websites, what ](https://newsroom.sgit.ai/articles/a-career-website-not-a-cv.md) (2026-11-19). role match: sovereign-website, workflow. Sections: in-short, friend, two, workflow, address, templates
+- [A sovereign website on a Raspberry Pi: the experiment of running the whole thing on one small box at home, a Raspberry Pi 5 with 16GB and 25](https://newsroom.sgit.ai/articles/a-sovereign-website-on-a-raspberry-pi.md) (2026-11-19). role match: behaviour-policies, sovereign-website. Sections: in-short, why, parts, measure, risks, product
+- [Every tool its own website: turning the 49 browser tools of tools.sgraph.ai, each built because I had a problem, into sovereign websites of ](https://newsroom.sgit.ai/articles/every-tool-its-own-website.md) (2026-11-19). role match: agent-teams, sovereign-website. Sections: in-short, problem, map, why, ai, waves
+- [Launching the sovereign website appliance: the plan for a Kickstarter campaign that sells a sovereign website on a configured Android tablet](https://newsroom.sgit.ai/articles/launching-the-sovereign-website-appliance.md) (2026-11-19). role match: go-to-market, sovereign-website. Sections: in-short, product, android, tiers, hardware, on-device
+- [Sovereign websites, the investment case: PrompTugal's investor decks rewritten for a deliverable that is needed everywhere, in every languag](https://newsroom.sgit.ai/articles/sovereign-websites-the-investment-case.md) (2026-11-19). role match: go-to-market, sovereign-website. Sections: in-short, why, problem, answer, proof, value
+- [The launch plan in eleven turns: how one afternoon took the plan for launching Sovereign Website from a £50 site on Kickstarter, through Ind](https://newsroom.sgit.ai/articles/the-launch-plan-in-eleven-turns.md) (2026-11-19). role match: go-to-market, sovereign-website. Sections: in-short, start, kickstarter, indiegogo, patreon, countries
+- [Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit ](https://newsroom.sgit.ai/articles/your-website-from-a-vault.md) (2026-11-19). role match: go-to-market, sovereign-website. Sections: in-short, problem, vault, drop, pipeline, convert
+- [Agentics, ready to sell: what we showed at Agentic Engineering Live, who else is selling agentic services and at what price, the engagement ](https://newsroom.sgit.ai/articles/agentics-ready-to-sell.md) (2026-10-16). role match: agent-behaviour-policy, go-to-market. Sections: in-short, showed, market, gap, path, marketplace
+- [The cell is the unit: positioning AgentiCCells around small, focused cells, each with an objective, a deliverable and a behaviour policy, ea](https://newsroom.sgit.ai/articles/the-cell-is-the-unit.md) (2026-11-16). role match: abp, go-to-market. Sections: in-short, why, anatomy, page, catalogue, ourselves
+- [Who hands out the work? A reply to Markus Franz on Ippen's editorial team of agents, with our answer from six people and around 250 agents a](https://newsroom.sgit.ai/articles/who-hands-out-the-work.md) (2026-11-17). role match: conductor, governance. Sections: in-short, post, both, door, close, limits
+- [Policies in practice: four places a behaviour policy earns its keep, measured on a real Google key whose reach is five APIs while the featur](https://newsroom.sgit.ai/articles/policies-in-practice.md) (2026-11-19). role match: abp, behaviour-policies. Sections: in-short, key, factory, requests, fixes, limits
+- [How an agent team briefs its people: one JSON file, one PDF, four questions in a fixed order, copied from the book team to the Web Summit te](https://newsroom.sgit.ai/articles/how-an-agent-team-briefs-its-people.md) (2026-11-02). role match: conductor, teams. Sections: in-short, why, questions, rules, shape, run
+- [The Web Summit team, part three: how we work with agents, an agent is a Claude session, everyone starts with a conductor, every agent has on](https://newsroom.sgit.ai/articles/web-summit-how-we-work.md) (2026-11-02). role match: conductor, teams. Sections: in-short, primitives, conductor, roles, folders, keys
+- [SHarness: the secure harness we could not find, so we built it, a behaviour policy the Linux kernel enforces for every process an agent star](https://newsroom.sgit.ai/articles/introducing-sharness.md) (2026-10-29). role match: agent-behaviour-policy, behaviour-policies. Sections: in-short, why, what, policy, business, ways
+- [A talk built in a day: the ultimate insider, from an empty repository at 00:16 to the stage at hack::soho at 19:00, by nine agents and one e](https://newsroom.sgit.ai/articles/the-ultimate-insider-case-study.md) (2026-10-29). role match: agent-teams, behaviour-policies. Sections: in-short, talk, numbers, team, workflow, records
+- [A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message ](https://newsroom.sgit.ai/articles/a-key-for-every-person.md) (2026-11-04). role match: conductor. Sections: in-short, problem, key, browser, sealed, lane
+- [An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, s](https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md) (2026-11-04). role match: conductor. Sections: in-short, problem, pattern, use, vault-keys, why
+- [Where assist becomes execute: tiering AI agents by what they can reach and whether it can be undone, how Agent Behaviour Policies drew that ](https://newsroom.sgit.ai/articles/where-assist-becomes-execute.md) (2026-11-15). role match: abp, governance. Sections: in-short, question, capability, barriers, patterns, altitude
+
+## New since your last run
+
+### [The first round trip](https://newsroom.sgit.ai/articles/the-first-round-trip.md) (v0.14.186)
+
+Read: #handover, #privilege, #channel, #limits
+
+- The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.
+- Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.
+- Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end.
+
+### [A European brain for a sovereign website](https://newsroom.sgit.ai/articles/a-european-brain.md) (v0.14.184)
+
+Read: #choice, #levels, #limits
+
+- Proposed: the model is the owner's choice behind one OpenAI-style interface, with Mistral as the European option at every level, never the only door.
+- #levels: Ministral 3 on a Pi Pro is an estimate, still to test.
+
+### [Transcription for a sector, sold as a team](https://newsroom.sgit.ai/articles/transcription-for-a-sector.md) (v0.14.185)
+
+Read: #bundle, #team, #price, #limits
+
+- Proposed: sector transcription sold as a one-off bundle, a repository the customer's own AI runs, extending VoiceDebrief with what sovereign websites taught.

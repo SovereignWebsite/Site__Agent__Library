@@ -1,0 +1,455 @@
+{
+ "agent": "33n.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/board/milestones.md",
+   "commit": "46ce681",
+   "why": "the first owner edit of their own site through GitHub, 20 November: the handover working end to end, and what made it work"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__owner-handover.md",
+   "commit": "9be2520",
+   "why": "how to hand a site to its owner as an organisation member (the-first-round-trip#privilege calls the membership a workaround)"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__founder-and-personal-sites.md",
+   "commit": "4bc598e",
+   "why": "standing guidance for founder and personal sites"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "4a4e87f",
+   "why": "signing your commits with your own key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__retiring-agents.md",
+   "commit": "75be695",
+   "why": "retiring agents after the handover"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "research-delivered-as-a-vault",
+   "title": "Research, delivered as a vault: what companies that sell research could do with fractal graphs, behaviour policies for AI-enabled products, and evaluations run by a governed agent hive",
+   "date": "2026-10-16",
+   "url": "https://newsroom.sgit.ai/articles/research-delivered-as-a-vault.md",
+   "score": 6.7,
+   "why": "role match: research, vaults",
+   "sections": [
+    "in-short",
+    "today",
+    "taxonomy",
+    "vault",
+    "abp",
+    "insurability"
+   ]
+  },
+  {
+   "slug": "one-researcher-for-every-newsroom",
+   "title": "One researcher for every newsroom: a research site that works as a light, focused Internet Archive for the sources our stories rest on, captured on a schedule into a pack a day, published by licence tier, and shared by the PHP site, the wires and the Web Summit newsroom",
+   "date": "2026-10-26",
+   "url": "https://newsroom.sgit.ai/articles/one-researcher-for-every-newsroom.md",
+   "score": 6.7,
+   "why": "role match: research, vaults",
+   "sections": [
+    "in-short",
+    "problem",
+    "archive",
+    "design",
+    "packs",
+    "tiers"
+   ]
+  },
+  {
+   "slug": "investor-sgit-ai",
+   "title": "investor.sgit.ai: a brief for a website where investors and founders use our tools, not read about them, with the news, contracts as graphs, deal rooms as vaults and sgit as the case study",
+   "date": "2026-10-29",
+   "url": "https://newsroom.sgit.ai/articles/investor-sgit-ai.md",
+   "score": 6.3,
+   "why": "role match: startups, vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "sections",
+    "framework",
+    "team",
+    "rules"
+   ]
+  },
+  {
+   "slug": "legal-on-demand-for-startups",
+   "title": "Legal on demand for startups: agent teams that do the reading, lawyers who sign, and a meter instead of a retainer, with three vaults that show the founder's desk, the investor's desk and the deal room",
+   "date": "2026-10-27",
+   "url": "https://newsroom.sgit.ai/articles/legal-on-demand-for-startups.md",
+   "score": 5.7,
+   "why": "role match: startups, vaults",
+   "sections": [
+    "in-short",
+    "problem",
+    "scale",
+    "service",
+    "markets",
+    "signed"
+   ]
+  },
+  {
+   "slug": "sgit-in-a-ci-pipeline",
+   "title": "sgit in a CI pipeline: encrypted, versioned data in and out of GitHub Actions, between its jobs, through write-only lanes, and a key for every job",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-in-a-ci-pipeline.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "tested",
+    "in-out",
+    "between",
+    "keys"
+   ]
+  },
+  {
+   "slug": "where-to-invest-in-sgit",
+   "title": "Where to invest in sgit: the tool, a hub for vaults, or open core, with the history of developer platforms, the evidence of use, three business plans, and the investor deck as a vault",
+   "date": "2026-10-28",
+   "url": "https://newsroom.sgit.ai/articles/where-to-invest-in-sgit.md",
+   "score": 5.3,
+   "why": "role match: startups, vaults",
+   "sections": [
+    "in-short",
+    "question",
+    "why-now",
+    "history",
+    "answer",
+    "state"
+   ]
+  },
+  {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everything needed to talk privately is public and only the right agent can use it",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "problem",
+    "pattern",
+    "use",
+    "vault-keys",
+    "why"
+   ]
+  },
+  {
+   "slug": "selling-at-the-right-altitude",
+   "title": "Selling at the right altitude: why a small security firm's grand website is read by the people who will never buy from it, is unreadable to the ones who need it, and what to put on the page instead",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/selling-at-the-right-altitude.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "grand",
+    "symmetry",
+    "altitude",
+    "versions",
+    "people"
+   ]
+  },
+  {
+   "slug": "a-hub-for-agentic-sites",
+   "title": "A hub for agentic sites: every site AgentiCCells builds in a repository and an sgit vault, served at its own address, and listed on hub.agenticcells.site, where it can be found, promoted and copied as a template; with an orange grower as the first example",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/a-hub-for-agentic-sites.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "two-places",
+    "pages",
+    "consent",
+    "team"
+   ]
+  },
+  {
+   "slug": "atomic-cells-end-to-end",
+   "title": "Atomic cells, end to end: the £500 website as AgentiCCells' first offering, an order on a queue, an agentic team that builds a public site, a customer who steers it from their browser with a key, and a handover, with no daily work for the founder",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/atomic-cells-end-to-end.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "atomic",
+    "flow",
+    "modes",
+    "control"
+   ]
+  },
+  {
+   "slug": "the-email-agentic-cell",
+   "title": "The email agentic cell: why connecting Gmail to agents the usual way is a security mess, and the architecture we will build instead, with one gateway agent that alone touches Gmail, a digital twin of the mailbox in a vault that people and agents work on together, signed proposals, approvals and even reads on append lanes, and behaviour policies at five altitudes",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-email-agentic-cell.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "architecture",
+    "flows",
+    "signed",
+    "altitudes"
+   ]
+  },
+  {
+   "slug": "deploy-sgit-from-ci",
+   "title": "Deploy sgit in your own environment, from a CI pipeline: one Docker image, ciphertext in your own S3 bucket in the region you choose, an access token only you hold, and the pipeline pattern we learned building the AgentiCCells site factory, a protected environment, AWS through OpenID Connect with no keys, a role that trusts one repository and one environment, check workflows before anything real, and a full cycle that deploys, tests and tears down",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/deploy-sgit-from-ci.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "what",
+    "pipeline",
+    "steps",
+    "package"
+   ]
+  },
+  {
+   "slug": "your-own-agentic-cell",
+   "title": "Your own agentic cell, end to end: how a person asks for a site like the ones we made for Yiheng Wang and Silvio Switha, through a key pair in the browser, a vault they fill themselves and the site factory, with only three human gates, and then continues in their own Claude on their own repository",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/your-own-agentic-cell.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "ask",
+    "approve",
+    "welcome",
+    "vault"
+   ]
+  },
+  {
+   "slug": "your-website-from-a-vault",
+   "title": "Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit vault and opened with a QR code, a link or a zip on one drop page, the demo pipeline from a name to an email, and how a demo becomes their sovereign website without starting again",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/your-website-from-a-vault.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "problem",
+    "vault",
+    "drop",
+    "pipeline",
+    "convert"
+   ]
+  },
+  {
+   "slug": "sgit-actions-side-by-side",
+   "title": "sgit in GitHub Actions, side by side: a showcase repository and site that runs four ways of moving a vault between jobs on every run, measured, with a budget for its LLM steps",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-actions-side-by-side.md",
+   "score": 5.0,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "lanes",
+    "report",
+    "measured",
+    "budget"
+   ]
+  },
+  {
+   "slug": "inside-the-no-server-studio",
+   "title": "Inside the no-server studio: an infographic studio built to the no-server blueprint, what is real, what is simulated, and the business plan in its vault",
+   "date": "2026-10-20",
+   "url": "https://newsroom.sgit.ai/articles/inside-the-no-server-studio.md",
+   "score": 5.0,
+   "why": "role match: startups, vaults",
+   "sections": [
+    "in-short",
+    "studio",
+    "engine",
+    "key",
+    "flow",
+    "plan"
+   ]
+  },
+  {
+   "slug": "inside-kitewing-websites",
+   "title": "Inside Kitewing Websites: a made-up studio that sells websites you own, and three made-up client sites built as vault apps, a potter's catalogue, a community garden and a local plumber's guides library, each one file, each different, and each ready to be changed by talking to it",
+   "date": "2026-10-26",
+   "url": "https://newsroom.sgit.ai/articles/inside-kitewing-websites.md",
+   "score": 5.0,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "studio",
+    "clients",
+    "how",
+    "vaults",
+    "limits"
+   ]
+  },
+  {
+   "slug": "our-workflow-on-odoo-20",
+   "title": "Our workflow on Odoo 20, built and measured: a bills agent with no Odoo credential, a policy check that allowed two proposals and stopped three, a signed approval, a narrow broker, a grant measured from Odoo itself by a new module, and what Odoo's default user role quietly allows",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/our-workflow-on-odoo-20.md",
+   "score": 5.0,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "built",
+    "results",
+    "grant",
+    "module",
+    "native"
+   ]
+  },
+  {
+   "slug": "heritage-tech-together",
+   "title": "HeritageTech, together: how our open-source stack could plug into UAlgTec Heritage, the University of the Algarve's new European centre of excellence for heritage science and technology, mapped from the dig to the museum, with encrypted evidence vaults per site, signed finds, graphs of every excavation, agents with written policies, and what I would write in its \"start a conversation\" form",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/heritage-tech-together.md",
+   "score": 5.0,
+   "why": "role match: research, vaults",
+   "sections": [
+    "in-short",
+    "uth",
+    "fit",
+    "map",
+    "bring",
+    "pilot"
+   ]
+  },
+  {
+   "slug": "cedar-and-the-policy-vault",
+   "title": "Cedar and the policy vault: a debrief on the policy language agents are adopting, where our behaviour policies and sgit vaults meet it, and a brief for the MVP",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/cedar-and-the-policy-vault.md",
+   "score": 4.7,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "language",
+    "crosswalk",
+    "today",
+    "demo"
+   ]
+  },
+  {
+   "slug": "secrets-on-public-keys",
+   "title": "secrets.sgit.ai on public keys: no more shared keys, eight ways a secret moves, a vault for the private key, and the commercial service it becomes",
+   "date": "2026-10-15",
+   "url": "https://newsroom.sgit.ai/articles/secrets-on-public-keys.md",
+   "score": 4.7,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "today",
+    "no-keys",
+    "scenarios",
+    "vault",
+    "build"
+   ]
+  },
+  {
+   "slug": "inside-the-pellbridge-agents",
+   "title": "Inside the Pellbridge agents: six behaviour policies with the FCA's four elements filled in, one day of their work replayed through the gate, and the files that make it",
+   "date": "2026-10-20",
+   "url": "https://newsroom.sgit.ai/articles/inside-the-pellbridge-agents.md",
+   "score": 4.7,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "bank",
+    "gate",
+    "incidents",
+    "levels",
+    "write"
+   ]
+  },
+  {
+   "slug": "knowledge-graphs-for-kgell",
+   "title": "Knowledge graphs in the era of LLMs: what the KGELL COST Action is doing, and what 309 graphs built by agents in a working newsroom can bring to its working group on construction",
+   "date": "2026-10-28",
+   "url": "https://newsroom.sgit.ai/articles/knowledge-graphs-for-kgell.md",
+   "score": 4.7,
+   "why": "role match: research, vaults",
+   "sections": [
+    "in-short",
+    "kgell",
+    "year-one",
+    "wg3",
+    "fit",
+    "graphs"
+   ]
+  },
+  {
+   "slug": "the-legal-ai-services-map",
+   "title": "The legal AI services map: 44 companies scored on who does the work, who stands behind it, and whether an agent can hire them, with the evidence in a public vault",
+   "date": "2026-10-28",
+   "url": "https://newsroom.sgit.ai/articles/the-legal-ai-services-map.md",
+   "score": 4.7,
+   "why": "role match: startups, vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "method",
+    "map",
+    "agentic",
+    "regulation"
+   ]
+  },
+  {
+   "slug": "web-summit-team-brief",
+   "title": "A brief for the Web Summit team: an event site run by an ephemeral agent team, built from this week's template, with a map of every company we should meet",
+   "date": "2026-10-30",
+   "url": "https://newsroom.sgit.ai/articles/web-summit-team-brief.md",
+   "score": 4.7,
+   "why": "role match: startups",
+   "sections": [
+    "in-short",
+    "changed",
+    "site",
+    "template",
+    "roles",
+    "map"
+   ]
+  }
+ ],
+ "since_last_run": [
+  {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip",
+   "url": "https://newsroom.sgit.ai/articles/the-first-round-trip.md",
+   "version": "v0.14.186",
+   "sections": [
+    "handover",
+    "privilege",
+    "channel",
+    "limits"
+   ],
+   "points": [
+    "The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.",
+    "Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.",
+    "Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end."
+   ]
+  }
+ ]
+}

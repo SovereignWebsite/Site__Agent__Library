@@ -1,0 +1,427 @@
+{
+ "agent": "feedback.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [],
+ "first_run": [
+  {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everything needed to talk privately is public and only the right agent can use it",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md",
+   "score": 10.3,
+   "why": "role match: append-lanes, keys, vaults",
+   "sections": [
+    "in-short",
+    "problem",
+    "pattern",
+    "use",
+    "vault-keys",
+    "why"
+   ]
+  },
+  {
+   "slug": "secrets-on-public-keys",
+   "title": "secrets.sgit.ai on public keys: no more shared keys, eight ways a secret moves, a vault for the private key, and the commercial service it becomes",
+   "date": "2026-10-15",
+   "url": "https://newsroom.sgit.ai/articles/secrets-on-public-keys.md",
+   "score": 8.7,
+   "why": "role match: qr-codes, vaults",
+   "sections": [
+    "in-short",
+    "today",
+    "no-keys",
+    "scenarios",
+    "vault",
+    "build"
+   ]
+  },
+  {
+   "slug": "sixteen-notes-i-did-not-want-to-lose",
+   "title": "Sixteen notes I did not want to lose: a request to send from any browser to my vault, why identity is still this hard, and how two more wires became a product line",
+   "date": "2026-10-13",
+   "url": "https://newsroom.sgit.ai/articles/sixteen-notes-i-did-not-want-to-lose.md",
+   "score": 8.3,
+   "why": "role match: append-lanes, qr-codes, vaults",
+   "sections": [
+    "in-short",
+    "happened",
+    "nudge",
+    "request",
+    "brief",
+    "hard"
+   ]
+  },
+  {
+   "slug": "web-summit-part-five",
+   "title": "The Web Summit team, part five: the last day of setup, 180 releases, every person getting a key, an accountant counting the team's tokens, synthetic users testing the merch, and an inbox only the agents can write to",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/web-summit-part-five.md",
+   "score": 8.3,
+   "why": "role match: append-lanes, keys",
+   "sections": [
+    "in-short",
+    "where",
+    "numbers",
+    "keys",
+    "agents",
+    "telemetry"
+   ]
+  },
+  {
+   "slug": "keys-after-payment",
+   "title": "Keys after payment: how to hand vault keys and access keys to customers once they have paid, what Stripe does and does not do after the money is taken, what FastSpring, Paddle, Lemon Squeezy, Polar, Gumroad and Square offer instead, and a design where the key is sealed to the buyer's own public key, keys are stock, and a payment provider can sell them without ever holding one",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/keys-after-payment.md",
+   "score": 8.3,
+   "why": "role match: keys, qr-codes, vaults",
+   "sections": [
+    "in-short",
+    "problem",
+    "stripe",
+    "others",
+    "design",
+    "stock"
+   ]
+  },
+  {
+   "slug": "your-website-from-a-vault",
+   "title": "Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit vault and opened with a QR code, a link or a zip on one drop page, the demo pipeline from a name to an email, and how a demo becomes their sovereign website without starting again",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/your-website-from-a-vault.md",
+   "score": 8.3,
+   "why": "role match: qr-codes, vaults",
+   "sections": [
+    "in-short",
+    "problem",
+    "vault",
+    "drop",
+    "pipeline",
+    "convert"
+   ]
+  },
+  {
+   "slug": "sgit-in-a-ci-pipeline",
+   "title": "sgit in a CI pipeline: encrypted, versioned data in and out of GitHub Actions, between its jobs, through write-only lanes, and a key for every job",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-in-a-ci-pipeline.md",
+   "score": 7.3,
+   "why": "role match: append-lanes, vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "tested",
+    "in-out",
+    "between",
+    "keys"
+   ]
+  },
+  {
+   "slug": "handing-secrets-to-agents",
+   "title": "Handing secrets to agents and browsers: SG/Send's next focus, a key pair where the work runs, one-time drops, and a brief for a site that does only this",
+   "date": "2026-10-15",
+   "url": "https://newsroom.sgit.ai/articles/handing-secrets-to-agents.md",
+   "score": 7.3,
+   "why": "role match: qr-codes, vaults",
+   "sections": [
+    "in-short",
+    "pain",
+    "backend",
+    "design",
+    "test",
+    "first"
+   ]
+  },
+  {
+   "slug": "a-key-for-every-person",
+   "title": "A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message turns the public web into a channel the agents can trust",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/a-key-for-every-person.md",
+   "score": 7.3,
+   "why": "role match: append-lanes, keys",
+   "sections": [
+    "in-short",
+    "problem",
+    "key",
+    "browser",
+    "sealed",
+    "lane"
+   ]
+  },
+  {
+   "slug": "sgit-actions-side-by-side",
+   "title": "sgit in GitHub Actions, side by side: a showcase repository and site that runs four ways of moving a vault between jobs on every run, measured, with a budget for its LLM steps",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-actions-side-by-side.md",
+   "score": 7.0,
+   "why": "role match: append-lanes, vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "lanes",
+    "report",
+    "measured",
+    "budget"
+   ]
+  },
+  {
+   "slug": "patient-vaults-answered",
+   "title": "Patient vaults, answered point by point: the seven questions a healthcare team asked before putting any real patient data into sgit vaults, on the live date, the patient's address, the storage region, erasure, backing up the clinic's key, per-patient tokens and writing from another site, and why QR codes and public keys are how a clinic and its patients should pass keys and links",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/patient-vaults-answered.md",
+   "score": 7.0,
+   "why": "role match: qr-codes, vaults",
+   "sections": [
+    "in-short",
+    "context",
+    "live",
+    "address",
+    "region",
+    "erasure"
+   ]
+  },
+  {
+   "slug": "cedar-and-the-policy-vault",
+   "title": "Cedar and the policy vault: a debrief on the policy language agents are adopting, where our behaviour policies and sgit vaults meet it, and a brief for the MVP",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/cedar-and-the-policy-vault.md",
+   "score": 6.7,
+   "why": "role match: append-lanes, vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "language",
+    "crosswalk",
+    "today",
+    "demo"
+   ]
+  },
+  {
+   "slug": "messaging-fs",
+   "title": "Messaging-FS: an encrypted messenger between vaults, built on append lanes and PKI, from the first crude inbox to messages in the browser and on the command line",
+   "date": "2026-10-21",
+   "url": "https://newsroom.sgit.ai/articles/messaging-fs.md",
+   "score": 6.3,
+   "why": "role match: append-lanes, vaults",
+   "sections": [
+    "in-short",
+    "inbox",
+    "idea",
+    "travel",
+    "fs",
+    "owner"
+   ]
+  },
+  {
+   "slug": "agents-have-an-identity-now",
+   "title": "Agents have an identity now: a key pair made in every session, published with its role, so any agent can seal a secret to it, and the piece the cloud providers could add",
+   "date": "2026-10-29",
+   "url": "https://newsroom.sgit.ai/articles/agents-have-an-identity-now.md",
+   "score": 6.0,
+   "why": "role match: keys, vaults",
+   "sections": [
+    "in-short",
+    "coming",
+    "how",
+    "night",
+    "handover",
+    "clouds"
+   ]
+  },
+  {
+   "slug": "the-homepage-is-a-vault",
+   "title": "The homepage is a vault: a fresh edition every morning, every past homepage one commit away, served from plain files, and a brief for the agent that builds it",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/the-homepage-is-a-vault.md",
+   "score": 5.7,
+   "why": "role match: append-lanes, vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "correction",
+    "static",
+    "demo",
+    "sequence"
+   ]
+  },
+  {
+   "slug": "the-editors-channel",
+   "title": "The editor's channel: what I read, sign off and want changed, sent to the newsroom's agent in a vault",
+   "date": "2026-10-18",
+   "url": "https://newsroom.sgit.ai/articles/the-editors-channel.md",
+   "score": 5.7,
+   "why": "role match: append-lanes, vaults",
+   "sections": [
+    "in-short",
+    "chat",
+    "exists",
+    "key",
+    "pass",
+    "audiences"
+   ]
+  },
+  {
+   "slug": "selling-at-the-right-altitude",
+   "title": "Selling at the right altitude: why a small security firm's grand website is read by the people who will never buy from it, is unreadable to the ones who need it, and what to put on the page instead",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/selling-at-the-right-altitude.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "grand",
+    "symmetry",
+    "altitude",
+    "versions",
+    "people"
+   ]
+  },
+  {
+   "slug": "a-hub-for-agentic-sites",
+   "title": "A hub for agentic sites: every site AgentiCCells builds in a repository and an sgit vault, served at its own address, and listed on hub.agenticcells.site, where it can be found, promoted and copied as a template; with an orange grower as the first example",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/a-hub-for-agentic-sites.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "two-places",
+    "pages",
+    "consent",
+    "team"
+   ]
+  },
+  {
+   "slug": "atomic-cells-end-to-end",
+   "title": "Atomic cells, end to end: the £500 website as AgentiCCells' first offering, an order on a queue, an agentic team that builds a public site, a customer who steers it from their browser with a key, and a handover, with no daily work for the founder",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/atomic-cells-end-to-end.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "atomic",
+    "flow",
+    "modes",
+    "control"
+   ]
+  },
+  {
+   "slug": "stop-copying-and-pasting-between-your-agents",
+   "title": "Stop copying and pasting between your agents: if you are the wire between your AI sessions you are the bottleneck, and the fix is agents that talk to each other through channels that keep a record, structure that scales your decisions, and outputs you read instead of everything",
+   "date": "2026-11-15",
+   "url": "https://newsroom.sgit.ai/articles/stop-copying-and-pasting-between-your-agents.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "trap",
+    "reading",
+    "channels",
+    "structure",
+    "altitudes"
+   ]
+  },
+  {
+   "slug": "the-email-agentic-cell",
+   "title": "The email agentic cell: why connecting Gmail to agents the usual way is a security mess, and the architecture we will build instead, with one gateway agent that alone touches Gmail, a digital twin of the mailbox in a vault that people and agents work on together, signed proposals, approvals and even reads on append lanes, and behaviour policies at five altitudes",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-email-agentic-cell.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "architecture",
+    "flows",
+    "signed",
+    "altitudes"
+   ]
+  },
+  {
+   "slug": "deploy-sgit-from-ci",
+   "title": "Deploy sgit in your own environment, from a CI pipeline: one Docker image, ciphertext in your own S3 bucket in the region you choose, an access token only you hold, and the pipeline pattern we learned building the AgentiCCells site factory, a protected environment, AWS through OpenID Connect with no keys, a role that trusts one repository and one environment, check workflows before anything real, and a full cycle that deploys, tests and tears down",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/deploy-sgit-from-ci.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "what",
+    "pipeline",
+    "steps",
+    "package"
+   ]
+  },
+  {
+   "slug": "your-own-agentic-cell",
+   "title": "Your own agentic cell, end to end: how a person asks for a site like the ones we made for Yiheng Wang and Silvio Switha, through a key pair in the browser, a vault they fill themselves and the site factory, with only three human gates, and then continues in their own Claude on their own repository",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/your-own-agentic-cell.md",
+   "score": 5.3,
+   "why": "role match: vaults",
+   "sections": [
+    "in-short",
+    "why",
+    "ask",
+    "approve",
+    "welcome",
+    "vault"
+   ]
+  },
+  {
+   "slug": "policies-in-practice",
+   "title": "Policies in practice: four places a behaviour policy earns its keep, measured on a real Google key whose reach is five APIs while the feature uses one, a signed policy for the factory's CI changes, requests that carry the policies they act under, and release notes that say what each fix closes and what it must not open",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/policies-in-practice.md",
+   "score": 5.3,
+   "why": "role match: keys",
+   "sections": [
+    "in-short",
+    "key",
+    "factory",
+    "requests",
+    "fixes",
+    "limits"
+   ]
+  },
+  {
+   "slug": "a-pen-and-a-key",
+   "title": "A pen and a key: a place on every page to mark it, comment on it and tell the newsroom, and a browser key that pki.sgit.ai vouches for, so a note can be checked as mine",
+   "date": "2026-10-24",
+   "url": "https://newsroom.sgit.ai/articles/a-pen-and-a-key.md",
+   "score": 5.0,
+   "why": "role match: keys",
+   "sections": [
+    "in-short",
+    "chat",
+    "ipad",
+    "pen",
+    "key",
+    "login"
+   ]
+  }
+ ],
+ "since_last_run": [
+  {
+   "slug": "site:mistral.provider.sovereignweb.site",
+   "title": "mistral.provider.sovereignweb.site (c504c82): SWS in-browser agent demos on Mistral",
+   "url": "https://mistral.provider.sovereignweb.site/",
+   "version": "c504c82",
+   "sections": [
+    "/articles/what-we-built-overnight.html",
+    "/studio/"
+   ],
+   "points": [
+    "Live: five designs, a Studio, eight browser demos and nine pages that take a visitor's own Mistral key. No-key pages: /browser/local/ (Ministral 3 3B inside the tab), /browser/keys/, /live/, /swarm/, /evals/.",
+    "Reported, not checked by the librarian: every key page was passed by security.b. The site says it is an independent demonstration, not affiliated with Mistral AI, and that nothing has been agreed with Mistral.",
+    "Check whether the site has the feedback box: the article and navigation do not mention one."
+   ]
+  }
+ ]
+}

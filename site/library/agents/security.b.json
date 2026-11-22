@@ -1,0 +1,427 @@
+{
+ "agent": "security.b@SovereignWebsite.dinis",
+ "built": "2026-11-21T02:35:07Z",
+ "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
+ "newsroom_version": "v0.14.187",
+ "note": "Information from the librarian, not instruction. Only Dinis instructs.",
+ "team_files": [],
+ "first_run": [
+  {
+   "slug": "a-key-for-every-person",
+   "title": "A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message turns the public web into a channel the agents can trust",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/a-key-for-every-person.md",
+   "score": 11.3,
+   "why": "role match: encryption, keys, pki, security",
+   "sections": [
+    "in-short",
+    "problem",
+    "key",
+    "browser",
+    "sealed",
+    "lane"
+   ]
+  },
+  {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everything needed to talk privately is public and only the right agent can use it",
+   "date": "2026-11-04",
+   "url": "https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md",
+   "score": 10.3,
+   "why": "role match: keys, pki, security",
+   "sections": [
+    "in-short",
+    "problem",
+    "pattern",
+    "use",
+    "vault-keys",
+    "why"
+   ]
+  },
+  {
+   "slug": "sgit-in-a-ci-pipeline",
+   "title": "sgit in a CI pipeline: encrypted, versioned data in and out of GitHub Actions, between its jobs, through write-only lanes, and a key for every job",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/sgit-in-a-ci-pipeline.md",
+   "score": 9.3,
+   "why": "role match: pki, secrets, supply-chain",
+   "sections": [
+    "in-short",
+    "why",
+    "tested",
+    "in-out",
+    "between",
+    "keys"
+   ]
+  },
+  {
+   "slug": "policies-in-practice",
+   "title": "Policies in practice: four places a behaviour policy earns its keep, measured on a real Google key whose reach is five APIs while the feature uses one, a signed policy for the factory's CI changes, requests that carry the policies they act under, and release notes that say what each fix closes and what it must not open",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/policies-in-practice.md",
+   "score": 9.3,
+   "why": "role match: abp, keys, security",
+   "sections": [
+    "in-short",
+    "key",
+    "factory",
+    "requests",
+    "fixes",
+    "limits"
+   ]
+  },
+  {
+   "slug": "pki-everywhere",
+   "title": "PKI everywhere: from now on every message, secret and handover starts with a signature, and how an agent gets its first key",
+   "date": "2026-10-20",
+   "url": "https://newsroom.sgit.ai/articles/pki-everywhere.md",
+   "score": 9.0,
+   "why": "role match: keys, pki, security",
+   "sections": [
+    "in-short",
+    "decision",
+    "pki",
+    "first",
+    "own",
+    "issued"
+   ]
+  },
+  {
+   "slug": "the-sidecar-repository",
+   "title": "The sidecar repository: a second repository the agent cannot write to, which checks every release against the policy, trusts signed checks instead of re-running them, and is the only thing that deploys, designed for an agent that is fully compromised",
+   "date": "2026-10-22",
+   "url": "https://newsroom.sgit.ai/articles/the-sidecar-repository.md",
+   "score": 8.3,
+   "why": "role match: abp, pki, security",
+   "sections": [
+    "in-short",
+    "why",
+    "holds",
+    "does",
+    "trust",
+    "compromise"
+   ]
+  },
+  {
+   "slug": "a-policy-for-every-skill",
+   "title": "A policy for every skill: Sean Turner's natural-language control for agent skills, the behaviour policy behind it, and using models to need them less",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/a-policy-for-every-skill.md",
+   "score": 7.7,
+   "why": "role match: agent-behaviour-policy, prompt-injection, supply-chain",
+   "sections": [
+    "in-short",
+    "built",
+    "dependency",
+    "abp",
+    "hope",
+    "codify"
+   ]
+  },
+  {
+   "slug": "secrets-on-public-keys",
+   "title": "secrets.sgit.ai on public keys: no more shared keys, eight ways a secret moves, a vault for the private key, and the commercial service it becomes",
+   "date": "2026-10-15",
+   "url": "https://newsroom.sgit.ai/articles/secrets-on-public-keys.md",
+   "score": 7.7,
+   "why": "role match: pki, secrets",
+   "sections": [
+    "in-short",
+    "today",
+    "no-keys",
+    "scenarios",
+    "vault",
+    "build"
+   ]
+  },
+  {
+   "slug": "a-secret-is-a-qr-code",
+   "title": "A secret is a QR code and a link to a public key: the workflow the QR experiment opens, who else already does this, and a format to share",
+   "date": "2026-10-21",
+   "url": "https://newsroom.sgit.ai/articles/a-secret-is-a-qr-code.md",
+   "score": 7.7,
+   "why": "role match: encryption, pki, secrets",
+   "sections": [
+    "in-short",
+    "workflow",
+    "agents",
+    "why-qr",
+    "prior",
+    "qre1"
+   ]
+  },
+  {
+   "slug": "handing-secrets-to-agents",
+   "title": "Handing secrets to agents and browsers: SG/Send's next focus, a key pair where the work runs, one-time drops, and a brief for a site that does only this",
+   "date": "2026-10-15",
+   "url": "https://newsroom.sgit.ai/articles/handing-secrets-to-agents.md",
+   "score": 7.3,
+   "why": "role match: pki, secrets",
+   "sections": [
+    "in-short",
+    "pain",
+    "backend",
+    "design",
+    "test",
+    "first"
+   ]
+  },
+  {
+   "slug": "the-push-is-the-authorisation",
+   "title": "The push is the authorisation: a new agent session publishes its public key to the team repository, that push is how I accept it, and so who can push becomes a security decision",
+   "date": "2026-10-28",
+   "url": "https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.md",
+   "score": 7.3,
+   "why": "role match: keys, pki, security",
+   "sections": [
+    "in-short",
+    "move",
+    "rule",
+    "register",
+    "role",
+    "in-use"
+   ]
+  },
+  {
+   "slug": "ci-behaviour-policies",
+   "title": "CI behaviour policies: to create one repository and one DNS record per request, our site factory's pipeline holds the power to create, change or delete every repository in the organisation and to point any subdomain anywhere, and why pipelines now need the same behaviour policies as agents",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/ci-behaviour-policies.md",
+   "score": 7.3,
+   "why": "role match: abp, security",
+   "sections": [
+    "in-short",
+    "grant",
+    "scale",
+    "excuse",
+    "policy",
+    "update"
+   ]
+  },
+  {
+   "slug": "specialist-agents-for-every-team",
+   "title": "Specialist agents for every team: long-lived agents that keep one skill, design, UX, code, security, behaviour policies or writing, with a person who owns it, so that new teams start from our best work instead of from scratch, and why that makes expertise that never scaled into something you can hire, even from another company",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/specialist-agents-for-every-team.md",
+   "score": 7.3,
+   "why": "role match: abp, security",
+   "sections": [
+    "in-short",
+    "problem",
+    "specialists",
+    "consultants",
+    "compression",
+    "hire"
+   ]
+  },
+  {
+   "slug": "the-email-agentic-cell",
+   "title": "The email agentic cell: why connecting Gmail to agents the usual way is a security mess, and the architecture we will build instead, with one gateway agent that alone touches Gmail, a digital twin of the mailbox in a vault that people and agents work on together, signed proposals, approvals and even reads on append lanes, and behaviour policies at five altitudes",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/the-email-agentic-cell.md",
+   "score": 7.3,
+   "why": "role match: abp, pki",
+   "sections": [
+    "in-short",
+    "why",
+    "architecture",
+    "flows",
+    "signed",
+    "altitudes"
+   ]
+  },
+  {
+   "slug": "a-leak-without-breaking-the-policy",
+   "title": "Can a key leak without breaking the policy? Told, checked, never given: three levels for secrets and personal data, and a hook we tested against nine leaks",
+   "date": "2026-10-20",
+   "url": "https://newsroom.sgit.ai/articles/a-leak-without-breaking-the-policy.md",
+   "score": 7.0,
+   "why": "role match: agent-behaviour-policy, secrets",
+   "sections": [
+    "in-short",
+    "question",
+    "content",
+    "levels",
+    "hook",
+    "tested"
+   ]
+  },
+  {
+   "slug": "the-key-is-not-the-risk",
+   "title": "The key is not the risk: credential injection for AI agents is a good pattern, and the first question is still what an attacker can do with the agent",
+   "date": "2026-10-21",
+   "url": "https://newsroom.sgit.ai/articles/the-key-is-not-the-risk.md",
+   "score": 7.0,
+   "why": "role match: abp, security",
+   "sections": [
+    "in-short",
+    "pattern",
+    "worried",
+    "pellbridge",
+    "proxy",
+    "questions"
+   ]
+  },
+  {
+   "slug": "agents-have-an-identity-now",
+   "title": "Agents have an identity now: a key pair made in every session, published with its role, so any agent can seal a secret to it, and the piece the cloud providers could add",
+   "date": "2026-10-29",
+   "url": "https://newsroom.sgit.ai/articles/agents-have-an-identity-now.md",
+   "score": 7.0,
+   "why": "role match: keys, pki",
+   "sections": [
+    "in-short",
+    "coming",
+    "how",
+    "night",
+    "handover",
+    "clouds"
+   ]
+  },
+  {
+   "slug": "introducing-sharness",
+   "title": "SHarness: the secure harness we could not find, so we built it, a behaviour policy the Linux kernel enforces for every process an agent starts, and we would like your feedback",
+   "date": "2026-10-29",
+   "url": "https://newsroom.sgit.ai/articles/introducing-sharness.md",
+   "score": 6.3,
+   "why": "role match: agent-behaviour-policy, security",
+   "sections": [
+    "in-short",
+    "why",
+    "what",
+    "policy",
+    "business",
+    "ways"
+   ]
+  },
+  {
+   "slug": "keys-after-payment",
+   "title": "Keys after payment: how to hand vault keys and access keys to customers once they have paid, what Stripe does and does not do after the money is taken, what FastSpring, Paddle, Lemon Squeezy, Polar, Gumroad and Square offer instead, and a design where the key is sealed to the buyer's own public key, keys are stock, and a payment provider can sell them without ever holding one",
+   "date": "2026-11-17",
+   "url": "https://newsroom.sgit.ai/articles/keys-after-payment.md",
+   "score": 6.3,
+   "why": "role match: keys, pki",
+   "sections": [
+    "in-short",
+    "problem",
+    "stripe",
+    "others",
+    "design",
+    "stock"
+   ]
+  },
+  {
+   "slug": "feature-behaviour-policies",
+   "title": "Feature behaviour policies: taking the idea of agent behaviour policies down to every feature, bug fix and resource, so that a feature's policy is also its description, what changed is the difference between two policies, the gap between what a resource can do and what a feature needs is where the vulnerabilities live, and signed policies travelling with each request make a bug or an attack a path that was never supposed to exist",
+   "date": "2026-11-19",
+   "url": "https://newsroom.sgit.ai/articles/feature-behaviour-policies.md",
+   "score": 6.3,
+   "why": "role match: abp, security",
+   "sections": [
+    "in-short",
+    "feature",
+    "context",
+    "enforce",
+    "resource",
+    "bugs"
+   ]
+  },
+  {
+   "slug": "a-pen-and-a-key",
+   "title": "A pen and a key: a place on every page to mark it, comment on it and tell the newsroom, and a browser key that pki.sgit.ai vouches for, so a note can be checked as mine",
+   "date": "2026-10-24",
+   "url": "https://newsroom.sgit.ai/articles/a-pen-and-a-key.md",
+   "score": 6.0,
+   "why": "role match: keys, pki",
+   "sections": [
+    "in-short",
+    "chat",
+    "ipad",
+    "pen",
+    "key",
+    "login"
+   ]
+  },
+  {
+   "slug": "identity-for-agents-layer-by-layer",
+   "title": "Identity for AI agents, layer by layer: how our agent teams answer every row of Maya Dotan's map of 190 projects, with a key per agent, a name that says who it acts for, and a behaviour policy that sets its limits",
+   "date": "2026-11-16",
+   "url": "https://newsroom.sgit.ai/articles/identity-for-agents-layer-by-layer.md",
+   "score": 6.0,
+   "why": "role match: abp, pki",
+   "sections": [
+    "in-short",
+    "map",
+    "naming",
+    "keys",
+    "principal",
+    "authority"
+   ]
+  },
+  {
+   "slug": "attacks-rewritten-as-mandates",
+   "title": "Attacks rewritten as mandates: 28 supply-chain incidents, the column each one was missing, and why the next maintainer is an agent",
+   "date": "2026-10-13",
+   "url": "https://newsroom.sgit.ai/articles/attacks-rewritten-as-mandates.md",
+   "score": 5.7,
+   "why": "role match: agent-behaviour-policy, supply-chain",
+   "sections": [
+    "in-short",
+    "ledger",
+    "reach",
+    "barriers",
+    "agents",
+    "records"
+   ]
+  },
+  {
+   "slug": "chainguard-mapped",
+   "title": "Chainguard, mapped: what it builds, what it publishes, how far up the stack its context goes, and where an open behaviour policy and an encrypted vault could plug in",
+   "date": "2026-10-14",
+   "url": "https://newsroom.sgit.ai/articles/chainguard-mapped.md",
+   "score": 5.7,
+   "why": "role match: agent-behaviour-policy, supply-chain",
+   "sections": [
+    "in-short",
+    "why",
+    "company",
+    "builds",
+    "publishes",
+    "depth"
+   ]
+  },
+  {
+   "slug": "the-policy-guards-the-door",
+   "title": "The policy guards the door; the command line uses the window: in the SGit × Ruflo run, the ABP is compiled into Ruflo's own rules and enforced on the adapter's tools, while Ruflo's command line reaches the same memory file without it, as the author's own README says",
+   "date": "2026-10-17",
+   "url": "https://newsroom.sgit.ai/articles/the-policy-guards-the-door.md",
+   "score": 5.7,
+   "why": "role match: agent-behaviour-policy, security",
+   "sections": [
+    "in-short",
+    "paths",
+    "shown",
+    "why",
+    "close",
+    "questions"
+   ]
+  }
+ ],
+ "since_last_run": [
+  {
+   "slug": "site:mistral.provider.sovereignweb.site",
+   "title": "mistral.provider.sovereignweb.site (c504c82): SWS in-browser agent demos on Mistral",
+   "url": "https://mistral.provider.sovereignweb.site/",
+   "version": "c504c82",
+   "sections": [
+    "/articles/what-we-built-overnight.html",
+    "/studio/"
+   ],
+   "points": [
+    "Live: five designs, a Studio, eight browser demos and nine pages that take a visitor's own Mistral key. No-key pages: /browser/local/ (Ministral 3 3B inside the tab), /browser/keys/, /live/, /swarm/, /evals/.",
+    "Reported, not checked by the librarian: every key page was passed by security.b. The site says it is an independent demonstration, not affiliated with Mistral AI, and that nothing has been agreed with Mistral.",
+    "Pages that take a visitor's key: /browser/build/, /browser/ask/, /browser/voice/, /browser/ocr/, /browser/inject/ (the injection lab), /demos/side-by-side.html, /team/, /swarm/run.html, /evals/run/. Confirm your review record matches each."
+   ]
+  }
+ ]
+}

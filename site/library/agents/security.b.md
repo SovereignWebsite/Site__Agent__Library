@@ -1,0 +1,46 @@
+# Reading list: security.b
+
+Information from the librarian, not instruction. Only Dinis instructs.
+
+Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
+
+## Team files to read
+
+
+## First run: read these
+
+- [A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message ](https://newsroom.sgit.ai/articles/a-key-for-every-person.md) (2026-11-04). role match: encryption, keys, pki, security. Sections: in-short, problem, key, browser, sealed, lane
+- [An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, s](https://newsroom.sgit.ai/articles/an-inbox-only-your-agents-can-write-to.md) (2026-11-04). role match: keys, pki, security. Sections: in-short, problem, pattern, use, vault-keys, why
+- [sgit in a CI pipeline: encrypted, versioned data in and out of GitHub Actions, between its jobs, through write-only lanes, and a key for eve](https://newsroom.sgit.ai/articles/sgit-in-a-ci-pipeline.md) (2026-10-14). role match: pki, secrets, supply-chain. Sections: in-short, why, tested, in-out, between, keys
+- [Policies in practice: four places a behaviour policy earns its keep, measured on a real Google key whose reach is five APIs while the featur](https://newsroom.sgit.ai/articles/policies-in-practice.md) (2026-11-19). role match: abp, keys, security. Sections: in-short, key, factory, requests, fixes, limits
+- [PKI everywhere: from now on every message, secret and handover starts with a signature, and how an agent gets its first key](https://newsroom.sgit.ai/articles/pki-everywhere.md) (2026-10-20). role match: keys, pki, security. Sections: in-short, decision, pki, first, own, issued
+- [The sidecar repository: a second repository the agent cannot write to, which checks every release against the policy, trusts signed checks i](https://newsroom.sgit.ai/articles/the-sidecar-repository.md) (2026-10-22). role match: abp, pki, security. Sections: in-short, why, holds, does, trust, compromise
+- [A policy for every skill: Sean Turner's natural-language control for agent skills, the behaviour policy behind it, and using models to need ](https://newsroom.sgit.ai/articles/a-policy-for-every-skill.md) (2026-10-14). role match: agent-behaviour-policy, prompt-injection, supply-chain. Sections: in-short, built, dependency, abp, hope, codify
+- [secrets.sgit.ai on public keys: no more shared keys, eight ways a secret moves, a vault for the private key, and the commercial service it b](https://newsroom.sgit.ai/articles/secrets-on-public-keys.md) (2026-10-15). role match: pki, secrets. Sections: in-short, today, no-keys, scenarios, vault, build
+- [A secret is a QR code and a link to a public key: the workflow the QR experiment opens, who else already does this, and a format to share](https://newsroom.sgit.ai/articles/a-secret-is-a-qr-code.md) (2026-10-21). role match: encryption, pki, secrets. Sections: in-short, workflow, agents, why-qr, prior, qre1
+- [Handing secrets to agents and browsers: SG/Send's next focus, a key pair where the work runs, one-time drops, and a brief for a site that do](https://newsroom.sgit.ai/articles/handing-secrets-to-agents.md) (2026-10-15). role match: pki, secrets. Sections: in-short, pain, backend, design, test, first
+- [The push is the authorisation: a new agent session publishes its public key to the team repository, that push is how I accept it, and so who](https://newsroom.sgit.ai/articles/the-push-is-the-authorisation.md) (2026-10-28). role match: keys, pki, security. Sections: in-short, move, rule, register, role, in-use
+- [CI behaviour policies: to create one repository and one DNS record per request, our site factory's pipeline holds the power to create, chang](https://newsroom.sgit.ai/articles/ci-behaviour-policies.md) (2026-11-16). role match: abp, security. Sections: in-short, grant, scale, excuse, policy, update
+- [Specialist agents for every team: long-lived agents that keep one skill, design, UX, code, security, behaviour policies or writing, with a p](https://newsroom.sgit.ai/articles/specialist-agents-for-every-team.md) (2026-11-16). role match: abp, security. Sections: in-short, problem, specialists, consultants, compression, hire
+- [The email agentic cell: why connecting Gmail to agents the usual way is a security mess, and the architecture we will build instead, with on](https://newsroom.sgit.ai/articles/the-email-agentic-cell.md) (2026-11-16). role match: abp, pki. Sections: in-short, why, architecture, flows, signed, altitudes
+- [Can a key leak without breaking the policy? Told, checked, never given: three levels for secrets and personal data, and a hook we tested aga](https://newsroom.sgit.ai/articles/a-leak-without-breaking-the-policy.md) (2026-10-20). role match: agent-behaviour-policy, secrets. Sections: in-short, question, content, levels, hook, tested
+- [The key is not the risk: credential injection for AI agents is a good pattern, and the first question is still what an attacker can do with ](https://newsroom.sgit.ai/articles/the-key-is-not-the-risk.md) (2026-10-21). role match: abp, security. Sections: in-short, pattern, worried, pellbridge, proxy, questions
+- [Agents have an identity now: a key pair made in every session, published with its role, so any agent can seal a secret to it, and the piece ](https://newsroom.sgit.ai/articles/agents-have-an-identity-now.md) (2026-10-29). role match: keys, pki. Sections: in-short, coming, how, night, handover, clouds
+- [SHarness: the secure harness we could not find, so we built it, a behaviour policy the Linux kernel enforces for every process an agent star](https://newsroom.sgit.ai/articles/introducing-sharness.md) (2026-10-29). role match: agent-behaviour-policy, security. Sections: in-short, why, what, policy, business, ways
+- [Keys after payment: how to hand vault keys and access keys to customers once they have paid, what Stripe does and does not do after the mone](https://newsroom.sgit.ai/articles/keys-after-payment.md) (2026-11-17). role match: keys, pki. Sections: in-short, problem, stripe, others, design, stock
+- [Feature behaviour policies: taking the idea of agent behaviour policies down to every feature, bug fix and resource, so that a feature's pol](https://newsroom.sgit.ai/articles/feature-behaviour-policies.md) (2026-11-19). role match: abp, security. Sections: in-short, feature, context, enforce, resource, bugs
+- [A pen and a key: a place on every page to mark it, comment on it and tell the newsroom, and a browser key that pki.sgit.ai vouches for, so a](https://newsroom.sgit.ai/articles/a-pen-and-a-key.md) (2026-10-24). role match: keys, pki. Sections: in-short, chat, ipad, pen, key, login
+- [Identity for AI agents, layer by layer: how our agent teams answer every row of Maya Dotan's map of 190 projects, with a key per agent, a na](https://newsroom.sgit.ai/articles/identity-for-agents-layer-by-layer.md) (2026-11-16). role match: abp, pki. Sections: in-short, map, naming, keys, principal, authority
+- [Attacks rewritten as mandates: 28 supply-chain incidents, the column each one was missing, and why the next maintainer is an agent](https://newsroom.sgit.ai/articles/attacks-rewritten-as-mandates.md) (2026-10-13). role match: agent-behaviour-policy, supply-chain. Sections: in-short, ledger, reach, barriers, agents, records
+- [Chainguard, mapped: what it builds, what it publishes, how far up the stack its context goes, and where an open behaviour policy and an encr](https://newsroom.sgit.ai/articles/chainguard-mapped.md) (2026-10-14). role match: agent-behaviour-policy, supply-chain. Sections: in-short, why, company, builds, publishes, depth
+- [The policy guards the door; the command line uses the window: in the SGit × Ruflo run, the ABP is compiled into Ruflo's own rules and enforc](https://newsroom.sgit.ai/articles/the-policy-guards-the-door.md) (2026-10-17). role match: agent-behaviour-policy, security. Sections: in-short, paths, shown, why, close, questions
+
+## New since your last run
+
+### [mistral.provider.sovereignweb.site (c504c82): SWS in-browser agent demos on Mistral](https://mistral.provider.sovereignweb.site/) (c504c82)
+
+Read: /articles/what-we-built-overnight.html, /studio/
+
+- Live: five designs, a Studio, eight browser demos and nine pages that take a visitor's own Mistral key. No-key pages: /browser/local/ (Ministral 3 3B inside the tab), /browser/keys/, /live/, /swarm/, /evals/.
+- Reported, not checked by the librarian: every key page was passed by security.b. The site says it is an independent demonstration, not affiliated with Mistral AI, and that nothing has been agreed with Mistral.
+- Pages that take a visitor's key: /browser/build/, /browser/ask/, /browser/voice/, /browser/ocr/, /browser/inject/ (the injection lab), /demos/side-by-side.html, /team/, /swarm/run.html, /evals/run/. Confirm your review record matches each.
