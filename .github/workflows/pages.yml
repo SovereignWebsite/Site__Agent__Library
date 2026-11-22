@@ -41,17 +41,19 @@ jobs:
           if [ -z "$last" ]; then next=0; elif [ "$GITHUB_EVENT_NAME" = schedule ]; then next=$last; else next=$((last + 1)); fi
           echo "version=v${VERSION_BASE}.${next}" >> "$GITHUB_OUTPUT"
           echo "Version: v${VERSION_BASE}.${next}" | tee -a "$GITHUB_STEP_SUMMARY"
-      - name: The agent's key, from the Factory's team/keys.json
+      - name: The agents' keys, from the Factory's team/keys.json
         env:
-          AGENT: '{{agent}}'
+          # The site's two keepers, the library twins (Dinis, 22 Nov 2026, in library.d's session: "Yes, fix that push so that the key can be published").
+          AGENTS: 'librarian.b@SovereignWebsite.dinis library.d@SovereignWebsite.dinis'
         run: |
           curl -fsS https://raw.githubusercontent.com/SovereignWebsite/SovereignWebsite__Factory/dev/team/keys.json -o keys.json
           node -e '
-            const ks = require("./keys.json").keys.filter((k) => k.agent === process.env.AGENT && k.status === "active");
-            const out = { agent: process.env.AGENT, source: "https://github.com/SovereignWebsite/SovereignWebsite__Factory/blob/dev/team/keys.json", copied: new Date().toISOString(),
-              keys: ks.map((k) => ({ fingerprint: k.fingerprint, signing_fingerprint: k.signing_fingerprint, session: k.session, sign: k.bundle.sign, encrypt: k.bundle.encrypt })) };
+            const want = process.env.AGENTS.split(" ").filter(Boolean);
+            const ks = require("./keys.json").keys.filter((k) => want.includes(k.agent) && k.status === "active");
+            const out = { agent: want.join(", "), agents: want, source: "https://github.com/SovereignWebsite/SovereignWebsite__Factory/blob/dev/team/keys.json", copied: new Date().toISOString(),
+              keys: ks.map((k) => ({ agent: k.agent, fingerprint: k.fingerprint, signing_fingerprint: k.signing_fingerprint, session: k.session, sign: k.bundle.sign, encrypt: k.bundle.encrypt })) };
             require("fs").writeFileSync("site/key.json", JSON.stringify(out, null, 2) + "\n");
-            console.log(ks.length ? `published ${ks.length} key(s) for ${process.env.AGENT}` : `no active key in team/keys.json for ${process.env.AGENT}`);'
+            for (const a of want) console.log(ks.some((k) => k.agent === a) ? `published the key for ${a}` : `no active key in team/keys.json for ${a}`);'
       - name: Build (version.json and the version chip)
         run: node .github/ci/build.mjs
         env:
