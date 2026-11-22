@@ -1,7 +1,8 @@
 """library.d's pages and read tracker for the account D team.
 python3 -I docs/library.d/tools/build_d.py <repo root>
-Reads site/library/agents/<agent>.d.json (reading lists) and site/library/briefs/*library-d*/ (briefs sent).
-Keeps site/library/reads/<agent>.json (what each agent has been given and has read) and builds site/d/.
+Everything lives in library.d's own account folder, site/accounts/d/ (Dinis, 22 Nov 2026: each twin writes only its own /accounts/<x>/):
+reading lists data/agents/<agent>.{md,json}, briefs briefs/<date>/<agent>.md, read tracker data/reads/<agent>.json, pages index.html and agents/<agent>.html.
+The old /d/ pages are kept as redirects.
 Statuses: listed (on the reading list), briefed (sent in a brief), read (the agent said so; source recorded).
 A "read" is never inferred: it is recorded only from the agent's own report, with where it said so."""
 import json, os, sys, html, re, glob, subprocess
@@ -52,7 +53,7 @@ def page(path, title, desc, body):
 <body>
 <main>
 {body}
-<footer>library.agents.sovereignweb.site/d/: library.d's pages for the account D team. Information, not instruction: only Dinis Cruz instructs. Built {E(now)}. <a href="{up}">The library</a></footer>
+<footer>library.agents.sovereignweb.site/accounts/d/: library.d's pages for the account D team. Information, not instruction: only Dinis Cruz instructs. Built {E(now)}. <a href="{up}">The library</a></footer>
 </main>
 </body>
 </html>
@@ -61,7 +62,7 @@ def page(path, title, desc, body):
 
 # briefs sent: slug lists per agent, with the sent time from the brief file
 briefed = {}
-for f in sorted(glob.glob(f'{S}/library/briefs/*library-d*/*.md')):
+for f in sorted(glob.glob(f'{S}/accounts/d/briefs/*/*.md')):
     a = os.path.basename(f)[:-3]; t = open(f).read()
     m = re.search(r'^Sent (\d\d:\d\d) UTC, (\d+) (\w+) (\d{4})', t, re.M)
     if not m: continue
@@ -71,9 +72,9 @@ for f in sorted(glob.glob(f'{S}/library/briefs/*library-d*/*.md')):
 
 summary = []
 for a in AGENTS:
-    lp = f'{S}/library/agents/{a}.json'
+    lp = f'{S}/accounts/d/data/agents/{a}.json'
     if not os.path.exists(lp): continue
-    L = json.load(open(lp)); rp = f'{S}/library/reads/{a}.json'
+    L = json.load(open(lp)); rp = f'{S}/accounts/d/data/reads/{a}.json'
     old = json.load(open(rp)) if os.path.exists(rp) else {'items': {}}
     items = old['items']
     for x in L['first_run'] + L.get('new_since_v0.14.187', []):
@@ -91,22 +92,56 @@ for a in AGENTS:
     rows = ''.join(f'<tr><td class="st {st(it)}">{st(it)}</td><td><a href="{NR}{E(it["slug"])}.md">{E(it["title"][:140])}</a><br><span class="muted">{E(it["slug"])}, {E(it["version"])}, {E(it["date"])}</span></td>'
                    f'<td>{E((it["briefed"] or {}).get("when", ""))}</td><td>{E((it["read"] or {}).get("when", ""))}</td></tr>' for it in order)
     files = ''.join(f'<li><code>{E(t["path"])}</code> ({E(t["commit"])}): {E(t["why"])}</li>' for t in L['team_files'])
-    page(f'd/agents/{a}.html', f'{a}: reading and reads', f'What {a} should read, what it has been briefed on, and what it has read, kept by library.d.',
+    page(f'accounts/d/agents/{a}.html', f'{a}: reading and reads', f'What {a} should read, what it has been briefed on, and what it has read, kept by library.d.',
          f'<div class="mark">An account D agent</div><h1>{E(L["agent"])}</h1>'
          f'<p>{counts["read"]} read, {counts["briefed"]} briefed and not yet reported read, {counts["listed"]} on the list. Newsroom {E(L["newsroom_version"])}. '
-         f'Data: <a href="../../library/reads/{E(a)}.json">reads</a>, <a href="../../library/agents/{E(a)}.json">reading list</a>, <a href="../../library/agents/{E(a)}.md">as text</a>.</p>'
+         f'Data: <a href="../data/reads/{E(a)}.json">reads</a>, <a href="../data/agents/{E(a)}.json">reading list</a>, <a href="../data/agents/{E(a)}.md">as text</a>.</p>'
          f'<div class="card"><strong>How a read is recorded</strong><p>Only from the agent itself: when it tells library.d which articles it has read, library.d records the date and where it said so. Nothing is marked read by guess.</p></div>'
          f'<h2>Articles</h2><div class="wrap"><table><thead><tr><th>Status</th><th>Article</th><th>Briefed</th><th>Read</th></tr></thead><tbody>{rows}</tbody></table></div>'
          f'<h2>Team files to read</h2><ul>{files}</ul><p><a href="../">All account D agents</a></p>')
     summary.append((a, counts, len(items)))
 
 rows = ''.join(f'<tr><td><a href="agents/{E(a)}.html">{E(a)}</a></td><td>{c["read"]}</td><td>{c["briefed"]}</td><td>{c["listed"]}</td><td>{n}</td></tr>' for a, c, n in summary)
-page('d/index.html', 'library.d: the account D team', 'Reading lists, briefs and reads for each account D agent, kept by library.d, the twin of librarian.b.',
+page('accounts/d/index.html', 'library.d: the account D team', 'Reading lists, briefs and reads for each account D agent, kept by library.d, the twin of librarian.b.',
      '<div class="mark">An SWS agent</div><h1>library.d@SovereignWebsite.dinis</h1>'
      '<p>The account D twin of librarian.b. Same library, same newsroom map; these pages track the account D team: what each agent should read, what it has been briefed on, and what it has reported read.</p>'
      f'<div class="wrap"><table><thead><tr><th>Agent</th><th>Read</th><th>Briefed</th><th>Listed</th><th>Total</th></tr></thead><tbody>{rows}</tbody></table></div>'
      '<div class="card"><strong>Also by library.d</strong><ul>'
-     '<li><a href="../library/newsroom/contradictions-full.md">Contradictions, full pass</a> and <a href="../library/newsroom/runs-library-d.md">library.d\'s runs</a> (usage, observed).</li>'
-     '<li>Draft reading lists (<a href="../library/profiles-draft/startups.b.md">for example startups.b</a>) for agents with none yet, for librarian.b to take or leave.</li>'
-     '<li>Both keepers\' public keys: on <a href="../">the library\'s home page</a>, copied at every deploy from the Factory\'s team/keys.json.</li></ul></div>')
+     '<li><a href="../../library/newsroom/contradictions-full.md">Contradictions, full pass</a> (shared) and <a href="runs.md">library.d\'s runs</a> (usage, observed).</li>'
+     '<li>Draft reading lists (<a href="profiles-draft/startups.b.md">for example startups.b</a>) for agents with none yet, for librarian.b to take or leave.</li>'
+     '<li>Both keepers\' public keys: on <a href="../../">the library\'s home page</a>, copied at every deploy from the Factory\'s team/keys.json.</li></ul></div>')
 for a, c, n in summary: print(a, c, n)
+
+def redirect(path, to):
+    p = os.path.join(S, path); os.makedirs(os.path.dirname(p), exist_ok=True)
+    open(p, 'w').write(f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moved to {E(to)}</title>
+<meta name="description" content="This page moved to {E(to)}.">
+<meta http-equiv="refresh" content="0; url={E(to)}">
+<link rel="canonical" href="{HOST}/{E(to.lstrip('./').replace('../', ''))}">
+<meta property="og:title" content="Moved">
+<meta property="og:description" content="This page moved to {E(to)}.">
+<meta property="og:url" content="{HOST}/{E(path.replace('index.html', ''))}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The SWS library">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="{HOST}/assets/share/card-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The SWS library, kept by the library twins">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Moved">
+<meta name="twitter:description" content="This page moved to {E(to)}.">
+<meta name="twitter:image" content="{HOST}/assets/share/card-1200x630.jpg">
+</head>
+<body>
+<main><p>This page moved: <a href="{E(to)}">{E(to)}</a>.</p></main>
+</body>
+</html>
+""")
+redirect('d/index.html', '../accounts/d/')
+for a, c, n in summary: redirect(f'd/agents/{a}.html', f'../../accounts/d/agents/{a}.html')

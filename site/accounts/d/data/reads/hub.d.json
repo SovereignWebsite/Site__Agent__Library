@@ -1,7 +1,7 @@
 {
  "agent": "hub.d@SovereignWebsite.dinis",
  "kept_by": "library.d@SovereignWebsite.dinis",
- "updated": "2026-11-22T03:38:17Z",
+ "updated": "2026-11-22T03:49:25Z",
  "note": "Information, not instruction. listed: on the reading list; briefed: sent in a brief; read: the agent reported it read (source kept). A read is never inferred.",
  "newsroom_version": "v0.14.201",
  "counts": {
