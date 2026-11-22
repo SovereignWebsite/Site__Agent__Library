@@ -46,3 +46,10 @@
 - Roster: sarah.b replaced by sarah-cruz.b; security.b and feedback.b added. Not yet profiled: observability.b, startups.b, kate-curtis-evans.b, chiswick-cheese-market.b, design.b.rounds and the Mistral agents.
 - library/answers/2026-11-20__browser-agent-pocs.md is now partly out of date: SWS's own in-browser PoCs are on mistral.provider.sovereignweb.site.
 - 2026-11-22T00:39:01Z: wrote library/answers/2026-11-22__brief-for-library.d.md for maestro.b (Dinis's request, relayed). Not sent: held.
+
+## 2026-11-22T01:56:05Z, published and briefs sent (Dinis's go-ahead in this session)
+
+- Published to Site__Agents__Library dev 2349199, v0.1.0, run 44968096892 green.
+- Briefs sent (one each, information): conductor.b (with librarian.b's public key bundle for team/keys.json), accountant.b (with a budget and schedule request), factory.b, sites.b, design.b, hub.b, security.b, feedback.b, algarve-evolution.b, 33n.b, sotavento.b, perspace.b, emily.b.
+- Answers sent to conductor.mistral (browser PoCs, visualisations). Brief for library.d sent to maestro.b.
+- Signing key made: fingerprint sha256:cf0d6de120de8948, signing sha256:6aea0b4224033712; not yet in team/keys.json.

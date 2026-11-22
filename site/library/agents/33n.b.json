@@ -1,6 +1,6 @@
 {
  "agent": "33n.b@SovereignWebsite.dinis",
- "built": "2026-11-21T02:35:07Z",
+ "built": "2026-11-22T01:56:06Z",
  "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
  "newsroom_version": "v0.14.187",
  "note": "Information from the librarian, not instruction. Only Dinis instructs.",
@@ -433,23 +433,5 @@
    ]
   }
  ],
- "since_last_run": [
-  {
-   "slug": "the-first-round-trip",
-   "title": "The first round trip",
-   "url": "https://newsroom.sgit.ai/articles/the-first-round-trip.md",
-   "version": "v0.14.186",
-   "sections": [
-    "handover",
-    "privilege",
-    "channel",
-    "limits"
-   ],
-   "points": [
-    "The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.",
-    "Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.",
-    "Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end."
-   ]
-  }
- ]
+ "since_last_run": []
 }

@@ -1,6 +1,6 @@
 # Newsroom library index
 
-Built 2026-11-21T02:35:07Z from SGit-AI__Website__Newsroom dev at 533336255 (v0.14.187). 417 articles. Relevance is the librarian's SWS score (0 to 10), from tags and terms; it is a reading guide, not a judgement of the article.
+Built 2026-11-22T01:56:06Z from SGit-AI__Website__Newsroom dev at 533336255 (v0.14.187). 417 articles. Relevance is the librarian's SWS score (0 to 10), from tags and terms; it is a reading guide, not a judgement of the article.
 
 
 ## Sovereign Website and the appliance (30)

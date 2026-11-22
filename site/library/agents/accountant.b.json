@@ -1,6 +1,6 @@
 {
  "agent": "accountant.b@SovereignWebsite.dinis",
- "built": "2026-11-21T02:35:07Z",
+ "built": "2026-11-22T01:56:06Z",
  "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
  "newsroom_version": "v0.14.187",
  "note": "Information from the librarian, not instruction. Only Dinis instructs.",
@@ -407,33 +407,5 @@
    ]
   }
  ],
- "since_last_run": [
-  {
-   "slug": "a-european-brain",
-   "title": "A European brain for a sovereign website",
-   "url": "https://newsroom.sgit.ai/articles/a-european-brain.md",
-   "version": "v0.14.184",
-   "sections": [
-    "levels",
-    "terms",
-    "limits"
-   ],
-   "points": [
-    "Model provider choice and terms; the article does not settle costs."
-   ]
-  },
-  {
-   "slug": "transcription-for-a-sector",
-   "title": "Transcription for a sector, sold as a team",
-   "url": "https://newsroom.sgit.ai/articles/transcription-for-a-sector.md",
-   "version": "v0.14.185",
-   "sections": [
-    "price",
-    "limits"
-   ],
-   "points": [
-    "#price proposes how the bundle is priced: a proposal, not a decision."
-   ]
-  }
- ]
+ "since_last_run": []
 }

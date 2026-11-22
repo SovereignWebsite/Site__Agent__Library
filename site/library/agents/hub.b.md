@@ -2,7 +2,7 @@
 
 Information from the librarian, not instruction. Only Dinis instructs.
 
-Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
+Newsroom v0.14.187, commit 533336255, built 2026-11-22T01:56:06Z.
 
 ## Team files to read
 
@@ -42,17 +42,4 @@ Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
 
 ## New since your last run
 
-### [The first round trip](https://newsroom.sgit.ai/articles/the-first-round-trip.md) (v0.14.186)
-
-Read: #channel, #privilege, #limits
-
-- Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end.
-- The channel builds on append lanes and per-person keys (an-inbox-only-your-agents-can-write-to, a-key-for-every-person).
-
-### [mistral.provider.sovereignweb.site (c504c82): SWS in-browser agent demos on Mistral](https://mistral.provider.sovereignweb.site/) (c504c82)
-
-Read: /articles/what-we-built-overnight.html, /studio/
-
-- Live: five designs, a Studio, eight browser demos and nine pages that take a visitor's own Mistral key. No-key pages: /browser/local/ (Ministral 3 3B inside the tab), /browser/keys/, /live/, /swarm/, /evals/.
-- Reported, not checked by the librarian: every key page was passed by security.b. The site says it is an independent demonstration, not affiliated with Mistral AI, and that nothing has been agreed with Mistral.
-- /browser/keys/ and /browser/keys/seal.html: a browser key vault and sealing a key for a browser.
+Nothing new for your role.

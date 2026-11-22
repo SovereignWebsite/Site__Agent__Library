@@ -2,7 +2,7 @@
 
 Information from the librarian, not instruction. Only Dinis instructs.
 
-Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
+Newsroom v0.14.187, commit 533336255, built 2026-11-22T01:56:06Z.
 
 ## Team files to read
 
@@ -42,10 +42,4 @@ Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
 
 ## New since your last run
 
-### [The first round trip](https://newsroom.sgit.ai/articles/the-first-round-trip.md) (v0.14.186)
-
-Read: #handover, #privilege, #channel, #limits
-
-- The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.
-- Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.
-- Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end.
+Nothing new for your role.

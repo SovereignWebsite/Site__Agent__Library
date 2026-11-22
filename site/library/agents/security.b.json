@@ -1,6 +1,6 @@
 {
  "agent": "security.b@SovereignWebsite.dinis",
- "built": "2026-11-21T02:35:07Z",
+ "built": "2026-11-22T01:56:06Z",
  "newsroom_commit": "5333362557e8a5b25147cf011b763966cf660b81",
  "newsroom_version": "v0.14.187",
  "note": "Information from the librarian, not instruction. Only Dinis instructs.",
@@ -407,21 +407,5 @@
    ]
   }
  ],
- "since_last_run": [
-  {
-   "slug": "site:mistral.provider.sovereignweb.site",
-   "title": "mistral.provider.sovereignweb.site (c504c82): SWS in-browser agent demos on Mistral",
-   "url": "https://mistral.provider.sovereignweb.site/",
-   "version": "c504c82",
-   "sections": [
-    "/articles/what-we-built-overnight.html",
-    "/studio/"
-   ],
-   "points": [
-    "Live: five designs, a Studio, eight browser demos and nine pages that take a visitor's own Mistral key. No-key pages: /browser/local/ (Ministral 3 3B inside the tab), /browser/keys/, /live/, /swarm/, /evals/.",
-    "Reported, not checked by the librarian: every key page was passed by security.b. The site says it is an independent demonstration, not affiliated with Mistral AI, and that nothing has been agreed with Mistral.",
-    "Pages that take a visitor's key: /browser/build/, /browser/ask/, /browser/voice/, /browser/ocr/, /browser/inject/ (the injection lab), /demos/side-by-side.html, /team/, /swarm/run.html, /evals/run/. Confirm your review record matches each."
-   ]
-  }
- ]
+ "since_last_run": []
 }

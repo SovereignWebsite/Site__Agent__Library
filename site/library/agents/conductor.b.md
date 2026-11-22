@@ -2,7 +2,7 @@
 
 Information from the librarian, not instruction. Only Dinis instructs.
 
-Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
+Newsroom v0.14.187, commit 533336255, built 2026-11-22T01:56:06Z.
 
 ## Team files to read
 
@@ -37,23 +37,4 @@ Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
 
 ## New since your last run
 
-### [The first round trip](https://newsroom.sgit.ai/articles/the-first-round-trip.md) (v0.14.186)
-
-Read: #handover, #privilege, #channel, #limits
-
-- The first sovereign website handed to an outside founder: made during a call and handed over, and she now edits it herself.
-- Superseded in part: #privilege calls organisation membership (base permission none), as in board/workflow/2026-11-20__owner-handover.md, a workaround, not the design wanted.
-- Proposed in #channel: the owner talks to the site agent from the site itself (signed, sealed, append lane, key by QR). Its #limits: the message page is a first version, not yet tried end to end.
-
-### [A European brain for a sovereign website](https://newsroom.sgit.ai/articles/a-european-brain.md) (v0.14.184)
-
-Read: #choice, #levels, #limits
-
-- Proposed: the model is the owner's choice behind one OpenAI-style interface, with Mistral as the European option at every level, never the only door.
-- #levels: Ministral 3 on a Pi Pro is an estimate, still to test.
-
-### [Transcription for a sector, sold as a team](https://newsroom.sgit.ai/articles/transcription-for-a-sector.md) (v0.14.185)
-
-Read: #bundle, #team, #price, #limits
-
-- Proposed: sector transcription sold as a one-off bundle, a repository the customer's own AI runs, extending VoiceDebrief with what sovereign websites taught.
+Nothing new for your role.

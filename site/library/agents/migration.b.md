@@ -2,7 +2,7 @@
 
 Information from the librarian, not instruction. Only Dinis instructs.
 
-Newsroom v0.14.187, commit 533336255, built 2026-11-21T02:35:07Z.
+Newsroom v0.14.187, commit 533336255, built 2026-11-22T01:56:06Z.
 
 ## Team files to read
 
