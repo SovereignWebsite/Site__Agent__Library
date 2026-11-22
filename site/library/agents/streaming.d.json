@@ -1,0 +1,348 @@
+{
+ "agent": "streaming.d@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed; Streaming claim: no TMDB data; sites.b's docs/ stay sites.b's"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "programmatic-stories",
+   "title": "Programmatic stories: how the PrompTugal bulletins went from a 30-second text bulletin to twelve synthetic presenters on one 3D stage in two days, mov",
+   "date": "2026-11-21",
+   "version": "v0.14.199",
+   "score": 11.0,
+   "why": "role tags: promptugal, video, storytelling",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **These are experiments,** made in two days; the bulletins are not yet a daily habit. - **The library is a preview,** at version 0.1.0, until it is security reviewed and listed in the registry. - **Real voices will only be used with the person's agreement.**"
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 11.0,
+   "why": "role tags: sovereign-website, design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "every-tool-its-own-website",
+   "title": "Every tool its own website: turning the 49 browser tools of tools.sgraph.ai, each built because I had a problem, into sovereign websites of their own,",
+   "date": "2026-11-19",
+   "version": "v0.14.179",
+   "score": 9.5,
+   "why": "role tags: tools, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The tool sites do not exist yet,** beyond the factory's first requests. - **The signed-hash scheme is a design,** to be built and reviewed. - **The counts are from the repository on 19 November 2026,** whose last change was on 1 September."
+  },
+  {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 7.5,
+   "why": "role tags: sovereign-website, privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal;** the first persona has not been published yet. - **Anonymity is not guaranteed;** the triangulation test reduces the risk, it does not remove it. - **The kinds of link are a proposal,** to be added to the register."
+  },
+  {
+   "slug": "can-you-find-me",
+   "title": "Can you find me? A service that checks whether an anonymous profile can be traced back to its person before it is published, an agent team of six step",
+   "date": "2026-11-21",
+   "version": "v0.14.195",
+   "score": 7.5,
+   "why": "role tags: sovereign-website, privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing is built yet;** this is a design. - **A pass is not a guarantee:** a determined person with outside knowledge can still find what models miss. - **The narrowing estimate is a guess,** not a count of real people."
+  },
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "date": "2026-11-19",
+   "version": "v0.14.172",
+   "score": 7.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The sites we hand over today** carry a CLAUDE.md and a behaviour policy for one agent; the seven-role team in the repository is the next step, not yet built. - **The florist is an illustration,** not a customer, and the flow is not a timed run. - **The roles are a proposal** for the team buildin"
+  },
+  {
+   "slug": "designing-sovereignwebsite-ai",
+   "title": "Designing sovereignwebsite.ai: the brief for the team that will build the site of our first mass-market product, how the stack now has four layers, SG",
+   "date": "2026-11-19",
+   "version": "v0.14.171",
+   "score": 7.5,
+   "why": "role tags: sovereign-website, design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The designs are sketches** drawn for this brief, with placeholder colours and illustrative prices. - **The site, the self-check and the every-host pipeline do not exist yet.** - **The prices are the website cell's as published;** the launch offer is a proposal."
+  },
+  {
+   "slug": "every-story-has-an-address",
+   "title": "Every story has an address: a design proposal for PrompTugal.news as a ground-up newsroom, where news is filed where it happens and climbs to the regi",
+   "date": "2026-11-16",
+   "version": "v0.14.112",
+   "score": 7.0,
+   "why": "role tags: promptugal, design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **These are mockups,** images of a design proposal; the live site does not look like this yet. - **The content is real,** from the place agents' files on 16 November 2026; only the weather values in the live strip are samples. - **The map is schematic,** from town positions and borders added by ha"
+  },
+  {
+   "slug": "specialist-agents-for-every-team",
+   "title": "Specialist agents for every team: long-lived agents that keep one skill, design, UX, code, security, behaviour policies or writing, with a person who ",
+   "date": "2026-11-16",
+   "version": "v0.14.121",
+   "score": 7.0,
+   "why": "role tags: design, ux",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The specialist teams do not exist yet** as described; today, the newsroom's writing agent and our security reviewers are the closest examples. - **Hiring another company's agent is an idea,** not a product; it needs keys, lanes, policies and a way to pay that work across companies. - **\"The best"
+  },
+  {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "date": "2026-11-21",
+   "version": "v0.14.196",
+   "score": 6.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a plan;** nothing is built yet. - **The audience age is not decided;** the legal team will set it. - **Reviews reduce mistakes, they do not remove them;** every page links to its sources so readers can check."
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 6.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "a-team-like-this",
+   "title": "A team like this, for sale: what we sell is not the platform, it is the agentic team that built it, its roles, its behaviour policies, its security pa",
+   "date": "2026-11-18",
+   "version": "v0.14.158",
+   "score": 6.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No customer has bought a team like this yet;** our own team is the example. - **The list of people to talk to is a plan;** nobody on it has been approached for this. - **Prices are on agenticcells.ai,** most of them first proposals."
+  },
+  {
+   "slug": "a-book-told-by-its-cast",
+   "title": "A book told by its cast: how the nine agents of The Ultimate Insider became characters with moods, fears and running jokes, every trait from the recor",
+   "date": "2026-11-01",
+   "version": "v0.14.31",
+   "score": 6.0,
+   "why": "role tags: storytelling, design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is an experiment,** on the opening pages and the sample; the book is not yet written this way. - **The characters are of AI agents.** I am the only real person in them, at my word. - **The scenes are dramatised,** and say so; the record behind each is named on the page. - **The link to the st"
+  },
+  {
+   "slug": "hired-as-an-agentic-worker",
+   "title": "Hired as an agentic worker: what a sovereign website offers someone looking for a job, from a better CV that shows the depth of your work, you in acti",
+   "date": "2026-11-21",
+   "version": "v0.14.191",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The levels are a proposal;** the sites and the handover exist, the crash course does not yet. - **A site does not guarantee a job,** and no example is claimed to have got one."
+  },
+  {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** the site is independent and not endorsed by Mistral. - **The EU endpoint was not called with a real key,** and nothing was measured on a Raspberry Pi yet. - **Only Chromium was tested;** no real phone or microphone was used overnight. - **The evals are sma"
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "programmatic-stories",
+   "title": "Programmatic stories: how the PrompTugal bulletins went from a 30-second text bulletin to twelve synthetic presenters on one 3D stage in two days, mov",
+   "date": "2026-11-21",
+   "version": "v0.14.199",
+   "score": 11.0,
+   "why": "role tags: promptugal, video, storytelling",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **These are experiments,** made in two days; the bulletins are not yet a daily habit. - **The library is a preview,** at version 0.1.0, until it is security reviewed and listed in the registry. - **Real voices will only be used with the person's agreement.**"
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 11.0,
+   "why": "role tags: sovereign-website, design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 7.5,
+   "why": "role tags: sovereign-website, privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal;** the first persona has not been published yet. - **Anonymity is not guaranteed;** the triangulation test reduces the risk, it does not remove it. - **The kinds of link are a proposal,** to be added to the register."
+  },
+  {
+   "slug": "can-you-find-me",
+   "title": "Can you find me? A service that checks whether an anonymous profile can be traced back to its person before it is published, an agent team of six step",
+   "date": "2026-11-21",
+   "version": "v0.14.195",
+   "score": 7.5,
+   "why": "role tags: sovereign-website, privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing is built yet;** this is a design. - **A pass is not a guarantee:** a determined person with outside knowledge can still find what models miss. - **The narrowing estimate is a guess,** not a count of real people."
+  },
+  {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "date": "2026-11-21",
+   "version": "v0.14.196",
+   "score": 6.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a plan;** nothing is built yet. - **The audience age is not decided;** the legal team will set it. - **Reviews reduce mistakes, they do not remove them;** every page links to its sources so readers can check."
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 6.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "hired-as-an-agentic-worker",
+   "title": "Hired as an agentic worker: what a sovereign website offers someone looking for a job, from a better CV that shows the depth of your work, you in acti",
+   "date": "2026-11-21",
+   "version": "v0.14.191",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The levels are a proposal;** the sites and the handover exist, the crash course does not yet. - **A site does not guarantee a job,** and no example is claimed to have got one."
+  },
+  {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** the site is independent and not endorsed by Mistral. - **The EU endpoint was not called with a real key,** and nothing was measured on a Raspberry Pi yet. - **Only Chromium was tested;** no real phone or microphone was used overnight. - **The evals are sma"
+  }
+ ]
+}

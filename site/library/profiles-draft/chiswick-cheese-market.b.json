@@ -1,0 +1,296 @@
+{
+ "agent": "chiswick-cheese-market.b@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "a-hub-for-agentic-sites",
+   "title": "A hub for agentic sites: every site AgentiCCells builds in a repository and an sgit vault, served at its own address, and listed on hub.agenticcells.s",
+   "date": "2026-11-15",
+   "version": "v0.14.102",
+   "score": 11.0,
+   "why": "role tags: vaults, sgit, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The hub is a proposal,** briefed today to a new agentic team. - **Serving sites from vaults is being tested,** in parallel with GitHub Pages, not yet decided. - **The orange grower is made up,** an example played by me, with no real farm, prices or payments."
+  },
+  {
+   "slug": "how-a-vault-works",
+   "title": "How a vault works: an encrypted store that acts like a database, where a server that is fully compromised leaks nothing, one mutable file lets every o",
+   "date": "2026-11-03",
+   "version": "v0.14.50",
+   "score": 11.0,
+   "why": "role tags: vaults, sgit, encryption",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The details are from sgit-ai version 0.21.0's code,** read on 3 November 2026; formats are versioned and may change. - **Object ids can be 12 or 32 hex characters** depending on the vault's format version. - **The server still sees metadata:** how many objects there are, their sizes, and when th"
+  },
+  {
+   "slug": "inside-kitewing-websites",
+   "title": "Inside Kitewing Websites: a made-up studio that sells websites you own, and three made-up client sites built as vault apps, a potter's catalogue, a co",
+   "date": "2026-10-26",
+   "version": "v0.13.96",
+   "score": 11.0,
+   "why": "role tags: vaults, sgit, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Everything is made up:** the studio, the clients, the town, the people, the prices. - **The guides are sample text,** for a demonstration, not advice. - **The previews and the vaults hold the same files,** pushed on 26 October 2026. - **The prices are hypotheses,** from [websites you own](https:"
+  },
+  {
+   "slug": "what-sgit-does-that-git-does-not",
+   "title": "What sgit does that Git does not: ten releases in October, minutes turned into seconds, and an honest map of where Git is still ahead",
+   "date": "2026-10-27",
+   "version": "v0.13.112",
+   "score": 10.0,
+   "why": "role tags: vaults, sgit, encryption",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The timings are the CLI team's and the newsroom's own measurements,** not re-run for this article; the setting of each is stated above. - **The verdicts are against sgit-ai 0.26.0, and the section on where Git is ahead against 0.27.0,** with Git's and GitHub's documentation, read on 27 and 28 Oc"
+  },
+  {
+   "slug": "sgit-is-a-standard",
+   "title": "sgit is a standard, not a server: everything in a vault is one hash away, any storage can serve it, and the server is the least interesting part",
+   "date": "2026-10-16",
+   "version": "v0.12.80",
+   "score": 10.0,
+   "why": "role tags: vaults, sgit, encryption",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Not a formal standard.** No standards body; a documented format with two implementations. - **Not proven at Scion's scale.** The largest vault in daily use is about 35,000 objects and ten agents. - **No blame or bisect yet.** And a partial clone of a long history walks the commits one at a time "
+  },
+  {
+   "slug": "from-send-to-sgit",
+   "title": "From sending a file to sgit: eight months of SG/Send, told by its own briefs and commits, and how a file-sharing service became encrypted version cont",
+   "date": "2026-10-15",
+   "version": "v0.12.62",
+   "score": 10.0,
+   "why": "role tags: vaults, sgit, encryption",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **My memory was wrong in places.** The order, the length of the Git work, and nine months, which is eight. - **Usage is described, not counted.** The briefs say credits sat unused; I did not find usage figures. - **\"30 paying customers\"** appears only in an investor one-pager, and the team's libra"
+  },
+  {
+   "slug": "your-website-from-a-vault",
+   "title": "Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit vault and ",
+   "date": "2026-11-19",
+   "version": "v0.14.173",
+   "score": 9.5,
+   "why": "role tags: vaults, sgit",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **None of this is built yet;** the vault and its browser reading are, the drop page and the demo cell are not. - **A demo uses public information only,** is marked as a demo, and is shown only to the person it is about. - **The address is a proposal;** nothing has been registered for it."
+  },
+  {
+   "slug": "selling-at-the-right-altitude",
+   "title": "Selling at the right altitude: why a small security firm's grand website is read by the people who will never buy from it, is unreadable to the ones w",
+   "date": "2026-11-04",
+   "version": "v0.14.63",
+   "score": 9.0,
+   "why": "role tags: vaults, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Fenmoor Cyber, its town and its people are invented,** and so are the readers' reactions in the vault, which are my reading, not research. - **The curves in the first figure are illustrative;** the 9% and 39% are measured, for UK micro businesses in 2025. - **Some small firms do sell specialist "
+  },
+  {
+   "slug": "atomic-cells-end-to-end",
+   "title": "Atomic cells, end to end: the \u00a3500 website as AgentiCCells' first offering, an order on a queue, an agentic team that builds a public site, a customer",
+   "date": "2026-11-15",
+   "version": "v0.14.100",
+   "score": 8.0,
+   "why": "role tags: vaults, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The prices and the flow are a proposal:** the steps exist as pieces, and the end-to-end flow is being built now by AgentiCCells' own team. - **Public websites only,** for now. - **The no-touch mode runs on our accounts during the build,** and moves to the customer at handover; the \"no state on o"
+  },
+  {
+   "slug": "a-key-for-every-person",
+   "title": "A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message turns the ",
+   "date": "2026-11-04",
+   "version": "v0.14.62",
+   "score": 8.0,
+   "why": "role tags: sgit, encryption",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a working short-term design,** written by the team's agents in a day; it has had one security review, not an external audit. - **The two open findings are real:** until they are fixed, nothing truly sensitive is sealed to a person key. - **The cryptography is standard** (P-256, ECDH, HKDF-"
+  },
+  {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everythi",
+   "date": "2026-11-04",
+   "version": "v0.14.63",
+   "score": 8.0,
+   "why": "role tags: vaults, sgit",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The pattern is one evening old;** it was self-tested and used for real the same night, and has had no external review. - **Counts are from the team's repository** on the evening of 4 November. - **The people on the team are not named here.**"
+  },
+  {
+   "slug": "plural-for-the-family-singular-for-the-site",
+   "title": "Plural for the family, singular for the site: why the AWS site is aws.twin.sgit.ai, the naming rule behind it, and what it changes on the twins and pr",
+   "date": "2026-10-21",
+   "version": "v0.13.16",
+   "score": 8.0,
+   "why": "role tags: sgit, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **aws.twin.sgit.ai is not built.** The repository and the DNS record exist; the site does not. - **The renames have not happened.** The provider and game hosts still use the plural. - **The twins ruling is not changed yet.** The paragraph above is proposed. - **The hosting facts are GitHub's.** Fr"
+  },
+  {
+   "slug": "what-if-an-agent-loses-its-workspace",
+   "title": "What if an agent loses its workspace? Mondweep Chakravorty's SGit \u00d7 Ruflo proof of concept, step by step: memory saved encrypted, the project deleted,",
+   "date": "2026-10-17",
+   "version": "v0.12.90",
+   "score": 8.0,
+   "why": "role tags: vaults, sgit",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **From the screen and the code.** The audio was not transcribed; the code was read, not run, by this site. - **A proof of concept, not a product.** The video says so; reliability and real-world value are still to validate. - **Recall by meaning was not tested.** Exact recall was. - **The facts are"
+  },
+  {
+   "slug": "when-is-the-vault-actually-used",
+   "title": "When is the vault actually used? In Mondweep Chakravorty's SGit \u00d7 Ruflo run, the encrypted vault is written or read in three steps of twelve, on one m",
+   "date": "2026-10-17",
+   "version": "v0.12.90",
+   "score": 8.0,
+   "why": "role tags: vaults, sgit",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **From the screen and the code.** Where a diagram goes beyond both, the arrow is dashed and the text says inferred. - **Not a review of SGit's cryptography.** The tampered object is caught by the adapter's digest check, before decryption. - **Not a criticism of the run.** One machine is what a pro"
+  },
+  {
+   "slug": "research-delivered-as-a-vault",
+   "title": "Research, delivered as a vault: what companies that sell research could do with fractal graphs, behaviour policies for AI-enabled products, and evalua",
+   "date": "2026-10-16",
+   "version": "v0.12.81",
+   "score": 8.0,
+   "why": "role tags: vaults, sgit",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The example is synthetic.** The firm, the product, the buyer, the findings and the prices are invented. - **The evaluation run in it is illustrative.** It follows ruv.sgit's ledger format; it is not a real run. - **ruv.sgit is not automated end to end yet.** Its own page says a person starts and"
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "langgraph-and-us",
+   "title": "LangGraph and us: how the way we build agent pipelines maps to LangChain, LangGraph, LangSmith and the agent testing toolkits, what is the same, what ",
+   "date": "2026-11-21",
+   "version": "v0.14.192",
+   "score": 4.0,
+   "why": "role tags: vaults",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **We have not run LangGraph, Inspect or promptfoo in our pipelines yet;** the proposals above are to be tested. - **Versions and prices are as read on 21 November 2026.** - **The mapping is ours;** LangGraph's own features go beyond what is listed here."
+  },
+  {
+   "slug": "the-sgit-server-factory",
+   "title": "The SGit Server Factory, a brief: an agent and a pipeline that deploy SG/Send and sgit servers the way the site factory makes websites, a request file",
+   "date": "2026-11-21",
+   "version": "v0.14.191",
+   "score": 4.0,
+   "why": "role tags: sgit",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a brief;** nothing here has been built yet. - **The templates are beta,** with live-account validation still in progress. - **The request format and the account list are proposals,** to be settled in phase 1."
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 3.5,
+   "why": "role phrases: gated",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 3.0,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  }
+ ]
+}

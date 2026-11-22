@@ -1,0 +1,322 @@
+{
+ "agent": "mistral.promptugal@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "programmatic-stories",
+   "title": "Programmatic stories: how the PrompTugal bulletins went from a 30-second text bulletin to twelve synthetic presenters on one 3D stage in two days, mov",
+   "date": "2026-11-21",
+   "version": "v0.14.199",
+   "score": 11.0,
+   "why": "role tags: promptugal, bulletins, video",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **These are experiments,** made in two days; the bulletins are not yet a daily habit. - **The library is a preview,** at version 0.1.0, until it is security reviewed and listed in the registry. - **Real voices will only be used with the person's agreement.**"
+  },
+  {
+   "slug": "a-team-like-this",
+   "title": "A team like this, for sale: what we sell is not the platform, it is the agentic team that built it, its roles, its behaviour policies, its security pa",
+   "date": "2026-11-18",
+   "version": "v0.14.158",
+   "score": 6.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No customer has bought a team like this yet;** our own team is the example. - **The list of people to talk to is a plan;** nobody on it has been approached for this. - **Prices are on agenticcells.ai,** most of them first proposals."
+  },
+  {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 5.5,
+   "why": "role tags: mistral",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** the site is independent and not endorsed by Mistral. - **The EU endpoint was not called with a real key,** and nothing was measured on a Raspberry Pi yet. - **Only Chromium was tested;** no real phone or microphone was used overnight. - **The evals are sma"
+  },
+  {
+   "slug": "the-swarm-one-real-run-at-a-time",
+   "title": "The swarm, one real run at a time: the Web Summit demo that showed agents, the loops they start and the model calls they make, run for real, signed an",
+   "date": "2026-11-20",
+   "version": "v0.14.182",
+   "score": 5.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The runs are small,** on public data, and the costs are those recorded on the site. - **The Studio is a simulation:** real model calls in the browser, no enforcement. - **The harness is early beta,** and its findings include gaps not yet closed."
+  },
+  {
+   "slug": "a-european-brain",
+   "title": "A European brain for a sovereign website: why the model is a choice the owner makes, like the host, how Mistral fits at every level, from Ministral 3 ",
+   "date": "2026-11-20",
+   "version": "v0.14.184",
+   "score": 4.5,
+   "why": "role tags: mistral",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** this is a proposal. - **The fit on a Pi or a tablet is an estimate,** to be measured. - **Terms and prices are as Mistral's pages showed on 20 November 2026;** the retention detail was read partly through a search snippet. - **Corrected on 21 November:** t"
+  },
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "date": "2026-11-19",
+   "version": "v0.14.172",
+   "score": 4.5,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The sites we hand over today** carry a CLAUDE.md and a behaviour policy for one agent; the seven-role team in the repository is the next step, not yet built. - **The florist is an illustration,** not a customer, and the flow is not a timed run. - **The roles are a proposal** for the team buildin"
+  },
+  {
+   "slug": "start-stop-slow-down",
+   "title": "Start, stop, slow down: how I run a large team of agents and keep my hand on the brake, 8,027 commits in eighteen days, a big stop, a hand brake, 560 ",
+   "date": "2026-11-21",
+   "version": "v0.14.198",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The dollars are API-equivalent,** not money paid. - **Account A's spend ledger is not in the data,** only its commits. - **Some wake counts before 19 November are estimates,** as the data file says."
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 4.0,
+   "why": "role phrases: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "a-page-we-never-charge",
+   "title": "A page we never charge: how the PrompTugal agents found that YouTube's terms forbid charging to watch an embedded player, on the one site of ours that",
+   "date": "2026-11-19",
+   "version": "v0.14.164",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The page is not live yet.** It waits for rights@ to check the built page against C1 to C6. - **The times are commit times** in the repository; the agents' own notes sometimes give times a few minutes later, as their clocks ran ahead. - **Nothing here is legal advice,** and nothing is claimed abo"
+  },
+  {
+   "slug": "from-a-feed-to-meaning",
+   "title": "From a feed to meaning: what the Storm Charles site did with public data that our new data site does not do yet, finding a source, reading its terms, ",
+   "date": "2026-11-18",
+   "version": "v0.14.152",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The source sites are a proposal;** none is built yet. - **The six-hour gap** is what I saw at 08:50 on 18 November; it may be fixed by the time you read this. - **None of these sites is a warning service;** IPMA and ANEPC are."
+  },
+  {
+   "slug": "gaining-speed",
+   "title": "Gaining speed: a series on what happens when you productise the way you build, PrompTugal.news going from a newsroom at Web Summit to a data intellige",
+   "date": "2026-11-18",
+   "version": "v0.14.158",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Most of it is days old;** some sites are first versions or placeholders, and say so. - **The payout is simulated;** no money moves yet. - **Counts are as of 18 November 2026,** from the repositories and the live sites."
+  },
+  {
+   "slug": "paying-the-sources",
+   "title": "Paying the sources: the business model behind PrompTugal.news's data, a reader's money flowing back to the sources the reader actually read, worked ou",
+   "date": "2026-11-18",
+   "version": "v0.14.158",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No money moves yet;** the payout is a simulation, and its rules are mine to change. - **The weights are a first proposal.** - **Not every value carries a licence yet:** the work started today."
+  },
+  {
+   "slug": "ten-days-to-a-data-platform",
+   "title": "Ten days to a data platform: how PrompTugal.news went from a newsroom at Web Summit to twelve public data sources, a register of 92 sources read and n",
+   "date": "2026-11-18",
+   "version": "v0.14.158",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Some of today's sites are placeholders** or first versions, and say so. - **The cyber feeds are cleared, not yet collecting.** - **Commit counts are a measure of activity,** not of value."
+  },
+  {
+   "slug": "the-librarian",
+   "title": "The librarian: my favourite agent, and why a data platform needs a library at its heart, a catalogue of everything PrompTugal.news has read, each item",
+   "date": "2026-11-18",
+   "version": "v0.14.158",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The library is a day old,** with 78 items, mostly from the summit. - **Official legislation is not on its shelves yet.** - **The invitation to librarians is open;** nobody has joined yet."
+  },
+  {
+   "slug": "whose-event-is-it",
+   "title": "Whose event is it? Why Luma, Eventbrite, Meetup and Partiful will not let a site like PrompTugal.news show the public events their organisers want see",
+   "date": "2026-11-18",
+   "version": "v0.14.156",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is not legal advice;** several points, the reach of database right and whether terms bind a non-user, are unsettled. - **Some platform terms** were read from archives or summaries where the primary pages refused automated reading. - **No platform has answered yet;** the requests are drafted"
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "programmatic-stories",
+   "title": "Programmatic stories: how the PrompTugal bulletins went from a 30-second text bulletin to twelve synthetic presenters on one 3D stage in two days, mov",
+   "date": "2026-11-21",
+   "version": "v0.14.199",
+   "score": 11.0,
+   "why": "role tags: promptugal, bulletins, video",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **These are experiments,** made in two days; the bulletins are not yet a daily habit. - **The library is a preview,** at version 0.1.0, until it is security reviewed and listed in the registry. - **Real voices will only be used with the person's agreement.**"
+  },
+  {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 5.5,
+   "why": "role tags: mistral",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** the site is independent and not endorsed by Mistral. - **The EU endpoint was not called with a real key,** and nothing was measured on a Raspberry Pi yet. - **Only Chromium was tested;** no real phone or microphone was used overnight. - **The evals are sma"
+  },
+  {
+   "slug": "a-european-brain",
+   "title": "A European brain for a sovereign website: why the model is a choice the owner makes, like the host, how Mistral fits at every level, from Ministral 3 ",
+   "date": "2026-11-20",
+   "version": "v0.14.184",
+   "score": 4.5,
+   "why": "role tags: mistral",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** this is a proposal. - **The fit on a Pi or a tablet is an estimate,** to be measured. - **Terms and prices are as Mistral's pages showed on 20 November 2026;** the retention detail was read partly through a search snippet. - **Corrected on 21 November:** t"
+  },
+  {
+   "slug": "start-stop-slow-down",
+   "title": "Start, stop, slow down: how I run a large team of agents and keep my hand on the brake, 8,027 commits in eighteen days, a big stop, a hand brake, 560 ",
+   "date": "2026-11-21",
+   "version": "v0.14.198",
+   "score": 4.0,
+   "why": "role tags: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The dollars are API-equivalent,** not money paid. - **Account A's spend ledger is not in the data,** only its commits. - **Some wake counts before 19 November are estimates,** as the data file says."
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 4.0,
+   "why": "role phrases: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 3.5,
+   "why": "role phrases: promptugal",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  }
+ ]
+}

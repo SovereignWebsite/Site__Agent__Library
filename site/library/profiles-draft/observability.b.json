@@ -1,0 +1,296 @@
+{
+ "agent": "observability.b@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "sovereignty-you-can-move",
+   "title": "Sovereignty you can move: why where your data is hosted is not sovereignty, why being able to move the site, the data and the schema is, why that make",
+   "date": "2026-11-19",
+   "version": "v0.14.164",
+   "score": 8.0,
+   "why": "role tags: privacy, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Sovereignty is a set of possibilities, not a guarantee:** owning the files means you can move; it does not move them for you. - **The platforms' positions are from their pages and standard terms;** negotiated contracts may differ. - **The three-month ownership expectation is a soft requirement**"
+  },
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "date": "2026-11-19",
+   "version": "v0.14.172",
+   "score": 7.5,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The sites we hand over today** carry a CLAUDE.md and a behaviour policy for one agent; the seven-role team in the repository is the next step, not yet built. - **The florist is an illustration,** not a customer, and the flow is not a timed run. - **The roles are a proposal** for the team buildin"
+  },
+  {
+   "slug": "the-website-cell",
+   "title": "The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy, five des",
+   "date": "2026-11-17",
+   "version": "v0.14.146",
+   "score": 6.5,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been sold yet;** the examples are demos with consent. - **The prices of others come mostly from third-party trackers,** read on 17 November 2026; check before relying on them. - **The buyers' answers are a simulation,** not a survey. - **The partner terms are a first draft** until a "
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what",
+   "date": "2026-11-17",
+   "version": "v0.14.147",
+   "score": 6.0,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No partner has signed yet;** the terms are a first draft. - **Nothing has been sold;** the examples are demos with consent. - **The payment terms are a proposal,** agreed per partnership."
+  },
+  {
+   "slug": "php-daily-2026-10-23",
+   "title": "PHP October 2026, update 2: the story held, a site that watches its own readers, agents on a schedule, and the decisions that wait on me (23 October, ",
+   "date": "2026-10-24",
+   "version": "v0.13.66",
+   "score": 6.0,
+   "why": "role tags: observability",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **A snapshot, not a verdict.** As of 23:30 UTC on 23 October, from the status page and the day's commits. - **The story's numbers are the journalist's version 1.** Version 2 came after the snapshot. - **Telemetry counts are a floor.** Visitors with Do Not Track or a blocker send nothing; a session"
+  },
+  {
+   "slug": "sovereign-agentic-website",
+   "title": "Sovereign Agentic Website: the name for what we have been building, a website built by agents and owned by the person it is for, an open pattern anyon",
+   "date": "2026-11-19",
+   "version": "v0.14.170",
+   "score": 5.5,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The mock-ups are proposals;** the pattern's repository and the hosted service under the new name do not exist yet. - **Prices are the website cell's,** as published; the \u00a350 launch offer is a proposal. - **Sovereign, here, means owning and being able to move,** as defined in [sovereignty you can"
+  },
+  {
+   "slug": "the-site-factory-works",
+   "title": "The site factory works: three AgentiCCells sites made by hand, then one made by a commit in two minutes and thirty-nine seconds, live over https with ",
+   "date": "2026-11-16",
+   "version": "v0.14.116",
+   "score": 5.5,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Four sites have been made by the factory so far,** two of them tests (QA-1 and QA-2); QA-1's domain had to be re-checked by hand. - **The times are from the pipeline's own status files,** written back by the workflow. - **The factory makes public sites only,** on agenticcells.site; the vault ste"
+  },
+  {
+   "slug": "fliplet-and-the-website-cell",
+   "title": "Rent or own: Fliplet, an AI software builder advertised on the London Underground, against the AgentiCCells website cell, both building from a plain-l",
+   "date": "2026-11-19",
+   "version": "v0.14.164",
+   "score": 5.0,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Fliplet is described from its own website and standard terms,** read on 18 November 2026; a negotiated enterprise contract may differ. - **The two are not the same product:** Fliplet builds apps for organisations; the website cell builds sites people own. - **The three-month promise is a soft re"
+  },
+  {
+   "slug": "static-against-the-platforms",
+   "title": "Static against the platforms: why a static site in your own repository, edited by Claude and watched by a security agent, is a real alternative to Wor",
+   "date": "2026-11-18",
+   "version": "v0.14.148",
+   "score": 5.0,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The security figures come from vendors** that sell WordPress security, Patchstack, Wordfence and Sucuri; they are the best data there is, and they have an interest. - **No study measures static sites' security,** and I found none on how many features site owners use. - **The number of WordPress "
+  },
+  {
+   "slug": "selling-at-the-right-altitude",
+   "title": "Selling at the right altitude: why a small security firm's grand website is read by the people who will never buy from it, is unreadable to the ones w",
+   "date": "2026-11-04",
+   "version": "v0.14.63",
+   "score": 5.0,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Fenmoor Cyber, its town and its people are invented,** and so are the readers' reactions in the vault, which are my reading, not research. - **The curves in the first figure are illustrative;** the 9% and 39% are measured, for UK micro businesses in 2025. - **Some small firms do sell specialist "
+  },
+  {
+   "slug": "the-tokens-hook",
+   "title": "The tokens hook: a token behaviour policy that shows what every session reads, caches, writes and costs, why a prompt cannot do it, and a brief for to",
+   "date": "2026-10-15",
+   "version": "v0.12.57",
+   "score": 5.0,
+   "why": "role tags: observability",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **One tool, one version.** The hook ran in Claude Code 2.1.300; the transcript format is internal and may change. - **The prompt test was small.** Two turns each, one model; other models may guess where this one refused. - **Costs are at list prices.** Subscriptions, discounts and regional pricing"
+  },
+  {
+   "slug": "the-homepage-is-a-vault",
+   "title": "The homepage is a vault: a fresh edition every morning, every past homepage one commit away, served from plain files, and a brief for the agent that b",
+   "date": "2026-10-14",
+   "version": "v0.12.56",
+   "score": 5.0,
+   "why": "role tags: performance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The demo is local.** A local vault server and a local static server; the vault numbers count requests and bytes, not network time. - **The live timings are from this sandbox.** One location, medians of ten requests; readers elsewhere will see other numbers. - **The beacons and clicks were synthe"
+  },
+  {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 4.5,
+   "why": "role tags: privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal;** the first persona has not been published yet. - **Anonymity is not guaranteed;** the triangulation test reduces the risk, it does not remove it. - **The kinds of link are a proposal,** to be added to the register."
+  },
+  {
+   "slug": "can-you-find-me",
+   "title": "Can you find me? A service that checks whether an anonymous profile can be traced back to its person before it is published, an agent team of six step",
+   "date": "2026-11-21",
+   "version": "v0.14.195",
+   "score": 4.5,
+   "why": "role tags: privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing is built yet;** this is a design. - **A pass is not a guarantee:** a determined person with outside knowledge can still find what models miss. - **The narrowing estimate is a guess,** not a count of real people."
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 4.0,
+   "why": "role phrases: no tracking",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 4.5,
+   "why": "role tags: privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal;** the first persona has not been published yet. - **Anonymity is not guaranteed;** the triangulation test reduces the risk, it does not remove it. - **The kinds of link are a proposal,** to be added to the register."
+  },
+  {
+   "slug": "can-you-find-me",
+   "title": "Can you find me? A service that checks whether an anonymous profile can be traced back to its person before it is published, an agent team of six step",
+   "date": "2026-11-21",
+   "version": "v0.14.195",
+   "score": 4.5,
+   "why": "role tags: privacy",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing is built yet;** this is a design. - **A pass is not a guarantee:** a determined person with outside knowledge can still find what models miss. - **The narrowing estimate is a guess,** not a count of real people."
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 4.0,
+   "why": "role phrases: no tracking",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "date": "2026-11-21",
+   "version": "v0.14.196",
+   "score": 3.5,
+   "why": "role phrases: no tracking",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a plan;** nothing is built yet. - **The audience age is not decided;** the legal team will set it. - **Reviews reduce mistakes, they do not remove them;** every page links to its sources so readers can check."
+  }
+ ]
+}

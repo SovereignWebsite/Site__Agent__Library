@@ -1,0 +1,257 @@
+{
+ "agent": "design.b.rounds@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 10.0,
+   "why": "role tags: design, portfolios",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "specialist-agents-for-every-team",
+   "title": "Specialist agents for every team: long-lived agents that keep one skill, design, UX, code, security, behaviour policies or writing, with a person who ",
+   "date": "2026-11-16",
+   "version": "v0.14.121",
+   "score": 6.0,
+   "why": "role tags: design, ux",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The specialist teams do not exist yet** as described; today, the newsroom's writing agent and our security reviewers are the closest examples. - **Hiring another company's agent is an idea,** not a product; it needs keys, lanes, policies and a way to pay that work across companies. - **\"The best"
+  },
+  {
+   "slug": "designing-sovereignwebsite-ai",
+   "title": "Designing sovereignwebsite.ai: the brief for the team that will build the site of our first mass-market product, how the stack now has four layers, SG",
+   "date": "2026-11-19",
+   "version": "v0.14.171",
+   "score": 5.5,
+   "why": "role tags: design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The designs are sketches** drawn for this brief, with placeholder colours and illustrative prices. - **The site, the self-check and the every-host pipeline do not exist yet.** - **The prices are the website cell's as published;** the launch offer is a proposal."
+  },
+  {
+   "slug": "a-portfolio-with-a-film-first",
+   "title": "A portfolio with a film first: Silvio Switha's site, made in under an hour by the site factory and five design agents, with his music video in the fir",
+   "date": "2026-11-16",
+   "version": "v0.14.130",
+   "score": 5.5,
+   "why": "role tags: design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **A first version:** made with his permission; Silvio approves every change about him, and his own agent takes it from here. - **The timings are from the factory's status file and the site's commits;** the design time is the span of the design commits. - **The services are a proposal for him to co"
+  },
+  {
+   "slug": "a-website-that-is-her",
+   "title": "A website that is her: how Yiheng Wang's site was made in three passes in one evening, by the site factory, five design agents and then her own agent,",
+   "date": "2026-11-16",
+   "version": "v0.14.129",
+   "score": 5.5,
+   "why": "role tags: design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The site keeps changing:** it is hers now, and her agent edits it; the screenshots are from the evening of 16 November. - **The timings are from the factory's status file and the repository's commits;** the design time is the span of the design commits, not the whole session. - **The figures on "
+  },
+  {
+   "slug": "the-sovereign-website",
+   "title": "The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline, a website",
+   "date": "2026-11-19",
+   "version": "v0.14.164",
+   "score": 5.0,
+   "why": "role tags: design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a brief;** none of it is built yet, and the team's runs resume when I restart them. - **The ownership promise is a soft requirement** for now. - **The competitors are described from their own pages and standard terms.**"
+  },
+  {
+   "slug": "the-pitch",
+   "title": "The pitch: a site that looks better, that you own, that nobody can lock you into, that has almost nothing to attack, that costs once instead of every ",
+   "date": "2026-11-18",
+   "version": "v0.14.149",
+   "score": 5.0,
+   "why": "role tags: design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **These are mock-ups,** made by a designer agent today, not live pages. - **The conversation in \"Just say it\" is an illustration,** with an invented job. - **Nothing has been sold yet;** the examples are demos, named with consent. - **The vulnerability count is a vendor's,** Patchstack's."
+  },
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "date": "2026-11-19",
+   "version": "v0.14.172",
+   "score": 4.5,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The sites we hand over today** carry a CLAUDE.md and a behaviour policy for one agent; the seven-role team in the repository is the next step, not yet built. - **The florist is an illustration,** not a customer, and the flow is not a timed run. - **The roles are a proposal** for the team buildin"
+  },
+  {
+   "slug": "the-website-cell",
+   "title": "The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy, five des",
+   "date": "2026-11-17",
+   "version": "v0.14.146",
+   "score": 4.5,
+   "why": "role phrases: five designs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been sold yet;** the examples are demos with consent. - **The prices of others come mostly from third-party trackers,** read on 17 November 2026; check before relying on them. - **The buyers' answers are a simulation,** not a survey. - **The partner terms are a first draft** until a "
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what",
+   "date": "2026-11-17",
+   "version": "v0.14.147",
+   "score": 4.0,
+   "why": "role phrases: five designs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No partner has signed yet;** the terms are a first draft. - **Nothing has been sold;** the examples are demos with consent. - **The payment terms are a proposal,** agreed per partnership."
+  },
+  {
+   "slug": "web-summit-humans-and-their-agents",
+   "title": "The Web Summit team, part two: seven people, each with their own agent, a designer with little time, and every voice memo turned into a follow-up with",
+   "date": "2026-10-31",
+   "version": "v0.14.14",
+   "score": 4.0,
+   "why": "role tags: design",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a brief.** The personal CRMs, the shared ids and the hour-long loop are designed here; the email workflow and the CRM shape they build on run today at RiskMandate, and web-summit.sgit.ai's vaults exist but are empty. - **The people are not named.** The team's seven and the designer are des"
+  },
+  {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip: a sovereign website made for Kate Curtis-Evans during our call, five designs from a design agent of its own, then handed over so",
+   "date": "2026-11-20",
+   "version": "v0.14.186",
+   "score": 3.5,
+   "why": "role phrases: design round, five designs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **One founder, one afternoon.** The times are from the site's own history. - **The message page is a first version,** not yet tried end to end. - **The organisation membership is a workaround,** not the design we want."
+  },
+  {
+   "slug": "a-sovereign-website-on-a-raspberry-pi",
+   "title": "A sovereign website on a Raspberry Pi: the experiment of running the whole thing on one small box at home, a Raspberry Pi 5 with 16GB and 256GB, servi",
+   "date": "2026-11-19",
+   "version": "v0.14.177",
+   "score": 3.5,
+   "why": "role phrases: five designs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been run yet;** this is the plan, and the results will be published as they come. - **The tools named are candidates,** to be tested, not choices made. - **No claim is made about model speed or quality on a Pi** until we have measured it."
+  },
+  {
+   "slug": "sovereign-agentic-website",
+   "title": "Sovereign Agentic Website: the name for what we have been building, a website built by agents and owned by the person it is for, an open pattern anyon",
+   "date": "2026-11-19",
+   "version": "v0.14.170",
+   "score": 3.5,
+   "why": "role phrases: five designs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The mock-ups are proposals;** the pattern's repository and the hosted service under the new name do not exist yet. - **Prices are the website cell's,** as published; the \u00a350 launch offer is a proposal. - **Sovereign, here, means owning and being able to move,** as defined in [sovereignty you can"
+  },
+  {
+   "slug": "watch-your-website-being-built",
+   "title": "Watch your website being built: a brief for a page that builds a first version of a sovereign website in the visitor's own browser, from a description",
+   "date": "2026-11-19",
+   "version": "v0.14.176",
+   "score": 3.5,
+   "why": "role phrases: five designs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **None of this is built yet;** the X-ray and the voice-note demo ran at Web Summit, and the mock-ups here are sketches. - **The costs on the mock-up are invented,** and so are the budget tiers until a real run sets them. - **Running sgit fully in the browser** is to be confirmed. - **The policy gu"
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 10.0,
+   "why": "role tags: design, portfolios",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  }
+ ]
+}

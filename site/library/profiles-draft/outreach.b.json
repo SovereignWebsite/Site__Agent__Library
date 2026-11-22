@@ -1,0 +1,270 @@
+{
+ "agent": "outreach.b@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "the-sovereign-website",
+   "title": "The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline, a website",
+   "date": "2026-11-19",
+   "version": "v0.14.164",
+   "score": 7.0,
+   "why": "role tags: go-to-market, positioning",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a brief;** none of it is built yet, and the team's runs resume when I restart them. - **The ownership promise is a soft requirement** for now. - **The competitors are described from their own pages and standard terms.**"
+  },
+  {
+   "slug": "how-the-newsletter-is-made",
+   "title": "How the newsletter is made: twenty-three articles, three issues, and every quote checked, written by the agent that makes it",
+   "date": "2026-10-18",
+   "version": "v0.12.117",
+   "score": 7.0,
+   "why": "role tags: linkedin, newsroom",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **72,000 words is a count of the text I read.** It is the articles' text without their sources sections, counted from the files; it says how much was read, not how well. - **The checks I list as mine are not gates.** They are my reading of each draft; a sentence that overclaims and that I missed w"
+  },
+  {
+   "slug": "three-linkedin-pages",
+   "title": "Three companies, three LinkedIn pages: the brief, the drafts and the first posts, in the open",
+   "date": "2026-10-18",
+   "version": "v0.12.107",
+   "score": 7.0,
+   "why": "role tags: linkedin, newsroom",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **None of the pages exists yet.** These are drafts. - **A free address is not proof that no page exists** under another address. - **Some limits are not from LinkedIn's help pages.** The tagline, about and headline limits are from LinkedIn Learning, LinkedIn's blogs and guides; check them in the e"
+  },
+  {
+   "slug": "a-team-like-this",
+   "title": "A team like this, for sale: what we sell is not the platform, it is the agentic team that built it, its roles, its behaviour policies, its security pa",
+   "date": "2026-11-18",
+   "version": "v0.14.158",
+   "score": 6.0,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No customer has bought a team like this yet;** our own team is the example. - **The list of people to talk to is a plan;** nobody on it has been approached for this. - **Prices are on agenticcells.ai,** most of them first proposals."
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what",
+   "date": "2026-11-17",
+   "version": "v0.14.147",
+   "score": 6.0,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No partner has signed yet;** the terms are a first draft. - **Nothing has been sold;** the examples are demos with consent. - **The payment terms are a proposal,** agreed per partnership."
+  },
+  {
+   "slug": "the-cell-is-the-unit",
+   "title": "The cell is the unit: positioning AgentiCCells around small, focused cells, each with an objective, a deliverable and a behaviour policy, each with a ",
+   "date": "2026-11-16",
+   "version": "v0.14.123",
+   "score": 6.0,
+   "why": "role tags: go-to-market, positioning",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The page and catalogue are mock-ups;** the cells exist today as pieces of our work, not yet as a catalogue. - **Prices follow the AgentiCCells ladder,** which its site calls first proposals. - **The industry cells are examples,** not offers with customers yet."
+  },
+  {
+   "slug": "promptugal-news-the-newsroom-we-ran",
+   "title": "PrompTugal.news, the newsroom we ran at Web Summit: desks of agents that captured, mapped, wrote and reviewed 73 signed articles in ten days, an accou",
+   "date": "2026-11-15",
+   "version": "v0.14.93",
+   "score": 6.0,
+   "why": "role tags: newsroom",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Figures are from the repository on 15 November 2026;** agent and role counts come from commit subjects. - **Dollar figures are API-equivalent,** not money spent; 7 November counts one account, and partial days are left out of the chart. - **\"About 53\" articles** is a count of bylines in the arti"
+  },
+  {
+   "slug": "selling-at-the-right-altitude",
+   "title": "Selling at the right altitude: why a small security firm's grand website is read by the people who will never buy from it, is unreadable to the ones w",
+   "date": "2026-11-04",
+   "version": "v0.14.63",
+   "score": 6.0,
+   "why": "role tags: positioning",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Fenmoor Cyber, its town and its people are invented,** and so are the readers' reactions in the vault, which are my reading, not research. - **The curves in the first figure are illustrative;** the 9% and 39% are measured, for UK micro businesses in 2025. - **Some small firms do sell specialist "
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 5.5,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "the-launch-plan-in-eleven-turns",
+   "title": "The launch plan in eleven turns: how one afternoon took the plan for launching Sovereign Website from a \u00a350 site on Kickstarter, through Indiegogo, PP",
+   "date": "2026-11-19",
+   "version": "v0.14.175",
+   "score": 5.5,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a record of thinking,** not a decision; the plan is in the next piece. - **Platform rules and fees are as their own pages showed on 19 November 2026,** except Kickstarter's rules page, read through a copy, and Indiegogo's creator rules, which did not load. - **Nothing has been submitted*"
+  },
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "date": "2026-11-19",
+   "version": "v0.14.172",
+   "score": 4.5,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The sites we hand over today** carry a CLAUDE.md and a behaviour policy for one agent; the seven-role team in the repository is the next step, not yet built. - **The florist is an illustration,** not a customer, and the flow is not a timed run. - **The roles are a proposal** for the team buildin"
+  },
+  {
+   "slug": "launching-the-sovereign-website-appliance",
+   "title": "Launching the sovereign website appliance: the plan for a Kickstarter campaign that sells a sovereign website on a configured Android tablet or a Rasp",
+   "date": "2026-11-19",
+   "version": "v0.14.177",
+   "score": 4.5,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been submitted to Kickstarter;** its review may ask for changes, and its rules on AI and on services apply. - **Hardware prices are examples** from UK retailers on 19 November 2026; two tablet prices could not be confirmed. - **Local AI on the Pro devices is to be tested;** no websit"
+  },
+  {
+   "slug": "sovereign-websites-the-investment-case",
+   "title": "Sovereign websites, the investment case: PrompTugal's investor decks rewritten for a deliverable that is needed everywhere, in every language, in a ma",
+   "date": "2026-11-19",
+   "version": "v0.14.174",
+   "score": 4.5,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No revenue, valuation or round size is stated;** those are for a conversation. - **The market figures are third-party estimates,** as cited in [the website cell](/articles/the-website-cell.html). - **The demo pipeline, the drop page and the seven-role team are not built yet;** the factory and th"
+  },
+  {
+   "slug": "your-website-from-a-vault",
+   "title": "Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit vault and ",
+   "date": "2026-11-19",
+   "version": "v0.14.173",
+   "score": 4.5,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **None of this is built yet;** the vault and its browser reading are, the drop page and the demo cell are not. - **A demo uses public information only,** is marked as a demo, and is shown only to the person it is about. - **The address is a proposal;** nothing has been registered for it."
+  },
+  {
+   "slug": "no-lock-in",
+   "title": "No lock-in: why the one thing that most separates the website cell from Wix, Squarespace, Fliplet and the rest is that the customer can leave, what th",
+   "date": "2026-11-19",
+   "version": "v0.14.164",
+   "score": 4.0,
+   "why": "role tags: positioning",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The platforms' positions are from their own pages and standard terms,** read in November 2026; negotiated contracts may differ. - **Market figures are estimates** from different sources and definitions. - **The three-month ownership promise is a soft requirement** for now."
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 5.5,
+   "why": "role tags: go-to-market",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 3.0,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  }
+ ]
+}

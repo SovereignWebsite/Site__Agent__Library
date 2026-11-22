@@ -1,0 +1,16 @@
+{
+ "observability.b": [["analytics","observability","telemetry","privacy","performance","websites"],["traffic","analytics","no tracking","telemetry","page views"],[]],
+ "startups.b": [["startups","founders","go-to-market","portfolios","sovereign-website","websites"],["startup","brochure","founder"],[["board/workflow/2026-11-20__founder-and-personal-sites.md","founder and personal sites"]]],
+ "kate-curtis-evans.b": [["founders","careers","sovereign-website","portfolios","websites"],["founder","personal site","owner edit"],[["board/workflow/2026-11-20__founder-and-personal-sites.md","founder and personal sites"],["board/workflow/2026-11-20__owner-handover.md","owner handover (the-first-round-trip#privilege calls the membership a workaround)"]]],
+ "grace.b": [["design","portfolios","video","music","sovereign-website"],["artist","portfolio","gallery"],[["board/workflow/2026-11-20__owner-handover.md","owner handover"]]],
+ "south-beacon.b": [["careers","personas","privacy","identity","web-of-trust","anonymisation"],["anonymous profile","persona","talent"],[]],
+ "chiswick-cheese-market.b": [["vaults","sgit","encryption","websites"],["vault","gated","sealed vault"],[]],
+ "outreach.b": [["go-to-market","positioning","linkedin","marketing","newsroom"],["outreach","post","fact-check","enquiry"],[]],
+ "design.b.rounds": [["design","ux","portfolios","brand"],["design round","five designs","typography"],[]],
+ "conductor.mistral": [["mistral","europe","open-weight","models","agent-teams","hackathon"],["mistral","conductor","hackathon"],[]],
+ "mistral.local": [["mistral","models","open-weight","browser","webgpu"],["in the browser","ministral","webgpu","local model"],[]],
+ "mistral.promptugal": [["mistral","promptugal","bulletins","video"],["promptugal","bulletin"],[]],
+ "mistral.design": [["mistral","design","ux"],["design round","navigation","five designs"],[]],
+ "mistral.workflows": [["mistral","workflows","langgraph","agents","evals","graphs"],["workflow","universe","side by side"],[]],
+ "mistral.conductor": [["mistral","agent-teams","control","budgets"],["hourly loop","overnight","conductor"],[]]
+}

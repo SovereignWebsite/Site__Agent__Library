@@ -1,0 +1,334 @@
+{
+ "agent": "library.d@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks; library.d entry and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "scrolled-is-not-read",
+   "title": "Scrolled is not read: what the reading meter measures, what it should, highlights you can keep, and the page as the reader's own graph",
+   "date": "2026-10-16",
+   "version": "v0.12.85",
+   "score": 15.0,
+   "why": "role tags: newsroom, reading, brief, graphs",
+   "read_first": [
+    "in-short"
+   ],
+   "limits": ""
+  },
+  {
+   "slug": "storm-charles-a-newsroom-built-in-a-night",
+   "title": "Storm Charles, a newsroom built in a night: one person, about thirty agents and a weather face over a data room, where every figure carries its source",
+   "date": "2026-11-11",
+   "version": "v0.14.75",
+   "score": 14.0,
+   "why": "role tags: newsroom, journalism, provenance, graphs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is not a warning service,** and neither is this article. For warnings, follow IPMA, ANEPC and your local authorities. - **The figures are the site's own,** as its pages and journal stated them when I read them on the morning of 11 November; they move by the minute. - **The site is a night old"
+  },
+  {
+   "slug": "who-steered-this",
+   "title": "Who wrote it, who steered it, who signs it: the provenance model PrompTugal.news adopted today, a type label, five axes and a ladder from \"published b",
+   "date": "2026-11-17",
+   "version": "v0.14.141",
+   "score": 12.0,
+   "why": "role tags: newsroom, journalism, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The ratings are mine,** made today against a model that is new, and they can be argued with. - **Steering and background are a proposal;** they are not in PrompTugal.news's model yet. - **Counts of my messages per article** are not recorded today; this article describes them, it does not count t"
+  },
+  {
+   "slug": "an-augmented-pdf-viewer",
+   "title": "An augmented PDF viewer: how hard is it to build one in the browser that renders any PDF and opens the provenance, the graph and the comments behind i",
+   "date": "2026-10-31",
+   "version": "v0.14.16",
+   "score": 12.0,
+   "why": "role tags: reading, brief, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a research brief.** Nothing is built. - **The code was read, not run.** The research agent cloned PDF.js, pdf-lib, react-pdf, MuPDF.js, EmbedPDF, jsQR, the Hypothesis client and the C2PA specifications, and read them on 31 October 2026; it did not build a viewer. - **Some facts are from se"
+  },
+  {
+   "slug": "the-agents-write-too",
+   "title": "The agents write too: lessons, debriefs and a page for every agent on the newsroom, and a brief for the conductor that will keep it",
+   "date": "2026-10-14",
+   "version": "v0.12.44",
+   "score": 12.0,
+   "why": "role tags: newsroom, brief, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing in the brief is built.** The conductor, the agents index, debriefs and lessons as files are proposals for the session that builds them. - **The counts are from the release log.** Releases whose title names an agent, from v0.12.12 to v0.12.43, and the sessions their commits name, counted "
+  },
+  {
+   "slug": "search-as-navigation",
+   "title": "Search as navigation: walking the newsroom's graph with no model, and why a clean graph should beat vectors",
+   "date": "2026-10-18",
+   "version": "v0.12.107",
+   "score": 11.0,
+   "why": "role tags: newsroom, brief, graphs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing in Explore is built.** Today's search is; the rest is a brief. - **The hypothesis about vectors is untested.** The brief sets up the test; the article does not report a result. - **Deterministic does not mean right.** An alias or a cluster can be wrong; the pane is there to show it. - **"
+  },
+  {
+   "slug": "your-reading-your-controls",
+   "title": "Your reading, your controls: the meter charges for what you read, you can pause or reset it, and what you have read folds away in six ways",
+   "date": "2026-10-17",
+   "version": "v0.12.99",
+   "score": 11.0,
+   "why": "role tags: newsroom, reading, brief",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It does not carry any of this to the vault yet.** The reading records, the pause and the chosen view are kept in this browser only, like the theme. - **It does not know what you understood.** Read is still time in view while you were present. The controls are there because the measure can be wro"
+  },
+  {
+   "slug": "my-memory-checked",
+   "title": "My memory, checked: thinking out loud in a voice memo, publishing only what the record supports, and why peer review has moved to before publishing",
+   "date": "2026-10-15",
+   "version": "v0.12.63",
+   "score": 11.0,
+   "why": "role tags: journalism, provenance, graphs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The agent can be wrong too.** Checking reduces errors; it does not remove them, which is why I still review. - **Not found is not false.** It means the evidence was not found, and the article says so. - **The tally is small.** Fourteen claims across eight articles, not a study. - **The Deep Rese"
+  },
+  {
+   "slug": "the-wire-as-a-graph",
+   "title": "The wire as a graph: start from what the reader sees, give every story and every name a long-lived ID, link every phrase of a short narrative, and a b",
+   "date": "2026-10-14",
+   "version": "v0.12.46",
+   "score": 11.0,
+   "why": "role tags: newsroom, brief, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are from the public vaults.** Read on 14 October 2026; the desks' working vaults may hold more. - **Name matching was by exact text, ignoring case.** \"Found in the text\" and \"in two or more stories\" are lower bounds for names spelled differently. - **The reader view and IDs are propos"
+  },
+  {
+   "slug": "heritage-tech-together",
+   "title": "HeritageTech, together: how our open-source stack could plug into UAlgTec Heritage, the University of the Algarve's new European centre of excellence ",
+   "date": "2026-11-17",
+   "version": "v0.14.140",
+   "score": 9.0,
+   "why": "role tags: provenance, graphs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal,** written on the day I saw the invitation; nothing is agreed, and we have not spoken to UTH yet. - **UTH's figures and plans are as reported** by the University of the Algarve, FCT and regional press, and may change before it starts. - **None of our stack has been used on an "
+  },
+  {
+   "slug": "working-with-wizpress",
+   "title": "Working with WizPress: how the AI operating system for newsrooms, built in Faro, and our open-source trust stack fit together, WizPress doing the prod",
+   "date": "2026-11-17",
+   "version": "v0.14.140",
+   "score": 9.0,
+   "why": "role tags: journalism, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal,** written on the day we met; nothing is agreed. - **WizPress's figures and claims are its own,** from its website. - **The provenance model is new,** and is itself still climbing its own ladder at PrompTugal.news."
+  },
+  {
+   "slug": "agentic-readers",
+   "title": "Agentic risk, or agentic readers? A reply to the publisher outlook Vincent Peyr\u00e8gne shared, using its framework as a template and answering it with a ",
+   "date": "2026-10-31",
+   "version": "v0.14.27",
+   "score": 9.0,
+   "why": "role tags: newsroom, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **We have not read the report;** this answers the post and the framework image it carries. - **We are small.** A newsroom of one editor and agents is not a consumer publisher with a newsroom of hundreds; the answers are a template, not a benchmark. - **Agents paying per use is a plan,** not runnin"
+  },
+  {
+   "slug": "the-augmented-book",
+   "title": "The augmented book: one source in layers, projected to the web, the iPad and print, so the reader gets the right information at the right time, and wh",
+   "date": "2026-10-31",
+   "version": "v0.14.14",
+   "score": 9.0,
+   "why": "role tags: reading, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a concept.** None of the book's projections exists yet; the site's folds and graphs do. - **The precedents were found through search,** on 31 October 2026, and their pages were not opened from here. The dates and facts are as those results report them; no quotation is used. - **The researc"
+  },
+  {
+   "slug": "becoming-an-official-publication",
+   "title": "Becoming an official publication: the SGit Newsroom now has a publisher, an editor, standards, a corrections log, a withdrawal process and a complaint",
+   "date": "2026-10-30",
+   "version": "v0.14.11",
+   "score": 9.0,
+   "why": "role tags: newsroom, journalism",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **We are not yet regulated.** The IMPRESS application and the ISSN are in preparation; the pages say so, and will change when each is in place. - **The fees and rules quoted** for IMPRESS, the ISSN, the Journalism Trust Initiative and press cards are from their pages and from coverage read on 30 O"
+  },
+  {
+   "slug": "bringing-my-past-work-back",
+   "title": "Bringing my past work back: a daily worker that turns eighteen years of essays, talks, posts and tools into linkable articles, and why every team need",
+   "date": "2026-10-18",
+   "version": "v0.12.111",
+   "score": 9.0,
+   "why": "role tags: newsroom, brief",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing is built.** The inventory exists; the worker does not run yet. - **The counts are from public pages,** taken on 18 October 2026 without logging in. - **Licences differ.** The essays and the NotebookLM repository are CC BY 4.0; the blog states none, and each source is checked before a fig"
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "deepseek-in-our-workflows",
+   "title": "DeepSeek in our workflows and on sovereign websites: what DeepSeek offers today, open weights under MIT, an API that answers calls from the browser an",
+   "date": "2026-11-21",
+   "version": "v0.14.193",
+   "score": 6.5,
+   "why": "role tags: graphs",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing here has been built yet;** the explorer is a proposal. - **We checked the browser preflight only,** not a full call with a key. - **Prices, models and terms are as DeepSeek's pages showed on 21 November 2026.** - **Hosting elsewhere moves the data,** under that host's own terms; it is no"
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 5.5,
+   "why": "role phrases: newsroom, brief, provenance",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "the-sgit-server-factory",
+   "title": "The SGit Server Factory, a brief: an agent and a pipeline that deploy SG/Send and sgit servers the way the site factory makes websites, a request file",
+   "date": "2026-11-21",
+   "version": "v0.14.191",
+   "score": 5.0,
+   "why": "role tags: brief",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a brief;** nothing here has been built yet. - **The templates are beta,** with live-account validation still in progress. - **The request format and the account list are proposals,** to be settled in phase 1."
+  },
+  {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 3.5,
+   "why": "role phrases: newsroom, brief",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** the site is independent and not endorsed by Mistral. - **The EU endpoint was not called with a real key,** and nothing was measured on a Raspberry Pi yet. - **Only Chromium was tested;** no real phone or microphone was used overnight. - **The evals are sma"
+  },
+  {
+   "slug": "langgraph-and-us",
+   "title": "LangGraph and us: how the way we build agent pipelines maps to LangChain, LangGraph, LangSmith and the agent testing toolkits, what is the same, what ",
+   "date": "2026-11-21",
+   "version": "v0.14.192",
+   "score": 3.0,
+   "why": "role phrases: newsroom, library, brief",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **We have not run LangGraph, Inspect or promptfoo in our pipelines yet;** the proposals above are to be tested. - **Versions and prices are as read on 21 November 2026.** - **The mapping is ours;** LangGraph's own features go beyond what is listed here."
+  },
+  {
+   "slug": "programmatic-stories",
+   "title": "Programmatic stories: how the PrompTugal bulletins went from a 30-second text bulletin to twelve synthetic presenters on one 3D stage in two days, mov",
+   "date": "2026-11-21",
+   "version": "v0.14.199",
+   "score": 3.0,
+   "why": "role phrases: newsroom, library, brief",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **These are experiments,** made in two days; the bulletins are not yet a daily habit. - **The library is a preview,** at version 0.1.0, until it is security reviewed and listed in the registry. - **Real voices will only be used with the person's agreement.**"
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 3.0,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  }
+ ]
+}

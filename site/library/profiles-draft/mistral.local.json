@@ -1,0 +1,309 @@
+{
+ "agent": "mistral.local@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "a-european-brain",
+   "title": "A European brain for a sovereign website: why the model is a choice the owner makes, like the host, how Mistral fits at every level, from Ministral 3 ",
+   "date": "2026-11-20",
+   "version": "v0.14.184",
+   "score": 13.5,
+   "why": "role tags: mistral, models, open-weight",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** this is a proposal. - **The fit on a Pi or a tablet is an estimate,** to be measured. - **Terms and prices are as Mistral's pages showed on 20 November 2026;** the retention detail was read partly through a search snippet. - **Corrected on 21 November:** t"
+  },
+  {
+   "slug": "deepseek-in-our-workflows",
+   "title": "DeepSeek in our workflows and on sovereign websites: what DeepSeek offers today, open weights under MIT, an API that answers calls from the browser an",
+   "date": "2026-11-21",
+   "version": "v0.14.193",
+   "score": 8.5,
+   "why": "role tags: models, open-weight",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing here has been built yet;** the explorer is a proposal. - **We checked the browser preflight only,** not a full call with a key. - **Prices, models and terms are as DeepSeek's pages showed on 21 November 2026.** - **Hosting elsewhere moves the data,** under that host's own terms; it is no"
+  },
+  {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 6.5,
+   "why": "role tags: mistral",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** the site is independent and not endorsed by Mistral. - **The EU endpoint was not called with a real key,** and nothing was measured on a Raspberry Pi yet. - **Only Chromium was tested;** no real phone or microphone was used overnight. - **The evals are sma"
+  },
+  {
+   "slug": "watch-your-website-being-built",
+   "title": "Watch your website being built: a brief for a page that builds a first version of a sovereign website in the visitor's own browser, from a description",
+   "date": "2026-11-19",
+   "version": "v0.14.176",
+   "score": 6.5,
+   "why": "role tags: browser",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **None of this is built yet;** the X-ray and the voice-note demo ran at Web Summit, and the mock-ups here are sketches. - **The costs on the mock-up are invented,** and so are the budget tiers until a real run sets them. - **Running sgit fully in the browser** is to be confirmed. - **The policy gu"
+  },
+  {
+   "slug": "pennies-against-dollars",
+   "title": "Pennies against dollars: what our agents actually cost at Web Summit, the swarm that ran 216 model calls on four open-weight models for under seven ce",
+   "date": "2026-11-18",
+   "version": "v0.14.159",
+   "score": 6.0,
+   "why": "role tags: models, open-weight",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **API-equivalent dollars are not money spent;** the team ran on subscriptions, and only the open-weight calls were paid. - **The frontier figures are the same tokens at list price,** not runs on those models. - **The agents' own session tokens were not measured** in the swarm's figures."
+  },
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "date": "2026-11-19",
+   "version": "v0.14.172",
+   "score": 4.5,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The sites we hand over today** carry a CLAUDE.md and a behaviour policy for one agent; the seven-role team in the repository is the next step, not yet built. - **The florist is an illustration,** not a customer, and the flow is not a timed run. - **The roles are a proposal** for the team buildin"
+  },
+  {
+   "slug": "the-vault-crosses-chrome-profiles",
+   "title": "The vault crosses Chrome profiles: state and memory between browser sessions, found by using it rather than by building it",
+   "date": "2026-10-13",
+   "version": "v0.12.11",
+   "score": 4.0,
+   "why": "role tags: browser",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No test covers Chrome profiles yet.** The tests treat a device as a cleared browser, which is what a new profile is; a run with two real profiles, each signed in to a different account, is the next experiment. - **The sync is by hand.** Each profile updates the vault when its reader presses the "
+  },
+  {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "date": "2026-11-21",
+   "version": "v0.14.196",
+   "score": 3.5,
+   "why": "role phrases: in the browser",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a plan;** nothing is built yet. - **The audience age is not decided;** the legal team will set it. - **Reviews reduce mistakes, they do not remove them;** every page links to its sources so readers can check."
+  },
+  {
+   "slug": "a-sovereign-website-on-a-raspberry-pi",
+   "title": "A sovereign website on a Raspberry Pi: the experiment of running the whole thing on one small box at home, a Raspberry Pi 5 with 16GB and 256GB, servi",
+   "date": "2026-11-19",
+   "version": "v0.14.177",
+   "score": 3.5,
+   "why": "role phrases: local model",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been run yet;** this is the plan, and the results will be published as they come. - **The tools named are candidates,** to be tested, not choices made. - **No claim is made about model speed or quality on a Pi** until we have measured it."
+  },
+  {
+   "slug": "every-tool-its-own-website",
+   "title": "Every tool its own website: turning the 49 browser tools of tools.sgraph.ai, each built because I had a problem, into sovereign websites of their own,",
+   "date": "2026-11-19",
+   "version": "v0.14.179",
+   "score": 3.5,
+   "why": "role phrases: in the browser",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The tool sites do not exist yet,** beyond the factory's first requests. - **The signed-hash scheme is a design,** to be built and reviewed. - **The counts are from the repository on 19 November 2026,** whose last change was on 1 September."
+  },
+  {
+   "slug": "launching-the-sovereign-website-appliance",
+   "title": "Launching the sovereign website appliance: the plan for a Kickstarter campaign that sells a sovereign website on a configured Android tablet or a Rasp",
+   "date": "2026-11-19",
+   "version": "v0.14.177",
+   "score": 3.5,
+   "why": "role phrases: in the browser, local model",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been submitted to Kickstarter;** its review may ask for changes, and its rules on AI and on services apply. - **Hardware prices are examples** from UK retailers on 19 November 2026; two tablet prices could not be confirmed. - **Local AI on the Pro devices is to be tested;** no websit"
+  },
+  {
+   "slug": "the-website-cell",
+   "title": "The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy, five des",
+   "date": "2026-11-17",
+   "version": "v0.14.146",
+   "score": 3.5,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been sold yet;** the examples are demos with consent. - **The prices of others come mostly from third-party trackers,** read on 17 November 2026; check before relying on them. - **The buyers' answers are a simulation,** not a survey. - **The partner terms are a first draft** until a "
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 3.0,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "after-the-storm",
+   "title": "After the storm: Storm Charles, part two, how a site built in a night kept growing the next day by spoken briefs, a transport desk that stopped where ",
+   "date": "2026-11-17",
+   "version": "v0.14.145",
+   "score": 3.0,
+   "why": "role tags: models",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The figures are the site's own,** mostly snapshots from 11 and 12 November. - **The model comparisons are small samples,** as the site says, not a ranking. - **Nothing was deployed on AWS;** that part is a plan."
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what",
+   "date": "2026-11-17",
+   "version": "v0.14.147",
+   "score": 3.0,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No partner has signed yet;** the terms are a first draft. - **Nothing has been sold;** the examples are demos with consent. - **The payment terms are a proposal,** agreed per partnership."
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "a-european-brain",
+   "title": "A European brain for a sovereign website: why the model is a choice the owner makes, like the host, how Mistral fits at every level, from Ministral 3 ",
+   "date": "2026-11-20",
+   "version": "v0.14.184",
+   "score": 13.5,
+   "why": "role tags: mistral, models, open-weight",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** this is a proposal. - **The fit on a Pi or a tablet is an estimate,** to be measured. - **Terms and prices are as Mistral's pages showed on 20 November 2026;** the retention detail was read partly through a search snippet. - **Corrected on 21 November:** t"
+  },
+  {
+   "slug": "deepseek-in-our-workflows",
+   "title": "DeepSeek in our workflows and on sovereign websites: what DeepSeek offers today, open weights under MIT, an API that answers calls from the browser an",
+   "date": "2026-11-21",
+   "version": "v0.14.193",
+   "score": 8.5,
+   "why": "role tags: models, open-weight",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing here has been built yet;** the explorer is a proposal. - **We checked the browser preflight only,** not a full call with a key. - **Prices, models and terms are as DeepSeek's pages showed on 21 November 2026.** - **Hosting elsewhere moves the data,** under that host's own terms; it is no"
+  },
+  {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 6.5,
+   "why": "role tags: mistral",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been agreed with Mistral;** the site is independent and not endorsed by Mistral. - **The EU endpoint was not called with a real key,** and nothing was measured on a Raspberry Pi yet. - **Only Chromium was tested;** no real phone or microphone was used overnight. - **The evals are sma"
+  },
+  {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "date": "2026-11-21",
+   "version": "v0.14.196",
+   "score": 3.5,
+   "why": "role phrases: in the browser",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a plan;** nothing is built yet. - **The audience age is not decided;** the legal team will set it. - **Reviews reduce mistakes, they do not remove them;** every page links to its sources so readers can check."
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 3.0,
+   "why": "role phrases: ",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  }
+ ]
+}

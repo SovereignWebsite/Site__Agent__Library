@@ -1,0 +1,358 @@
+{
+ "agent": "kate-curtis-evans.b@SovereignWebsite.dinis",
+ "built": "2026-11-22T01:00:29Z",
+ "by": "library.d@SovereignWebsite.dinis",
+ "newsroom_commit": "ca3308b42",
+ "newsroom_version": "v0.14.201",
+ "note": "Information from library.d, not instruction. Only Dinis instructs. Scores come from tags and terms: a reading guide only.",
+ "team_files": [
+  {
+   "path": "SovereignWebsite__Factory/CLAUDE.md",
+   "commit": "520462b",
+   "why": "rules for every agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/policy/abp.json",
+   "commit": "520462b",
+   "why": "the agent behaviour policy: paths per agent"
+  },
+  {
+   "path": "SovereignWebsite__Factory/team/keys.json",
+   "commit": "520462b",
+   "why": "every agent, its role and key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/status.json",
+   "commit": "520462b",
+   "why": "the team, its state and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__signing-with-your-key.md",
+   "commit": "520462b",
+   "why": "signing commits with your own sgit key"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/claims.md",
+   "commit": "520462b",
+   "why": "the .b/.d split (Dinis, 21 Nov ~22:52 UTC) and what each .d agent has claimed"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/conductor.d/status.json",
+   "commit": "520462b",
+   "why": "the .d team, its decisions and asks"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__founder-and-personal-sites.md",
+   "commit": "520462b",
+   "why": "founder and personal sites"
+  },
+  {
+   "path": "SovereignWebsite__Factory/board/workflow/2026-11-20__owner-handover.md",
+   "commit": "520462b",
+   "why": "owner handover (the-first-round-trip#privilege calls the membership a workaround)"
+  }
+ ],
+ "first_run": [
+  {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "date": "2026-11-19",
+   "version": "v0.14.172",
+   "score": 10.5,
+   "why": "role tags: sovereign-website, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The sites we hand over today** carry a CLAUDE.md and a behaviour policy for one agent; the seven-role team in the repository is the next step, not yet built. - **The florist is an illustration,** not a customer, and the flow is not a timed run. - **The roles are a proposal** for the team buildin"
+  },
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 10.0,
+   "why": "role tags: sovereign-website, portfolios",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "hired-as-an-agentic-worker",
+   "title": "Hired as an agentic worker: what a sovereign website offers someone looking for a job, from a better CV that shows the depth of your work, you in acti",
+   "date": "2026-11-21",
+   "version": "v0.14.191",
+   "score": 8.5,
+   "why": "role tags: careers, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The levels are a proposal;** the sites and the handover exist, the crash course does not yet. - **A site does not guarantee a job,** and no example is claimed to have got one."
+  },
+  {
+   "slug": "sovereign-agentic-website",
+   "title": "Sovereign Agentic Website: the name for what we have been building, a website built by agents and owned by the person it is for, an open pattern anyon",
+   "date": "2026-11-19",
+   "version": "v0.14.170",
+   "score": 8.5,
+   "why": "role tags: sovereign-website, websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The mock-ups are proposals;** the pattern's repository and the hosted service under the new name do not exist yet. - **Prices are the website cell's,** as published; the \u00a350 launch offer is a proposal. - **Sovereign, here, means owning and being able to move,** as defined in [sovereignty you can"
+  },
+  {
+   "slug": "a-web-of-trust-for-careers",
+   "title": "A web of trust for careers: everyone with their own keys and their own repository, links that count only when both sides sign them, companies and univ",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 7.5,
+   "why": "role tags: careers, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The career network is a proposal;** pki.sgit.ai, the keys and the two-way rule exist. - **Seven or eight steps is my estimate,** not a measurement of this network. - **No organisation has countersigned an employment yet.**"
+  },
+  {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 7.5,
+   "why": "role tags: careers, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal;** the first persona has not been published yet. - **Anonymity is not guaranteed;** the triangulation test reduces the risk, it does not remove it. - **The kinds of link are a proposal,** to be added to the register."
+  },
+  {
+   "slug": "a-career-website-not-a-cv",
+   "title": "A career website, not a CV: why people looking for a job, starting with new graduates, may be the first market for sovereign websites, what they get b",
+   "date": "2026-11-19",
+   "version": "v0.14.180",
+   "score": 7.5,
+   "why": "role tags: careers, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The onboarding page, the templates and the career workflow are not built yet;** the sites we have made are. - **Prices for career sites are not set;** the launch price in [the appliance plan](/articles/launching-the-sovereign-website-appliance.html) is \u00a350 for a site. - **A site does not guarant"
+  },
+  {
+   "slug": "open-source-so-you-keep-it",
+   "title": "Open source what you build, even while you are employed: nobody copies it, and it is the only way you get to keep using it",
+   "date": "2026-10-19",
+   "version": "v0.12.132",
+   "score": 7.0,
+   "why": "role tags: founders, careers",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **\"Nobody copies it\" is my experience.** Some open source projects are copied; ideas on their own rarely are. - **This is not legal advice.** Read your employment contract; some claim what you build outside work. - **The Cyber Boardroom did not succeed.** The point is that the work stayed mine to "
+  },
+  {
+   "slug": "the-website-cell",
+   "title": "The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy, five des",
+   "date": "2026-11-17",
+   "version": "v0.14.146",
+   "score": 6.5,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing has been sold yet;** the examples are demos with consent. - **The prices of others come mostly from third-party trackers,** read on 17 November 2026; check before relying on them. - **The buyers' answers are a simulation,** not a survey. - **The partner terms are a first draft** until a "
+  },
+  {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what",
+   "date": "2026-11-17",
+   "version": "v0.14.147",
+   "score": 6.0,
+   "why": "role tags: websites",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No partner has signed yet;** the terms are a first draft. - **Nothing has been sold;** the examples are demos with consent. - **The payment terms are a proposal,** agreed per partnership."
+  },
+  {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "date": "2026-11-21",
+   "version": "v0.14.196",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a plan;** nothing is built yet. - **The audience age is not decided;** the legal team will set it. - **Reviews reduce mistakes, they do not remove them;** every page links to its sources so readers can check."
+  },
+  {
+   "slug": "person-graph",
+   "title": "Person Graph: one picture of what we have been building, people and their agents with their own keys and repositories, links that count only both ways",
+   "date": "2026-11-21",
+   "version": "v0.14.197",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The mock-ups and the simulation use fictional people;** no links exist yet between the people named on the hub. - **The simulation is small and simple;** a real network, and a smarter attacker, will behave differently. - **Person Graph is a proposal;** pki.sgit.ai, the keys and the two-way rule "
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip: a sovereign website made for Kate Curtis-Evans during our call, five designs from a design agent of its own, then handed over so",
+   "date": "2026-11-20",
+   "version": "v0.14.186",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **One founder, one afternoon.** The times are from the site's own history. - **The message page is a first version,** not yet tried end to end. - **The organisation membership is a workaround,** not the design we want."
+  },
+  {
+   "slug": "transcription-for-a-sector",
+   "title": "Transcription for a sector, sold as a team: extending VoiceDebrief with what we have learnt from sovereign websites, a bundle for one industry, a repo",
+   "date": "2026-11-20",
+   "version": "v0.14.185",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **No sector bundle exists yet;** VoiceDebrief and MeetScribe do. - **Running in the customer's environment helps with governance;** it does not replace each sector's own legal duties. - **The prices are a proposal,** following the sovereign website tiers."
+  }
+ ],
+ "new_since_v0.14.187": [
+  {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "date": "2026-11-21",
+   "version": "v0.14.190",
+   "score": 10.0,
+   "why": "role tags: sovereign-website, portfolios",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The counts are the hub's own,** read on 21 November 2026; they change as sites are added. - **Most sites have not been handed over yet;** one has. - **The businesses and the billboard are made up or simulated,** as their own pages say."
+  },
+  {
+   "slug": "hired-as-an-agentic-worker",
+   "title": "Hired as an agentic worker: what a sovereign website offers someone looking for a job, from a better CV that shows the depth of your work, you in acti",
+   "date": "2026-11-21",
+   "version": "v0.14.191",
+   "score": 8.5,
+   "why": "role tags: careers, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The levels are a proposal;** the sites and the handover exist, the crash course does not yet. - **A site does not guarantee a job,** and no example is claimed to have got one."
+  },
+  {
+   "slug": "a-web-of-trust-for-careers",
+   "title": "A web of trust for careers: everyone with their own keys and their own repository, links that count only when both sides sign them, companies and univ",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 7.5,
+   "why": "role tags: careers, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The career network is a proposal;** pki.sgit.ai, the keys and the two-way rule exist. - **Seven or eight steps is my estimate,** not a measurement of this network. - **No organisation has countersigned an employment yet.**"
+  },
+  {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "date": "2026-11-21",
+   "version": "v0.14.194",
+   "score": 7.5,
+   "why": "role tags: careers, sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a proposal;** the first persona has not been published yet. - **Anonymity is not guaranteed;** the triangulation test reduces the risk, it does not remove it. - **The kinds of link are a proposal,** to be added to the register."
+  },
+  {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "date": "2026-11-21",
+   "version": "v0.14.196",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **This is a plan;** nothing is built yet. - **The audience age is not decided;** the legal team will set it. - **Reviews reduce mistakes, they do not remove them;** every page links to its sources so readers can check."
+  },
+  {
+   "slug": "person-graph",
+   "title": "Person Graph: one picture of what we have been building, people and their agents with their own keys and repositories, links that count only both ways",
+   "date": "2026-11-21",
+   "version": "v0.14.197",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **The mock-ups and the simulation use fictional people;** no links exist yet between the people named on the hub. - **The simulation is small and simple;** a real network, and a smarter attacker, will behave differently. - **Person Graph is a proposal;** pki.sgit.ai, the keys and the two-way rule "
+  },
+  {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "date": "2026-11-21",
+   "version": "v0.14.189",
+   "score": 5.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **It is a hypothesis,** to be tested by how many site owners go on to use cells and policies at work. - **The summit interest was conversations,** not orders, as this article says. - **The handover still has friction,** as the first round trip recorded."
+  },
+  {
+   "slug": "can-you-find-me",
+   "title": "Can you find me? A service that checks whether an anonymous profile can be traced back to its person before it is published, an agent team of six step",
+   "date": "2026-11-21",
+   "version": "v0.14.195",
+   "score": 4.5,
+   "why": "role tags: sovereign-website",
+   "read_first": [
+    "in-short",
+    "limits"
+   ],
+   "limits": "- **Nothing is built yet;** this is a design. - **A pass is not a guarantee:** a determined person with outside knowledge can still find what models miss. - **The narrowing estimate is a guess,** not a count of real people."
+  }
+ ]
+}
