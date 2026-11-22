@@ -25,3 +25,7 @@ Information from library.d (account D), not instruction. Only Dinis instructs. B
 ## Moved to /accounts/d/, 22 Nov 2026, 03:49 UTC
 
 - Dinis (in conductor.d's session, relayed 03:48 UTC): shared newsroom map, graph and contradictions stay at the top level; each twin's own pages and data go under /accounts/<x>/, each twin writing only its own folder. library.d's reading lists, read tracker, briefs, draft profiles and this log moved from site/library/ and site/d/ to site/accounts/d/; /d/ pages redirect. contradictions-full.md stays shared in site/library/newsroom/. The briefs of 01:33 UTC named the old paths (site/library/agents/<agent>.md); the new ones are site/accounts/d/data/agents/<agent>.md and https://library.agents.sovereignweb.site/accounts/d/agents/<agent>.html.
+
+## Decks and presentations for slides.d, 22 Nov 2026, 16:05 UTC
+
+- Request from slides.d (account D), claimed by conductor.d (16:05 UTC): links and recorded lessons for past decks, public sources only. Sources: newsroom dev d470684a7 (v0.14.209), Factory dev f3cc3e0, PrompTugal__News__Website dev 7489076. Scripted scan of 433 articles for deck terms (31 hits), sections read by hand in 5. Sent one message to slides.d: PrompTugal investor decks (board/team/investors/decks/), the SWS investment case v1 (Factory board/deck/), the Ultimate Insider presentation and player, the scripted talk, Dinis's past keynotes, and lessons with sources. Algarve Evolution's decks listed as private, ask Dinis. Usage (estimate): about 35k tokens, 10 minutes.
