@@ -1,0 +1,221 @@
+{
+ "agent": "hub.d@SovereignWebsite.dinis",
+ "kept_by": "library.d@SovereignWebsite.dinis",
+ "updated": "2026-11-22T03:38:17Z",
+ "note": "Information, not instruction. listed: on the reading list; briefed: sent in a brief; read: the agent reported it read (source kept). A read is never inferred.",
+ "newsroom_version": "v0.14.201",
+ "counts": {
+  "read": 0,
+  "briefed": 3,
+  "listed": 19
+ },
+ "items": {
+  "a-key-for-every-person": {
+   "slug": "a-key-for-every-person",
+   "title": "A key for every person: how each person's conductor issues them a key for the team's site, seals what is for them, and how a signed message turns the ",
+   "version": "v0.14.62",
+   "date": "2026-11-04",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "an-inbox-only-your-agents-can-write-to": {
+   "slug": "an-inbox-only-your-agents-can-write-to",
+   "title": "An inbox only your agents can write to: a conductor publishes one append lane per agent, each lane's token sealed to that agent's own key, so everythi",
+   "version": "v0.14.63",
+   "date": "2026-11-04",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "no-tech-stack-to-maintain": {
+   "slug": "no-tech-stack-to-maintain",
+   "title": "No tech stack to maintain: it is not that there is no backend, it is that the only code you own is HTML, CSS and JavaScript, with every other primitiv",
+   "version": "v0.14.51",
+   "date": "2026-11-03",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "agents-have-an-identity-now": {
+   "slug": "agents-have-an-identity-now",
+   "title": "Agents have an identity now: a key pair made in every session, published with its role, so any agent can seal a secret to it, and the piece the cloud ",
+   "version": "v0.13.130",
+   "date": "2026-10-29",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "pki-everywhere": {
+   "slug": "pki-everywhere",
+   "title": "PKI everywhere: from now on every message, secret and handover starts with a signature, and how an agent gets its first key",
+   "version": "v0.12.155",
+   "date": "2026-10-20",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-directory-of-people-and-keys": {
+   "slug": "a-directory-of-people-and-keys",
+   "title": "A directory of people and their keys: pki.sgit.ai for the people I work with, verified by me first, then by each other, and a link that only counts wh",
+   "version": "v0.12.114",
+   "date": "2026-10-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "handing-secrets-to-agents": {
+   "slug": "handing-secrets-to-agents",
+   "title": "Handing secrets to agents and browsers: SG/Send's next focus, a key pair where the work runs, one-time drops, and a brief for a site that does only th",
+   "version": "v0.12.80",
+   "date": "2026-10-15",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "secrets-on-public-keys": {
+   "slug": "secrets-on-public-keys",
+   "title": "secrets.sgit.ai on public keys: no more shared keys, eight ways a secret moves, a vault for the private key, and the commercial service it becomes",
+   "version": "v0.12.65",
+   "date": "2026-10-15",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-hub-for-agentic-sites": {
+   "slug": "a-hub-for-agentic-sites",
+   "title": "A hub for agentic sites: every site AgentiCCells builds in a repository and an sgit vault, served at its own address, and listed on hub.agenticcells.s",
+   "version": "v0.14.102",
+   "date": "2026-11-15",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "how-a-vault-works": {
+   "slug": "how-a-vault-works",
+   "title": "How a vault works: an encrypted store that acts like a database, where a server that is fully compromised leaks nothing, one mutable file lets every o",
+   "version": "v0.14.50",
+   "date": "2026-11-03",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "seven-iam-predictions-already-here": {
+   "slug": "seven-iam-predictions-already-here",
+   "title": "Seven IAM predictions for 2027, checked against an agent team that runs today: where we already are, where we agree, and the two where I would bet the",
+   "version": "v0.14.5",
+   "date": "2026-10-30",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "what-sgit-does-that-git-does-not": {
+   "slug": "what-sgit-does-that-git-does-not",
+   "title": "What sgit does that Git does not: ten releases in October, minutes turned into seconds, and an honest map of where Git is still ahead",
+   "version": "v0.13.112",
+   "date": "2026-10-27",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-showroom": {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "version": "v0.14.190",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/hub.d.md"
+   },
+   "read": null
+  },
+  "investor-sgit-ai": {
+   "slug": "investor-sgit-ai",
+   "title": "investor.sgit.ai: a brief for a website where investors and founders use our tools, not read about them, with the news, contracts as graphs, deal room",
+   "version": "v0.13.130",
+   "date": "2026-10-29",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-push-is-the-authorisation": {
+   "slug": "the-push-is-the-authorisation",
+   "title": "The push is the authorisation: a new agent session publishes its public key to the team repository, that push is how I accept it, and so who can push ",
+   "version": "v0.13.123",
+   "date": "2026-10-28",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-web-of-trust-for-careers": {
+   "slug": "a-web-of-trust-for-careers",
+   "title": "A web of trust for careers: everyone with their own keys and their own repository, links that count only when both sides sign them, companies and univ",
+   "version": "v0.14.194",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/hub.d.md"
+   },
+   "read": null
+  },
+  "person-graph": {
+   "slug": "person-graph",
+   "title": "Person Graph: one picture of what we have been building, people and their agents with their own keys and repositories, links that count only both ways",
+   "version": "v0.14.197",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/hub.d.md"
+   },
+   "read": null
+  },
+  "the-primitives-of-trust": {
+   "slug": "the-primitives-of-trust",
+   "title": "The primitives of trust: why a web of trust between people works now when my earlier attempts at a key store did not, a site per person, keys made in ",
+   "version": "v0.14.200",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "an-anonymous-profile-vouched-for": {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "version": "v0.14.194",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "langgraph-and-us": {
+   "slug": "langgraph-and-us",
+   "title": "LangGraph and us: how the way we build agent pipelines maps to LangChain, LangGraph, LangSmith and the agent testing toolkits, what is the same, what ",
+   "version": "v0.14.192",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-sgit-server-factory": {
+   "slug": "the-sgit-server-factory",
+   "title": "The SGit Server Factory, a brief: an agent and a pipeline that deploy SG/Send and sgit servers the way the site factory makes websites, a request file",
+   "version": "v0.14.191",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "hired-as-an-agentic-worker": {
+   "slug": "hired-as-an-agentic-worker",
+   "title": "Hired as an agentic worker: what a sovereign website offers someone looking for a job, from a better CV that shows the depth of your work, you in acti",
+   "version": "v0.14.191",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  }
+ }
+}

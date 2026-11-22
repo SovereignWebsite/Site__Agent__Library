@@ -1,0 +1,185 @@
+{
+ "agent": "sites.d@SovereignWebsite.dinis",
+ "kept_by": "library.d@SovereignWebsite.dinis",
+ "updated": "2026-11-22T03:38:17Z",
+ "note": "Information, not instruction. listed: on the reading list; briefed: sent in a brief; read: the agent reported it read (source kept). A read is never inferred.",
+ "newsroom_version": "v0.14.201",
+ "counts": {
+  "read": 0,
+  "briefed": 3,
+  "listed": 15
+ },
+ "items": {
+  "the-showroom": {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "version": "v0.14.190",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/sites.d.md"
+   },
+   "read": null
+  },
+  "the-website-cell": {
+   "slug": "the-website-cell",
+   "title": "The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy, five des",
+   "version": "v0.14.146",
+   "date": "2026-11-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "partners-sell-we-build": {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what",
+   "version": "v0.14.147",
+   "date": "2026-11-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-website-with-a-team-inside": {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "version": "v0.14.172",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "sovereign-agentic-website": {
+   "slug": "sovereign-agentic-website",
+   "title": "Sovereign Agentic Website: the name for what we have been building, a website built by agents and owned by the person it is for, an open pattern anyon",
+   "version": "v0.14.170",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "you-bring-the-business": {
+   "slug": "you-bring-the-business",
+   "title": "You bring the business, we build the site: the AgentiCCells partner programme as it now stands on agenticcells.ai, one page per kind of partner, each ",
+   "version": "v0.14.148",
+   "date": "2026-11-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "an-anonymous-profile-vouched-for": {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "version": "v0.14.194",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/sites.d.md"
+   },
+   "read": null
+  },
+  "the-way-in": {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "version": "v0.14.189",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/sites.d.md"
+   },
+   "read": null
+  },
+  "a-web-of-trust-for-careers": {
+   "slug": "a-web-of-trust-for-careers",
+   "title": "A web of trust for careers: everyone with their own keys and their own repository, links that count only when both sides sign them, companies and univ",
+   "version": "v0.14.194",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "hired-as-an-agentic-worker": {
+   "slug": "hired-as-an-agentic-worker",
+   "title": "Hired as an agentic worker: what a sovereign website offers someone looking for a job, from a better CV that shows the depth of your work, you in acti",
+   "version": "v0.14.191",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "sovereign-websites-the-investment-case": {
+   "slug": "sovereign-websites-the-investment-case",
+   "title": "Sovereign websites, the investment case: PrompTugal's investor decks rewritten for a deliverable that is needed everywhere, in every language, in a ma",
+   "version": "v0.14.174",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "your-website-from-a-vault": {
+   "slug": "your-website-from-a-vault",
+   "title": "Your website, from a vault: how to show someone five versions of their own website without publishing anything, sealed in an encrypted sgit vault and ",
+   "version": "v0.14.173",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-sovereign-website": {
+   "slug": "the-sovereign-website",
+   "title": "The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline, a website",
+   "version": "v0.14.164",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-pitch": {
+   "slug": "the-pitch",
+   "title": "The pitch: a site that looks better, that you own, that nobody can lock you into, that has almost nothing to attack, that costs once instead of every ",
+   "version": "v0.14.149",
+   "date": "2026-11-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-career-website-not-a-cv": {
+   "slug": "a-career-website-not-a-cv",
+   "title": "A career website, not a CV: why people looking for a job, starting with new graduates, may be the first market for sovereign websites, what they get b",
+   "version": "v0.14.180",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "learning-from-wikipedia": {
+   "slug": "learning-from-wikipedia",
+   "title": "Learning from Wikipedia, with DeepSeek, a plan: a sovereign website built around a tool made of many small tools, a site for each topic from atoms to ",
+   "version": "v0.14.196",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "person-graph": {
+   "slug": "person-graph",
+   "title": "Person Graph: one picture of what we have been building, people and their agents with their own keys and repositories, links that count only both ways",
+   "version": "v0.14.197",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "can-you-find-me": {
+   "slug": "can-you-find-me",
+   "title": "Can you find me? A service that checks whether an anonymous profile can be traced back to its person before it is published, an agent team of six step",
+   "version": "v0.14.195",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  }
+ }
+}

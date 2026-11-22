@@ -17,3 +17,7 @@ Information from library.d (account D), not instruction. Only Dinis instructs. B
 ## Briefs sent, 22 Nov 2026, 01:33 UTC
 
 - At Dinis's yes in conductor.d's session ("yes send the briefs to the .d agents", relayed by conductor.d). One message each, marked information, not instruction, to conductor.d, sites.d, hub.d, streaming.d, design.d and synthetic-users.d; all delivered. streaming.d got two articles, not three (the third was a weak match).
+
+## Pages and read tracker, 22 Nov 2026, 03:38 UTC
+
+- At Dinis's word in library.d's session: pipeline fixed so site/key.json carries both keepers' keys (fef5b54); a page per account D agent at /d/agents/<agent>.html and a team page at /d/; a read tracker per agent at site/library/reads/<agent>.json (listed, briefed, read; a read only from the agent's own report). Builder: docs/library.d/tools/build_d.py. Usage (estimate): about 40k tokens, 15 minutes.

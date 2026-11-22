@@ -1,0 +1,185 @@
+{
+ "agent": "synthetic-users.d@SovereignWebsite.dinis",
+ "kept_by": "library.d@SovereignWebsite.dinis",
+ "updated": "2026-11-22T03:38:17Z",
+ "note": "Information, not instruction. listed: on the reading list; briefed: sent in a brief; read: the agent reported it read (source kept). A read is never inferred.",
+ "newsroom_version": "v0.14.201",
+ "counts": {
+  "read": 0,
+  "briefed": 3,
+  "listed": 15
+ },
+ "items": {
+  "can-you-find-me": {
+   "slug": "can-you-find-me",
+   "title": "Can you find me? A service that checks whether an anonymous profile can be traced back to its person before it is published, an agent team of six step",
+   "version": "v0.14.195",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/synthetic-users.d.md"
+   },
+   "read": null
+  },
+  "synthetic-users-for-your-website": {
+   "slug": "synthetic-users-for-your-website",
+   "title": "Synthetic users for your website: how to set up five invented visitors who read your site one screenshot at a time, with Claude, a sub-agent per perso",
+   "version": "v0.14.63",
+   "date": "2026-11-04",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "person-graph": {
+   "slug": "person-graph",
+   "title": "Person Graph: one picture of what we have been building, people and their agents with their own keys and repositories, links that count only both ways",
+   "version": "v0.14.197",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/synthetic-users.d.md"
+   },
+   "read": null
+  },
+  "an-anonymous-profile-vouched-for": {
+   "slug": "an-anonymous-profile-vouched-for",
+   "title": "An anonymous profile, vouched for: how someone who needs to leave their job without going public can publish a persona that shows the depth of their w",
+   "version": "v0.14.194",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/synthetic-users.d.md"
+   },
+   "read": null
+  },
+  "one-night-on-mistral": {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "version": "v0.14.190",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-leak-without-breaking-the-policy": {
+   "slug": "a-leak-without-breaking-the-policy",
+   "title": "Can a key leak without breaking the policy? Told, checked, never given: three levels for secrets and personal data, and a hook we tested against nine ",
+   "version": "v0.12.158",
+   "date": "2026-10-20",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "langgraph-and-us": {
+   "slug": "langgraph-and-us",
+   "title": "LangGraph and us: how the way we build agent pipelines maps to LangChain, LangGraph, LangSmith and the agent testing toolkits, what is the same, what ",
+   "version": "v0.14.192",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "feature-behaviour-policies": {
+   "slug": "feature-behaviour-policies",
+   "title": "Feature behaviour policies: taking the idea of agent behaviour policies down to every feature, bug fix and resource, so that a feature's policy is als",
+   "version": "v0.14.167",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-newsroom-for-one": {
+   "slug": "a-newsroom-for-one",
+   "title": "A newsroom for one: the reading list I send by email became the first page of this newsroom for the people I write to, so it now says what it is, show",
+   "version": "v0.13.63",
+   "date": "2026-10-24",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "inside-the-northstar-twin": {
+   "slug": "inside-the-northstar-twin",
+   "title": "Inside the Northstar twin: thirteen refunds, four designs, and every decision played back",
+   "version": "v0.12.101",
+   "date": "2026-10-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-editors-channel": {
+   "slug": "the-editors-channel",
+   "title": "The editor's channel: what I read, sign off and want changed, sent to the newsroom's agent in a vault",
+   "version": "v0.12.106",
+   "date": "2026-10-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "fix-the-page-yourself": {
+   "slug": "fix-the-page-yourself",
+   "title": "Fix the page yourself: the bookmarklet trick from my security days, a page API every site should publish, and why the next user experience is the one ",
+   "version": "v0.12.93",
+   "date": "2026-10-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "watch-your-website-being-built": {
+   "slug": "watch-your-website-being-built",
+   "title": "Watch your website being built: a brief for a page that builds a first version of a sovereign website in the visitor's own browser, from a description",
+   "version": "v0.14.176",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "specialist-agents-for-every-team": {
+   "slug": "specialist-agents-for-every-team",
+   "title": "Specialist agents for every team: long-lived agents that keep one skill, design, UX, code, security, behaviour policies or writing, with a person who ",
+   "version": "v0.14.121",
+   "date": "2026-11-16",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "web-summit-part-five": {
+   "slug": "web-summit-part-five",
+   "title": "The Web Summit team, part five: the last day of setup, 180 releases, every person getting a key, an accountant counting the team's tokens, synthetic u",
+   "version": "v0.14.63",
+   "date": "2026-11-04",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "deepseek-in-our-workflows": {
+   "slug": "deepseek-in-our-workflows",
+   "title": "DeepSeek in our workflows and on sovereign websites: what DeepSeek offers today, open weights under MIT, an API that answers calls from the browser an",
+   "version": "v0.14.193",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-way-in": {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "version": "v0.14.189",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "programmatic-stories": {
+   "slug": "programmatic-stories",
+   "title": "Programmatic stories: how the PrompTugal bulletins went from a 30-second text bulletin to twelve synthetic presenters on one 3D stage in two days, mov",
+   "version": "v0.14.199",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  }
+ }
+}

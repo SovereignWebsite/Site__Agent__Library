@@ -1,0 +1,170 @@
+{
+ "agent": "design.d@SovereignWebsite.dinis",
+ "kept_by": "library.d@SovereignWebsite.dinis",
+ "updated": "2026-11-22T03:38:17Z",
+ "note": "Information, not instruction. listed: on the reading list; briefed: sent in a brief; read: the agent reported it read (source kept). A read is never inferred.",
+ "newsroom_version": "v0.14.201",
+ "counts": {
+  "read": 0,
+  "briefed": 1,
+  "listed": 16
+ },
+ "items": {
+  "the-showroom": {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "version": "v0.14.190",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": {
+    "when": "2026-11-22T01:33Z",
+    "brief": "library/briefs/2026-11-22__library-d/design.d.md"
+   },
+   "read": null
+  },
+  "specialist-agents-for-every-team": {
+   "slug": "specialist-agents-for-every-team",
+   "title": "Specialist agents for every team: long-lived agents that keep one skill, design, UX, code, security, behaviour policies or writing, with a person who ",
+   "version": "v0.14.121",
+   "date": "2026-11-16",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-augmented-book": {
+   "slug": "the-augmented-book",
+   "title": "The augmented book: one source in layers, projected to the web, the iPad and print, so the reader gets the right information at the right time, and wh",
+   "version": "v0.14.14",
+   "date": "2026-10-31",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-website-with-a-team-inside": {
+   "slug": "a-website-with-a-team-inside",
+   "title": "A website with a team inside: why a Sovereign Agentic Website is delivered not as a site but as a site with six or seven agents already set up and coo",
+   "version": "v0.14.172",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "designing-sovereignwebsite-ai": {
+   "slug": "designing-sovereignwebsite-ai",
+   "title": "Designing sovereignwebsite.ai: the brief for the team that will build the site of our first mass-market product, how the stack now has four layers, SG",
+   "version": "v0.14.171",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-portfolio-with-a-film-first": {
+   "slug": "a-portfolio-with-a-film-first",
+   "title": "A portfolio with a film first: Silvio Switha's site, made in under an hour by the site factory and five design agents, with his music video in the fir",
+   "version": "v0.14.130",
+   "date": "2026-11-16",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "a-website-that-is-her": {
+   "slug": "a-website-that-is-her",
+   "title": "A website that is her: how Yiheng Wang's site was made in three passes in one evening, by the site factory, five design agents and then her own agent,",
+   "version": "v0.14.129",
+   "date": "2026-11-16",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-sovereign-website": {
+   "slug": "the-sovereign-website",
+   "title": "The sovereign website: a pivot brief for agenticcells.ai, what the site says today and what it should say next, sovereignty as the headline, a website",
+   "version": "v0.14.164",
+   "date": "2026-11-19",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-pitch": {
+   "slug": "the-pitch",
+   "title": "The pitch: a site that looks better, that you own, that nobody can lock you into, that has almost nothing to attack, that costs once instead of every ",
+   "version": "v0.14.149",
+   "date": "2026-11-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-website-cell": {
+   "slug": "the-website-cell",
+   "title": "The website cell: what we now sell, a GitHub repository fully set up with a live site on its own address, a CLAUDE.md and a behaviour policy, five des",
+   "version": "v0.14.146",
+   "date": "2026-11-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "partners-sell-we-build": {
+   "slug": "partners-sell-we-build",
+   "title": "Partners sell, we build: the AgentiCCells partner programme in full, three kinds of partner, a freelancer, a small consultancy and a larger firm, what",
+   "version": "v0.14.147",
+   "date": "2026-11-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-lab-that-redesigned-the-book": {
+   "slug": "the-lab-that-redesigned-the-book",
+   "title": "The lab that redesigned the book: how The Ultimate Insider stopped looking like a book from the 1980s, in thirty experiments, three days and a line th",
+   "version": "v0.14.31",
+   "date": "2026-11-01",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "web-summit-humans-and-their-agents": {
+   "slug": "web-summit-humans-and-their-agents",
+   "title": "The Web Summit team, part two: seven people, each with their own agent, a designer with little time, and every voice memo turned into a follow-up with",
+   "version": "v0.14.14",
+   "date": "2026-10-31",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "fix-the-page-yourself": {
+   "slug": "fix-the-page-yourself",
+   "title": "Fix the page yourself: the bookmarklet trick from my security days, a page API every site should publish, and why the next user experience is the one ",
+   "version": "v0.12.93",
+   "date": "2026-10-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-first-round-trip": {
+   "slug": "the-first-round-trip",
+   "title": "The first round trip: a sovereign website made for Kate Curtis-Evans during our call, five designs from a design agent of its own, then handed over so",
+   "version": "v0.14.186",
+   "date": "2026-11-20",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "hired-as-an-agentic-worker": {
+   "slug": "hired-as-an-agentic-worker",
+   "title": "Hired as an agentic worker: what a sovereign website offers someone looking for a job, from a better CV that shows the depth of your work, you in acti",
+   "version": "v0.14.191",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "one-night-on-mistral": {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "version": "v0.14.190",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  }
+ }
+}

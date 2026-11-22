@@ -1,0 +1,212 @@
+{
+ "agent": "library.d@SovereignWebsite.dinis",
+ "kept_by": "library.d@SovereignWebsite.dinis",
+ "updated": "2026-11-22T03:38:17Z",
+ "note": "Information, not instruction. listed: on the reading list; briefed: sent in a brief; read: the agent reported it read (source kept). A read is never inferred.",
+ "newsroom_version": "v0.14.201",
+ "counts": {
+  "read": 0,
+  "briefed": 0,
+  "listed": 22
+ },
+ "items": {
+  "scrolled-is-not-read": {
+   "slug": "scrolled-is-not-read",
+   "title": "Scrolled is not read: what the reading meter measures, what it should, highlights you can keep, and the page as the reader's own graph",
+   "version": "v0.12.85",
+   "date": "2026-10-16",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "storm-charles-a-newsroom-built-in-a-night": {
+   "slug": "storm-charles-a-newsroom-built-in-a-night",
+   "title": "Storm Charles, a newsroom built in a night: one person, about thirty agents and a weather face over a data room, where every figure carries its source",
+   "version": "v0.14.75",
+   "date": "2026-11-11",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "who-steered-this": {
+   "slug": "who-steered-this",
+   "title": "Who wrote it, who steered it, who signs it: the provenance model PrompTugal.news adopted today, a type label, five axes and a ladder from \"published b",
+   "version": "v0.14.141",
+   "date": "2026-11-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "an-augmented-pdf-viewer": {
+   "slug": "an-augmented-pdf-viewer",
+   "title": "An augmented PDF viewer: how hard is it to build one in the browser that renders any PDF and opens the provenance, the graph and the comments behind i",
+   "version": "v0.14.16",
+   "date": "2026-10-31",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-agents-write-too": {
+   "slug": "the-agents-write-too",
+   "title": "The agents write too: lessons, debriefs and a page for every agent on the newsroom, and a brief for the conductor that will keep it",
+   "version": "v0.12.44",
+   "date": "2026-10-14",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "search-as-navigation": {
+   "slug": "search-as-navigation",
+   "title": "Search as navigation: walking the newsroom's graph with no model, and why a clean graph should beat vectors",
+   "version": "v0.12.107",
+   "date": "2026-10-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "your-reading-your-controls": {
+   "slug": "your-reading-your-controls",
+   "title": "Your reading, your controls: the meter charges for what you read, you can pause or reset it, and what you have read folds away in six ways",
+   "version": "v0.12.99",
+   "date": "2026-10-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "my-memory-checked": {
+   "slug": "my-memory-checked",
+   "title": "My memory, checked: thinking out loud in a voice memo, publishing only what the record supports, and why peer review has moved to before publishing",
+   "version": "v0.12.63",
+   "date": "2026-10-15",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-wire-as-a-graph": {
+   "slug": "the-wire-as-a-graph",
+   "title": "The wire as a graph: start from what the reader sees, give every story and every name a long-lived ID, link every phrase of a short narrative, and a b",
+   "version": "v0.12.46",
+   "date": "2026-10-14",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "heritage-tech-together": {
+   "slug": "heritage-tech-together",
+   "title": "HeritageTech, together: how our open-source stack could plug into UAlgTec Heritage, the University of the Algarve's new European centre of excellence ",
+   "version": "v0.14.140",
+   "date": "2026-11-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "working-with-wizpress": {
+   "slug": "working-with-wizpress",
+   "title": "Working with WizPress: how the AI operating system for newsrooms, built in Faro, and our open-source trust stack fit together, WizPress doing the prod",
+   "version": "v0.14.140",
+   "date": "2026-11-17",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "agentic-readers": {
+   "slug": "agentic-readers",
+   "title": "Agentic risk, or agentic readers? A reply to the publisher outlook Vincent Peyr\u00e8gne shared, using its framework as a template and answering it with a ",
+   "version": "v0.14.27",
+   "date": "2026-10-31",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-augmented-book": {
+   "slug": "the-augmented-book",
+   "title": "The augmented book: one source in layers, projected to the web, the iPad and print, so the reader gets the right information at the right time, and wh",
+   "version": "v0.14.14",
+   "date": "2026-10-31",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "becoming-an-official-publication": {
+   "slug": "becoming-an-official-publication",
+   "title": "Becoming an official publication: the SGit Newsroom now has a publisher, an editor, standards, a corrections log, a withdrawal process and a complaint",
+   "version": "v0.14.11",
+   "date": "2026-10-30",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "bringing-my-past-work-back": {
+   "slug": "bringing-my-past-work-back",
+   "title": "Bringing my past work back: a daily worker that turns eighteen years of essays, talks, posts and tools into linkable articles, and why every team need",
+   "version": "v0.12.111",
+   "date": "2026-10-18",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "deepseek-in-our-workflows": {
+   "slug": "deepseek-in-our-workflows",
+   "title": "DeepSeek in our workflows and on sovereign websites: what DeepSeek offers today, open weights under MIT, an API that answers calls from the browser an",
+   "version": "v0.14.193",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-way-in": {
+   "slug": "the-way-in",
+   "title": "The way in: why sovereign websites matter so much to RiskMandate, what Web Summit validated and what it showed was missing, something to buy now, how ",
+   "version": "v0.14.189",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-sgit-server-factory": {
+   "slug": "the-sgit-server-factory",
+   "title": "The SGit Server Factory, a brief: an agent and a pipeline that deploy SG/Send and sgit servers the way the site factory makes websites, a request file",
+   "version": "v0.14.191",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "one-night-on-mistral": {
+   "slug": "one-night-on-mistral",
+   "title": "One night on Mistral: how an agent team turned \"a European brain for a sovereign website\" into a working site overnight, for the Mistral Vibe Hackatho",
+   "version": "v0.14.190",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "langgraph-and-us": {
+   "slug": "langgraph-and-us",
+   "title": "LangGraph and us: how the way we build agent pipelines maps to LangChain, LangGraph, LangSmith and the agent testing toolkits, what is the same, what ",
+   "version": "v0.14.192",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "programmatic-stories": {
+   "slug": "programmatic-stories",
+   "title": "Programmatic stories: how the PrompTugal bulletins went from a 30-second text bulletin to twelve synthetic presenters on one 3D stage in two days, mov",
+   "version": "v0.14.199",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  },
+  "the-showroom": {
+   "slug": "the-showroom",
+   "title": "The showroom: what the Sovereign Website hub shows after its first days, 33 live sites from one pipeline, people's portfolios with five designs each, ",
+   "version": "v0.14.190",
+   "date": "2026-11-21",
+   "listed": "2026-11-22T01:00:29Z",
+   "briefed": null,
+   "read": null
+  }
+ }
+}
