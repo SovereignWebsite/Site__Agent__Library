@@ -54,9 +54,9 @@ def page(path, title, desc, body, script=''):
 
 # data files
 dst = os.path.join(SITE, 'library')
-shutil.rmtree(dst, ignore_errors=True); shutil.copytree(LIB, dst)
+shutil.copytree(LIB, dst, dirs_exist_ok=True)  # never remove the other twin's files (CLAUDE.md: library.* agents share these paths)
 state = json.load(open(f'{LIB}/newsroom/state.json'))
-agents = sorted(f[:-5] for f in os.listdir(f'{LIB}/agents') if f.endswith('.json'))
+agents = sorted(f[:-5] for f in os.listdir(f'{dst}/agents') if f.endswith('.json') and {'first_run','since_last_run','note','agent'} <= set(json.load(open(f'{dst}/agents/{f}'))))
 ver = f"newsroom {state['newsroom_version']}, commit {state['last_commit'][:9]}"
 
 # per-agent pages
