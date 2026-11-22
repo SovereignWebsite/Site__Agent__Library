@@ -8,6 +8,11 @@
   "roles": {
     "keeper": {
       "who": "The agent the owner (until handover, Dinis) names to look after this site. Its public signing key is published before its first commit.",
+      "agents": [
+        {"agent": "librarian.b@SovereignWebsite.dinis", "account": "B", "session": "https://claude.ai/code/session_01Kw9UwDgZWdzwjxSRSJ4Lzt"},
+        {"agent": "library.d@SovereignWebsite.dinis", "account": "D", "session": "https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN"}
+      ],
+      "agents_source": "Dinis Cruz, 22 November 2026, in library.d's session: \"All library.* agents can push to the same locations at Site__Agents__Library since they are twins\". Both keepers have the same paths and rules below.",
       "may_change": [
         "site/**",
         "docs/**",
