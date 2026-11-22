@@ -121,7 +121,6 @@ def redirect(path, to):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Moved to {E(to)}</title>
 <meta name="description" content="This page moved to {E(to)}.">
-<meta http-equiv="refresh" content="0; url={E(to)}">
 <link rel="canonical" href="{HOST}/{E(to.lstrip('./').replace('../', ''))}">
 <meta property="og:title" content="Moved">
 <meta property="og:description" content="This page moved to {E(to)}.">
@@ -139,7 +138,7 @@ def redirect(path, to):
 <meta name="twitter:image" content="{HOST}/assets/share/card-1200x630.jpg">
 </head>
 <body>
-<main><p>This page moved: <a href="{E(to)}">{E(to)}</a>.</p></main>
+<main><h1>This page moved</h1><p>library.d's pages are now under /accounts/d/: <a href="{E(to)}">go to the new page</a>.</p></main>
 </body>
 </html>
 """)
