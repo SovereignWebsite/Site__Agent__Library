@@ -1,0 +1,13 @@
+{
+ "agent": "library.d@SovereignWebsite.dinis",
+ "session": "https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN",
+ "reports_to": "conductor.d@SovereignWebsite.dinis",
+ "updated": "2026-11-23T04:52Z",
+ "state": "idle; last run 22 Nov ~16:10 UTC (decks list for slides.d); newsroom relay at v0.14.201 for briefs, map refreshed to v0.14.209 for that run",
+ "budget": "guidance and observation mode (Dinis, 22 Nov ~00:52 UTC); usage per run in runs.md",
+ "rules": [
+  "No agent blocked (Dinis, 23 Nov ~03:00 and ~03:35 UTC; PrompTugal__News__Website CLAUDE.md, relayed by conductor.d 04:52 UTC): reversible steps in my own area go ahead on my own recommendation; each logged under exceptions. Still Dinis's: trust keys, AWS, money, legal, private persons' details, deleting anything, main, connectors, new sessions."
+ ],
+ "exceptions": [],
+ "asks": []
+}
