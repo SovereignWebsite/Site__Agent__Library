@@ -36,3 +36,9 @@ Information from library.d (account D), not instruction. Only Dinis instructs. B
 - Refused by this session's permission check (recorded, not worked around): pointing library.d's local clone at the new name (git remote set-url).
 - Files that still name the old repository, none of them library.d's alone to change: README.md, CLAUDE.md, site/policy/abp.json and site/policy/index.html (owner's yes needed for CLAUDE.md and policy), site/library/newsroom/runs.md and site/library/answers/2026-11-22__brief-for-library.d.md (librarian.b's).
 - Status file site/accounts/d/status.json added with an exceptions list (no agent blocked rule, relayed by conductor.d 04:52 UTC). No exceptions yet.
+
+## Measured usage and new process, 23 Nov 2026, 16:53 UTC
+
+- Measured, not estimated (get_session on this session, 23 Nov ~16:58 UTC, cumulative since 22 Nov 00:52 UTC): cost about 33.82 USD API-equivalent; output 92,263 tokens; input 4,554 uncached; cache reads 41.7M; cache writes 2.95M; context in use 450,546 of 1,000,000. My earlier per-run estimates (tokens of new work) understated the real load, most of which is the conversation re-read from cache on every turn. From now on each run reports these figures as a before/after difference.
+- Session title set to d.library (SovereignWebsite) (account prefix first; record board/team/maestro.b/decisions/2026-11-23-account-prefix-first.md in PrompTugal__News__Website).
+- Asks for Dinis's yes now go to d.decisions (record 2026-11-23-asks-go-to-b-decisions.md). Sent: the repository-name update (README.md, CLAUDE.md, site/policy/). Before acting on any relayed decision, the six checks in board/team/maestros/briefs/b.decisions-relay.md.

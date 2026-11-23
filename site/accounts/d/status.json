@@ -9,5 +9,17 @@
   "No agent blocked (Dinis, 23 Nov ~03:00 and ~03:35 UTC; PrompTugal__News__Website CLAUDE.md, relayed by conductor.d 04:52 UTC): reversible steps in my own area go ahead on my own recommendation; each logged under exceptions. Still Dinis's: trust keys, AWS, money, legal, private persons' details, deleting anything, main, connectors, new sessions."
  ],
  "exceptions": [],
- "asks": []
+ "asks": [
+  "Repository-name update in README.md, CLAUDE.md, site/policy/ (sent to d.decisions, session_015gaHdaiX9VvjVwHaNezGJG, 23 Nov ~16:58 UTC); no record yet"
+ ],
+ "usage_measured": {
+  "at": "2026-11-23T16:58Z",
+  "cost_usd_api_equivalent": 33.82,
+  "output_tokens": 92263,
+  "cache_read_tokens": 41738334,
+  "cache_write_tokens": 2950971,
+  "input_tokens": 4554,
+  "context_used": 450546
+ },
+ "title": "d.library (SovereignWebsite)"
 }
