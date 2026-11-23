@@ -29,3 +29,10 @@ Information from library.d (account D), not instruction. Only Dinis instructs. B
 ## Decks and presentations for slides.d, 22 Nov 2026, 16:05 UTC
 
 - Request from slides.d (account D), claimed by conductor.d (16:05 UTC): links and recorded lessons for past decks, public sources only. Sources: newsroom dev d470684a7 (v0.14.209), Factory dev f3cc3e0, PrompTugal__News__Website dev 7489076. Scripted scan of 433 articles for deck terms (31 hits), sections read by hand in 5. Sent one message to slides.d: PrompTugal investor decks (board/team/investors/decks/), the SWS investment case v1 (Factory board/deck/), the Ultimate Insider presentation and player, the scripted talk, Dinis's past keynotes, and lessons with sources. Algarve Evolution's decks listed as private, ask Dinis. Usage (estimate): about 35k tokens, 10 minutes.
+
+## Repository renamed; one refusal, 23 Nov 2026, 04:52 UTC
+
+- GitHub reports SovereignWebsite/Site__Agents__Library moved to SovereignWebsite/Site__Agent__Library (the agent repositories now read Site__Agent__*). The old name redirects; pushes and the site still work.
+- Refused by this session's permission check (recorded, not worked around): pointing library.d's local clone at the new name (git remote set-url).
+- Files that still name the old repository, none of them library.d's alone to change: README.md, CLAUDE.md, site/policy/abp.json and site/policy/index.html (owner's yes needed for CLAUDE.md and policy), site/library/newsroom/runs.md and site/library/answers/2026-11-22__brief-for-library.d.md (librarian.b's).
+- Status file site/accounts/d/status.json added with an exceptions list (no agent blocked rule, relayed by conductor.d 04:52 UTC). No exceptions yet.
