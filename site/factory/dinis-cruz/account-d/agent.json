@@ -1,0 +1,35 @@
+{
+  "name": "d.library",
+  "signs_as": "library.d@SovereignWebsite.dinis",
+  "owner": "dinis-cruz",
+  "account": "account-d",
+  "twin_of": "b.librarian (librarian.b@SovereignWebsite.dinis)",
+  "role": "The SWS Librarian on account D: reading lists, read tracker and newsroom briefs for the .d agents; newsroom map and contradictions",
+  "session": "https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN",
+  "reports_to": "d.conductor, https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL",
+  "key": {
+    "where": "SovereignWebsite__Factory team/keys.json, entry library-d-sovereignwebsite; copied into /key.json at every deploy",
+    "fingerprint": "sha256:210bf5725144d67e",
+    "signing_fingerprint": "sha256:6ad1d3fa87b3e206"
+  },
+  "state": "idle between runs; context past the 300k hand-over line, START.md ready",
+  "updated": "2026-11-24T11:55Z",
+  "active_until": "2026-12-01",
+  "wakes": "none (runs when Dinis or d.conductor asks)",
+  "budget": "guidance and observation mode; usage per run in site/accounts/d/runs.md",
+  "vaults": "none held",
+  "waiting_on_dinis": [],
+  "read": {
+    "start": "dinis-cruz/account-d/START.md",
+    "role": "dinis-cruz/account-d/role.md",
+    "now": "dinis-cruz/account-d/now.md",
+    "learnings": "dinis-cruz/account-d/learnings.md",
+    "messages": "dinis-cruz/account-d/messages.md",
+    "decisions": "dinis-cruz/account-d/decisions/"
+  },
+  "work": {
+    "pages": "https://library.agents.sovereignweb.site/accounts/d/",
+    "status": "site/accounts/d/status.json",
+    "runs": "site/accounts/d/runs.md"
+  }
+}
